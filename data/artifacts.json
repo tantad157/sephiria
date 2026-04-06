@@ -5,6 +5,10 @@
       "name": "Charm of Strength",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_0.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "Must be placed on the edges [6s CD]",
       "placementHtml": "Must be placed on the edges [6s CD]",
       "stats": "+2 / +3 / +4 / +6 Physical DMG",
@@ -19,6 +23,10 @@
       "name": "Charm of Skill",
       "stars": "★",
       "icon": "resources/cellImage_1861789692_1.jpg",
+      "comboSet": "Shadow",
+      "comboSets": [
+        "Shadow"
+      ],
       "placement": "Slots to the left & right must be empty",
       "placementHtml": "Slots to the left &amp; right must be empty",
       "stats": "+3 / +6 Evasion",
@@ -33,6 +41,10 @@
       "name": "Charm of Intelligence",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_2.jpg",
+      "comboSet": "Glacier",
+      "comboSets": [
+        "Glacier"
+      ],
       "placement": "Must be placed on the top slots",
       "placementHtml": "Must be placed on the top slots",
       "stats": "+3 / +4 / +6 / +8 Cold DMG",
@@ -47,6 +59,10 @@
       "name": "Shield Training Manual",
       "stars": "★",
       "icon": "resources/cellImage_1861789692_3.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "Must not be placed on the edges",
       "placementHtml": "Must <span style=\"font-weight: bold\">not</span> be placed on the edges",
       "stats": "+5% / +8% Special ATK DMG",
@@ -61,6 +77,10 @@
       "name": "Windgrass Scarf",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_4.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song"
+      ],
       "placement": "Must be evolved from Discarded Golden Ring",
       "placementHtml": "Must be evolved from <span style=\"font-weight: bold; text-decoration: underline; text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc\">Discarded Golden Ring</span>",
       "stats": "+30% / +45% / +60% / +80% Dash ATK DMG",
@@ -75,6 +95,10 @@
       "name": "Wind Sheet Music",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_5.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+10% / +20% / +30% / +40% / +50% Melee ATK Range",
@@ -89,6 +113,10 @@
       "name": "Electro Chakram",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_6.jpg",
+      "comboSet": "Magitech",
+      "comboSets": [
+        "Magitech"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Summons 1 / 2 / 2 / 3 / 3 chakrams that orbits you, dealing 50% / 50% / 80% / 80% / 110% Lightning DMG each, with 10% / 10% / 10% / 10% / 30% chance to inflict Electrocution",
@@ -103,6 +131,10 @@
       "name": "Scabbard of Exorcism",
       "stars": "★★★★★★",
       "icon": "resources/cellImage_1861789692_7.jpg",
+      "comboSet": "Frost Relic",
+      "comboSets": [
+        "Frost Relic"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "On Normal ATK, unleash an ice slash, dealing 50% / 80% / 120% / 170% / 230% / 300% / 400% Cold DMG",
@@ -117,6 +149,10 @@
       "name": "Blue Planet",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_8.jpg",
+      "comboSet": "Planet",
+      "comboSets": [
+        "Planet"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Summons Blue Planet : shoots physical projectiles, dealing 10 / 14 / 18 / 24 / 22 / 26 / 30 Physical DMG",
@@ -131,6 +167,8 @@
       "name": "Cold Lock",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_9.jpg",
+      "comboSet": "",
+      "comboSets": [],
       "placement": "",
       "placementHtml": "",
       "stats": "+8% / +12% / +16% / +20% / +25% All DMG",
@@ -145,6 +183,10 @@
       "name": "Broken Root",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_10.jpg",
+      "comboSet": "Lake",
+      "comboSets": [
+        "Lake"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+5 / +10 / +20 / +35 / +60 Max MP",
@@ -159,6 +201,10 @@
       "name": "Heart-Shaped Carrot",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_11.jpg",
+      "comboSet": "Lake",
+      "comboSets": [
+        "Lake"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+5 / +10 / +15 / +20 / +30 Max HP +5 / +10 / +15 / +20 / +30 Max MP",
@@ -173,6 +219,10 @@
       "name": "Sword Training Manual",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_12.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+7% / +14% / +26% ATK SPD",
@@ -187,6 +237,10 @@
       "name": "Warm Stone",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_13.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+10% / +20% / +30% / +40% Critical DMG",
@@ -201,6 +255,10 @@
       "name": "Golden Crown of Arrogance",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_14.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+15% / +30% / +50% / +75% / +100% Last Hit Critical Chance",
@@ -215,6 +273,10 @@
       "name": "Shieldmate",
       "stars": "★★★★★★",
       "icon": "resources/cellImage_1861789692_15.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "-15% / -30% / -45% / -60% / -70% / -80% / -100% MP Cost for Special ATK: Cleave +2% / +4% / +6% / +8% / +10% / +12% / +15% Weapon DMG -20% / -20% / -20% / -10% / -10% / -5% / -5% ATK SPD",
@@ -229,6 +291,10 @@
       "name": "Crown of Humility",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_16.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+10% / +22% / +40% / +60% / +84% All DMG on Final Hit",
@@ -243,6 +309,10 @@
       "name": "Fretted Clay Tablet",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_17.jpg",
+      "comboSet": "Storm Cloud",
+      "comboSets": [
+        "Storm Cloud"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "10% / 20% / 30% / 40% / 50% Chance for Storm Cloud to not be consumed",
@@ -257,6 +327,10 @@
       "name": "Absolute Ring",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_18.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+30% / +45% / +60% Special ATK Range +10% / +20% / +45% Special ATK DMG",
@@ -271,6 +345,10 @@
       "name": "Lightning Rod",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_19.jpg",
+      "comboSet": "Storm Cloud",
+      "comboSets": [
+        "Storm Cloud"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+5 / +10 / +15 / +20 / +25 Storm Cloud Capacity +3% / +6% / +9% / +12% / +15% Storm Cloud Recovery Rate in Combat +1 / +2 / +3 / +4 / +5 Lightning DMG",
@@ -285,6 +363,10 @@
       "name": "Keel Fragment",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_30.jpg",
+      "comboSet": "Mystic",
+      "comboSets": [
+        "Mystic"
+      ],
       "placement": "Must be placed on the edges",
       "placementHtml": "Must be placed on the edges",
       "stats": "+5 / +10 / +15 / +20 Max HP",
@@ -299,6 +381,10 @@
       "name": "Red Mist",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_31.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
       "placement": "20s Revive Time",
       "placementHtml": "20s Revive Time",
       "stats": "On Critical Hit, deal 10% / 14% / 21% / 30% of highest DMG type",
@@ -313,6 +399,10 @@
       "name": "Dried Flower",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_32.jpg",
+      "comboSet": "Lake",
+      "comboSets": [
+        "Lake"
+      ],
       "placement": "[5s CD]",
       "placementHtml": "[5s CD]",
       "stats": "+2% / +4% / +6% Critical Chance +2 / +4 / +6 Max MP",
@@ -327,6 +417,10 @@
       "name": "Simple Contract",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_33.jpg",
+      "comboSet": "Companion",
+      "comboSets": [
+        "Companion"
+      ],
       "placement": "[3.5s CD]",
       "placementHtml": "[3.5s CD]",
       "stats": "+25% / +55% / +88% / +120% / +150% Companion Max HP",
@@ -341,6 +435,10 @@
       "name": "Endoditte's Paperweight",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_34.jpg",
+      "comboSet": "Lake",
+      "comboSets": [
+        "Lake"
+      ],
       "placement": "Must be placed on the top slots",
       "placementHtml": "Must be placed on the top slots",
       "stats": "+3 / +6 / +9 MP Regen +3 / +6 / +9 Max MP",
@@ -355,6 +453,10 @@
       "name": "Golden Handbell",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_35.jpg",
+      "comboSet": "Companion",
+      "comboSets": [
+        "Companion"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Summons Soul Mole : melee attack nearby enemies, dealing 24 / 58 / 92 / 126 / 160 Companion DMG ( 118 / 143 / 168 / 192 / 218 HP)",
@@ -369,6 +471,10 @@
       "name": "Red Snake Eyes",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_36.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Rains down 1 / 1 / 2 / 2 / 3 / 4 meteors, dealing 130% / 150% / 150% / 170% / 170% / 170% Fire DMG and inflicts Burn",
@@ -383,6 +489,10 @@
       "name": "Cloud Bottle",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_37.jpg",
+      "comboSet": "Storm Cloud",
+      "comboSets": [
+        "Storm Cloud"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "On Dash ATK, +1 / +2 / +3 / +5 / +7 / +10 Storm Cloud +5% / +10% / +15% / +20% / +25% / +30% Storm Cloud ATK SPD",
@@ -397,6 +507,10 @@
       "name": "Warrior Seal",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_38.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+1 / +2 / +3 / +4 / +6 / +8 Physical DMG +5% / +5% / +5% / +10% / +15% / +10% ATK SPD",
@@ -411,6 +525,10 @@
       "name": "Magic Carrot",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_39.jpg",
+      "comboSet": "Elemental",
+      "comboSets": [
+        "Elemental"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+2 / +3 / +4 / +6 / +8 Highest Elemental DMG +2% / +4% / +6% / +8% / +10% Move SPD",
@@ -425,6 +543,10 @@
       "name": "White Branch",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_40.jpg",
+      "comboSet": "Lake",
+      "comboSets": [
+        "Lake"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+5 / +9 / +15 / +22 / +30 MP Regen",
@@ -439,6 +561,10 @@
       "name": "Bronze Mirror Fragment",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_41.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+5 / +9 / +15 / +22 / +30 MP Regen",
@@ -453,6 +579,10 @@
       "name": "Library Minute Hand Miniature",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_42.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+0.1s / +0.2s / +0.3s Invincibility during Fury",
@@ -467,6 +597,10 @@
       "name": "Seren's Rushed Letter",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_43.jpg",
+      "comboSet": "Guardian",
+      "comboSets": [
+        "Guardian"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "After using 40 MP, gain +5 / +10 / +15 Barrier for 15s",
@@ -481,6 +615,10 @@
       "name": "Standards of Magic",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_44.jpg",
+      "comboSet": "Elemental",
+      "comboSets": [
+        "Elemental"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+2 / +4 / +6 / +8 / +10 Highest Elemental DMG +3% / +6% / +9% / +12% / +15% Grimoire DMG",
@@ -495,6 +633,10 @@
       "name": "White Crust Bread",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_45.jpg",
+      "comboSet": "Guardian",
+      "comboSets": [
+        "Guardian"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "On damage taken, become invincible for 0.4s / 0.8s / 1.2s",
@@ -509,6 +651,10 @@
       "name": "Valter's Work Monocle",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_46.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+10% / +19% / +28% / +35% / +45% Critical Chance -30% Critical DMG if there are enemies within 3 tiles",
@@ -523,6 +669,10 @@
       "name": "Magma Bead",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_47.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Inflict Burn 0 / 1 / 1 / 2 additional time(s) +1 / +1 / +1 / +2 Burn Stacks",
@@ -537,6 +687,10 @@
       "name": "Dark Planet",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_48.jpg",
+      "comboSet": "Planet",
+      "comboSets": [
+        "Planet"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Summons Dark Planet : fires chaos bullets, dealing 50 / 60 / 70 / 80 / 90 Chaos DMG",
@@ -551,6 +705,10 @@
       "name": "Frozen Bow",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_49.jpg",
+      "comboSet": "Frost Relic",
+      "comboSets": [
+        "Frost Relic"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Grant Frozen Bow ability: reloads 1 shot every 0.8s (7 max) On use, fires an ice arrow, dealing 10 + 50% / 60% / 70% / 80% / 90% / 100% Cold DMG",
@@ -565,6 +723,10 @@
       "name": "Model Mast",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_55.jpg",
+      "comboSet": "Storm Cloud",
+      "comboSets": [
+        "Storm Cloud"
+      ],
       "placement": "Counts as a Melee ATK [No CD]",
       "placementHtml": "Counts as a Melee ATK [No CD]",
       "stats": "+20% / +40% / +60% Storm Cloud ATK SPD",
@@ -579,6 +741,10 @@
       "name": "Stone Flower",
       "stars": "★",
       "icon": "resources/cellImage_1861789692_56.jpg",
+      "comboSet": "Storm Cloud",
+      "comboSets": [
+        "Storm Cloud"
+      ],
       "placement": "Does not count stars above the max",
       "placementHtml": "Does not count stars above the max",
       "stats": "+3 / +6 Lightning DMG +3% / +6% Critical DMG",
@@ -593,6 +759,10 @@
       "name": "Exciting Custard Pastry",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_57.jpg",
+      "comboSet": "Storm Cloud",
+      "comboSets": [
+        "Storm Cloud"
+      ],
       "placement": "Must be placed on the lowest slots",
       "placementHtml": "Must be placed on the lowest slots",
       "stats": "On kill, 33% Chance to drop Lightning Bread : +1 / +2 / +3 Storm Cloud when collected",
@@ -607,6 +777,10 @@
       "name": "Compression Bandage",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_58.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song"
+      ],
       "placement": "35 / 38 / 41 / 44 MP Cost [26s CD]",
       "placementHtml": "<span style=\"font-weight: bold; color: #cc0000\">35 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">38 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">41 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">44</span><span style=\"font-weight: bold\"> </span>MP Cost [26s CD]",
       "stats": "+10% / +15% / +30% Dash Recovery SPD",
@@ -621,6 +795,10 @@
       "name": "Charm of Aspiration",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_59.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+3% / +6% / +10% / +14% Direct ATK Critical Chance",
@@ -635,6 +813,10 @@
       "name": "Radiating Charm",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_60.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "On successful block, grants +2 / +4 / +6 / +8 / +10 Physical DMG buff for 25.5s",
@@ -649,6 +831,10 @@
       "name": "Riposte Blade Fragment",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_61.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "On successful block, perform a Counter : short melee attacks forward, dealing 50% / 100% / 170% / 260% / 380% / 550% Physical DMG",
@@ -663,6 +849,10 @@
       "name": "Tiny Magic Conch",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_62.jpg",
+      "comboSet": "Frost Relic",
+      "comboSets": [
+        "Frost Relic"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+3% / +6% / +10% Frost Relic DMG +5% / +8% / +12% Critical DMG",
@@ -677,6 +867,8 @@
       "name": "Chalcedony Key",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_63.jpg",
+      "comboSet": "",
+      "comboSets": [],
       "placement": "",
       "placementHtml": "",
       "stats": "Gain Sturdy , Ember , Glacier , or Magitech combo depending on the row it's placed in +2 / +4 / +6 / +8 DMG matching the combo",
@@ -691,6 +883,10 @@
       "name": "Sapote Fruit",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_64.jpg",
+      "comboSet": "Storm Cloud",
+      "comboSets": [
+        "Storm Cloud"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+4 / +8 / +12 / +16 Storm Cloud Capacity +1 / +2 / +3 / +4 MP Regen",
@@ -705,6 +901,10 @@
       "name": "Broken Sapphire",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_65.jpg",
+      "comboSet": "Shadow",
+      "comboSets": [
+        "Shadow"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Every 16s / 14s / 12s , gain Shroud : guaranteed evasion on the next attack +2 / +4 / +6 Evasion +2 / +4 / +6 DEF",
@@ -719,6 +919,10 @@
       "name": "Artificial Fairy, Iphiel",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_66.jpg",
+      "comboSet": "Lake",
+      "comboSets": [
+        "Lake"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "While Blocking, +5 / +10 / +15 / +20 / +30 / +50 MP Regen and -90% Move SPD",
@@ -733,6 +937,10 @@
       "name": "Model Beak",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_67.jpg",
+      "comboSet": "Shadow",
+      "comboSets": [
+        "Shadow"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+1 / +2 / +3 / +5 / +8 Physical DMG +2 / +3 / +4 / +5 / +6 Evasion",
@@ -747,6 +955,10 @@
       "name": "Slim Cushion",
       "stars": "★★★★★★",
       "icon": "resources/cellImage_1861789692_68.jpg",
+      "comboSet": "Companion",
+      "comboSets": [
+        "Companion"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+20% / +25% / +30% / +35% / +40% / +50% / +60% Companion ATK SPD +5% / +10% / +15% / +20% / +30% / +40% / +50% Companion Revive SPD",
@@ -761,6 +973,10 @@
       "name": "Giant Telescope",
       "stars": "★",
       "icon": "resources/cellImage_1861789692_69.jpg",
+      "comboSet": "Planet",
+      "comboSets": [
+        "Planet"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+5% / +10% Planet ATK SPD Planet Artifacts in the surrounding 8 slots become Enhanced : larger projectiles and deal +50% DMG (Does not stack)",
@@ -775,6 +991,10 @@
       "name": "Crystal of Harmony",
       "stars": "★",
       "icon": "resources/cellImage_1861789692_70.jpg",
+      "comboSet": "Mystic",
+      "comboSets": [
+        "Mystic"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+1% / +2% All DMG per star of artifacts placed in the 8 inventory slots surrounding this artifact",
@@ -789,6 +1009,10 @@
       "name": "Empty Hilt",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_71.jpg",
+      "comboSet": "Academy",
+      "comboSets": [
+        "Academy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+5% / +10% / +15% / +20% / +25% / +30% Grimoire DMG +7% / +9% / +11% / +13% / +15% / +20% Max MP +2 / +2 / +2 / +4 / +4 / +6 MP Regen",
@@ -803,6 +1027,10 @@
       "name": "Rylie's Pocket Watch",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_72.jpg",
+      "comboSet": "Academy",
+      "comboSets": [
+        "Academy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+40 / +60 / +80 Grimoire Haste +8% / +14% / +20% Critical DMG",
@@ -817,6 +1045,10 @@
       "name": "Thunderstorm Tracking Compass",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_73.jpg",
+      "comboSet": "Magitech",
+      "comboSets": [
+        "Magitech"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "When inflicting Electrocution , 15% / 30% / 45% / 60% chance to deal DMG equal to 1 stack of Electrocution +3 / +4 / +6 / +8 Lightning DMG",
@@ -831,6 +1063,10 @@
       "name": "Meteor Shower",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_74.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Grants Meteor Shower skill: randomly drops 20 / 25 / 30 / 35 / +25 meteors in the casting area, dealing 22 + 50% / 100% / 180% / 200% Fire DMG",
@@ -845,6 +1081,10 @@
       "name": "Silver Plate",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_76.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "Must be on the lowest slots",
       "placementHtml": "Must be on the lowest slots",
       "stats": "+3% / +6% / +10% Normal ATK DMG +3% / +6% / +10% Special ATK DMG",
@@ -859,6 +1099,10 @@
       "name": "Kriton's Seal",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_77.jpg",
+      "comboSet": "Negotiation",
+      "comboSets": [
+        "Negotiation"
+      ],
       "placement": "[2s CD]",
       "placementHtml": "[2s CD]",
       "stats": "+10% / +25% / +50% Leaf Gain",
@@ -873,6 +1117,10 @@
       "name": "Green Sawblade",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_78.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
       "placement": "12s Revive Time",
       "placementHtml": "12s Revive Time",
       "stats": "After using 15 MP, gain Sawblade buff: +3% Critical Chance for 20s (3 Max Stacks)",
@@ -887,6 +1135,10 @@
       "name": "Ohia Lehua",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_79.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember"
+      ],
       "placement": "[ 1.2s / 0.9s / 0.8s / 0.6s CD]",
       "placementHtml": "[<span style=\"font-weight: bold; color: #34a853\">1.2s </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">0.9s </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">0.8s </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">0.6s</span> CD]",
       "stats": "On Direct ATK or Grimoire hit: deal 10 / 20 / 30 Fire DMG to the target",
@@ -901,6 +1153,10 @@
       "name": "Tainted Bandage",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_80.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
       "placement": "Does not work on Bosses",
       "placementHtml": "Does not work on Bosses",
       "stats": "+1% / +3% / +6% / +9% Critical Chance +1 / +2 / +3 / +3 Physical DMG",
@@ -915,6 +1171,10 @@
       "name": "Sharp Acorn",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_81.jpg",
+      "comboSet": "Storm Cloud",
+      "comboSets": [
+        "Storm Cloud"
+      ],
       "placement": "Only if Artifact is in any player's inventory",
       "placementHtml": "Only if Artifact is in any player&#39;s inventory",
       "stats": "+3% / +6% / +9% / +12% Storm Cloud ATK SPD +3 / +3 / +6 / +6 Evasion",
@@ -929,6 +1189,11 @@
       "name": "Mini Ballista",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_82.jpg",
+      "comboSet": "Companion",
+      "comboSets": [
+        "Companion",
+        "Storm Cloud"
+      ],
       "placement": "24 / 28 / 32 / 36 / 36 MP Cost [25s CD]",
       "placementHtml": "<span style=\"font-weight: bold; color: #cc0000\">24 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">28 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">32 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">36 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">36 </span>MP Cost [25s CD]",
       "stats": "Summons Mini Ballista : fires 1 / 3 / 5 / 5 / 5 lightning arrows, dealing 20 Companion DMG with 20% / 34% / 48% / 61% / 75% chance to grant +1 Storm Cloud ( 150 HP)",
@@ -943,6 +1208,10 @@
       "name": "Leaf Bird Leather",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_83.jpg",
+      "comboSet": "Storm Cloud",
+      "comboSets": [
+        "Storm Cloud"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "On Normal ATK or Dash ATK, 20% / 35% / 55% / 80% chance to use 1 Storm Cloud (Affected by Weighted Activation Probability) +2% / +2% / +3% / +4% Storm Cloud DMG",
@@ -957,6 +1226,10 @@
       "name": "Sharp Flint",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_84.jpg",
+      "comboSet": "Elemental",
+      "comboSets": [
+        "Elemental"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+2% / +4% / +6% / +8% Critical Chance +1 / +2 / +3 / +4 Highest Elemental DMG",
@@ -971,6 +1244,10 @@
       "name": "Amber",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_85.jpg",
+      "comboSet": "Mystic",
+      "comboSets": [
+        "Mystic"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+10% / +20% / +40% / +80% All DMG to enemies at full HP",
@@ -985,6 +1262,10 @@
       "name": "White Eggshell",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_86.jpg",
+      "comboSet": "Mystic",
+      "comboSets": [
+        "Mystic"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "When attacking, instantly kill enemies below 4% / 8% / 12% / 16% / 20% HP",
@@ -999,6 +1280,10 @@
       "name": "Blood Stone Ring",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_87.jpg",
+      "comboSet": "Mystic",
+      "comboSets": [
+        "Mystic"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Every 15 / 13 / 10 kills, recover 5 HP",
@@ -1013,6 +1298,8 @@
       "name": "Pouch of Black Tea",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_88.jpg",
+      "comboSet": "",
+      "comboSets": [],
       "placement": "",
       "placementHtml": "",
       "stats": "+30% DMG Taken from Mini-bosses +4% / +8% / +12% All DMG for each Mini-boss defeated (3 Max)",
@@ -1027,6 +1314,10 @@
       "name": "Ball of Red Yarn",
       "stars": "★★★★★★★",
       "icon": "resources/cellImage_1861789692_89.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+20% / +40% / +60% / +80% / +100% Burn DMG",
@@ -1041,6 +1332,10 @@
       "name": "Alfonso's Horn",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_90.jpg",
+      "comboSet": "Companion",
+      "comboSets": [
+        "Companion"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+1 / +2 / +3 / +4 / +5 / +6 / +8 / +10 Evasion +10% / +20% / +30% / +40% / +50% / +60% / +70% / +80% Companion DMG",
@@ -1055,6 +1350,10 @@
       "name": "Ebony Scale",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_91.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+1% / +1.5% / +2% / +2.5% Critical Chance for each Tablet in the inventory",
@@ -1069,6 +1368,10 @@
       "name": "Wings",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_92.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "For every 25% / 20% / 15% / 9% / 6% / 5% ATK SPD, +1% All DMG +3% / +6% / +9% / +12% / +15% / +18% ATK SPD",
@@ -1083,6 +1386,10 @@
       "name": "Blue Claw",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_93.jpg",
+      "comboSet": "Glacier",
+      "comboSets": [
+        "Glacier"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "On Frostbite , 30% / 40% / 50% / 60% chance to apply it an additional time +2 / +4 / +6 / +9 Cold DMG +5 / +10 / +15 / +20 Max MP",
@@ -1097,6 +1404,10 @@
       "name": "Cintamani Stone",
       "stars": "",
       "icon": "resources/cellImage_1861789692_94.jpg",
+      "comboSet": "Mystic",
+      "comboSets": [
+        "Mystic"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "When fatal damage is taken, destroys itself and grants the following effects: recover 50% HP and give +3 to the inventory slot this item was on",
@@ -1111,6 +1422,10 @@
       "name": "Judgement of Thunder",
       "stars": "",
       "icon": "resources/cellImage_1861789692_95.jpg",
+      "comboSet": "Magitech",
+      "comboSets": [
+        "Magitech"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Grants Judgement of Thunder skill: emit a massive beam, hitting 10 times and dealing 12 + 100% / 120% / 140% / 160% / 180% Lightning DMG each",
@@ -1125,6 +1440,10 @@
       "name": "Golden Maple Leaf",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_97.jpg",
+      "comboSet": "Negotiation",
+      "comboSets": [
+        "Negotiation"
+      ],
       "placement": "[2s CD]",
       "placementHtml": "[2s CD]",
       "stats": "+10% EXP Drop",
@@ -1139,6 +1458,10 @@
       "name": "Lightning-Struck Branch",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_98.jpg",
+      "comboSet": "Magitech",
+      "comboSets": [
+        "Magitech"
+      ],
       "placement": "[2s CD]",
       "placementHtml": "[2s CD]",
       "stats": "On Direct ATK or Grimoire hit: deal 10 / 20 / 30 Lightning DMG to the target",
@@ -1153,6 +1476,10 @@
       "name": "Straw Doll",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_99.jpg",
+      "comboSet": "Lake",
+      "comboSets": [
+        "Lake"
+      ],
       "placement": "[6s CD]",
       "placementHtml": "[6s CD]",
       "stats": "+3 / +6 / +9 MP Regen +2% / +3% / +5% Critical DMG",
@@ -1167,6 +1494,10 @@
       "name": "Frostium Ring",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_100.jpg",
+      "comboSet": "Glacier",
+      "comboSets": [
+        "Glacier"
+      ],
       "placement": "20s Revive Time",
       "placementHtml": "20s Revive Time",
       "stats": "On Direct ATK or Grimoire hit: deal 10 / 20 / 30 Cold DMG to the target",
@@ -1181,6 +1512,10 @@
       "name": "Snowflake Necklace",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_101.jpg",
+      "comboSet": "Glacier",
+      "comboSets": [
+        "Glacier"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "-5% / -10% / -15% Move SPD to enemies with Frostbite +1 / +3 / +5 Cold DMG +1% / +3% / +5% Move SPD",
@@ -1195,6 +1530,10 @@
       "name": "Dragoncense",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_102.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+2 / +4 / +6 / +8 / +10 Fire DMG",
@@ -1209,6 +1548,10 @@
       "name": "Oak Tree Coal",
       "stars": "★★★★★★",
       "icon": "resources/cellImage_1861789692_103.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+10% / +20% / +30% / +40% / +50% Burn ATK SPD",
@@ -1223,6 +1566,10 @@
       "name": "Yellow Planet",
       "stars": "★★★★★★",
       "icon": "resources/cellImage_1861789692_104.jpg",
+      "comboSet": "Planet",
+      "comboSets": [
+        "Planet"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Summons Yellow Planet : shoots a bouncing physical projectile, dealing 20 / 26 / 32 / 38 / 45 / 52 / 60 Physical DMG",
@@ -1237,6 +1584,10 @@
       "name": "Red Planet",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_105.jpg",
+      "comboSet": "Planet",
+      "comboSets": [
+        "Planet"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Summons Red Planet : shoot fire missiles, dealing 26 / 31 / 36 / 42 / 48 / 54 / 60 Fire DMG",
@@ -1251,6 +1602,10 @@
       "name": "Sky Blue Planet",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_106.jpg",
+      "comboSet": "Planet",
+      "comboSets": [
+        "Planet"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Summons Sky Blue Planet : fires lightning lasers, dealing 30 / 40 / 45 / 50 / 45 / 60 Lightning DMG",
@@ -1265,6 +1620,10 @@
       "name": "Voluspa",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_107.jpg",
+      "comboSet": "Frost Relic",
+      "comboSets": [
+        "Frost Relic"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Grants Voluspa : 1 / 1 / 1 / 1 / 1 / 2 Ice Spears flies into enemies, dealing 20 + 100% / 140% / 180% / 220% / 260% / 155% Cold DMG",
@@ -1279,6 +1638,10 @@
       "name": "Flame Herb Root",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_108.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "On Fury Hit, cause an explosion and dealing 200% / 400% / 600% Fire DMG +6 / +12 / +20 Max MP",
@@ -1293,6 +1656,10 @@
       "name": "Magic Glasses",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_109.jpg",
+      "comboSet": "Shadow",
+      "comboSets": [
+        "Shadow"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+3 / +6 / +9 / +12 Evasion +7 / +14 / +22 / +30 Max MP",
@@ -1307,6 +1674,10 @@
       "name": "Fluffy Fur Gloves",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_110.jpg",
+      "comboSet": "Glacier",
+      "comboSets": [
+        "Glacier"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Frostbitten enemies take +5% / +10% / +15% / +20% / +25% Cold DMG (Companion included)",
@@ -1321,6 +1692,10 @@
       "name": "Feet of the Ice Gull",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_111.jpg",
+      "comboSet": "Glacier",
+      "comboSets": [
+        "Glacier"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "On inflicting Frostbite , gain 1 stack of Frozen Touch : +1 Cold DMG for 7s ( 5 / 10 / 15 / 20 Max Stacks)",
@@ -1335,6 +1710,10 @@
       "name": "Beast's Heart",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_112.jpg",
+      "comboSet": "Guardian",
+      "comboSets": [
+        "Guardian"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+4 / +8 / +12 / +16 / +20 DEF +2% / +4% / +6% / +8% / +10% All DMG +2 / +2 / +4 / +4 / +6 Luck",
@@ -1349,6 +1728,10 @@
       "name": "Six-leaf Clover",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_113.jpg",
+      "comboSet": "Shadow",
+      "comboSets": [
+        "Shadow"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+3 / +6 / +9 / +12 Evasion +3 / +6 / +9 / +12 Luck +2% / +4% / +6% / +8% Critical Chance +1 / +1 / +2 / +2 True DMG",
@@ -1363,6 +1746,10 @@
       "name": "Scythe of Berut",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_114.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Critical Chance above 100% is converted to chance for Execution : deals double Critical Damage +2.5% / +5% / +7.5% / +10% Critical Chance",
@@ -1377,6 +1764,10 @@
       "name": "Mining Supervisor Armband",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_115.jpg",
+      "comboSet": "Companion",
+      "comboSets": [
+        "Companion"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Summons Mole Chief : deals 40 / 80 / 120 / 160 / 200 Companion DMG ( 2880 / 3360 / 3840 / 4320 / 4800 HP)",
@@ -1391,6 +1782,10 @@
       "name": "Rainbow Feather",
       "stars": "",
       "icon": "resources/cellImage_1861789692_116.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "On Trance gain, acquire 0 / 0 / 1 additional Trance +3% / +6% / +10% ATK SPD +5% / +5% / +10% Dash Recovery SPD",
@@ -1405,6 +1800,10 @@
       "name": "Cloth Armor",
       "stars": "★",
       "icon": "resources/cellImage_1861789692_117.jpg",
+      "comboSet": "Guardian",
+      "comboSets": [
+        "Guardian"
+      ],
       "placement": "16 / 13 / 10 MP Cost [20s CD]",
       "placementHtml": "<span style=\"font-weight: bold; color: #34a853\">16</span><span style=\"font-weight: bold\"> / </span><span style=\"font-weight: bold; color: #34a853\">13</span><span style=\"font-weight: bold\"> / </span><span style=\"font-weight: bold; color: #34a853\">10</span> MP Cost [20s CD]",
       "stats": "+3 / +6 DEF",
@@ -1419,6 +1818,10 @@
       "name": "Begonia Sachet",
       "stars": "★",
       "icon": "resources/cellImage_1861789692_118.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "18s Revive Time",
       "placementHtml": "18s Revive Time",
       "stats": "+5 / +10% Normal ATK DMG",
@@ -1433,6 +1836,10 @@
       "name": "Ashen Planet",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_119.jpg",
+      "comboSet": "Planet",
+      "comboSets": [
+        "Planet"
+      ],
       "placement": "yes this really is a 14 star artifact",
       "placementHtml": "yes this really is a 14 star artifact",
       "stats": "Summons a Gray Planet : shoots ice projectiles, dealing 15 / 20 / 25 / 30 / 35 / 40 Cold DMG",
@@ -1447,6 +1854,10 @@
       "name": "Charm of Lightning",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_120.jpg",
+      "comboSet": "Magitech",
+      "comboSets": [
+        "Magitech"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+3 / +4 / +6 / +8 Lightning DMG",
@@ -1461,6 +1872,8 @@
       "name": "Blessing",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_121.jpg",
+      "comboSet": "",
+      "comboSets": [],
       "placement": "",
       "placementHtml": "",
       "stats": "Grants Blessing spell: on use, give +5% DMG buff for 12s",
@@ -1475,6 +1888,10 @@
       "name": "Discarded Golden Ring",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_122.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+10% / +20% / +30% Special ATK Range After killing 40 enemies with Special ATK, evolve into Ab solute Ring",
@@ -1489,6 +1906,10 @@
       "name": "Balisong",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_123.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+6% / +8% / +11% / +14% All DMG to enemies within 2.5 tiles",
@@ -1503,6 +1924,10 @@
       "name": "Neutralizer Noir",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_124.jpg",
+      "comboSet": "Curse",
+      "comboSets": [
+        "Curse"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+4% / +8% / +12% / +16% Debuff DMG -10% / -10% / -6% / -6% Critical Chance",
@@ -1517,6 +1942,10 @@
       "name": "Helena's Model Stairway",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_125.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "When moving to a new floor, grants +10% / +14% / +18% / +22% / +26% / +30% Move SPD and +10% / +14% / +16% / +20% / +25% / +30% ATK SPD for 90s",
@@ -1531,6 +1960,10 @@
       "name": "Cloud Seed Arrowhead",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_126.jpg",
+      "comboSet": "Storm Cloud",
+      "comboSets": [
+        "Storm Cloud"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Storm Clouds have 5% / 10% / 15% / 23% / 35% / 50% chance to become Enhanced Storm Cloud : deals double damage",
@@ -1545,6 +1978,10 @@
       "name": "Clear Cube",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_127.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+1 / +1 / +2 / +2 / +3 True DMG +5% / +6% / +7% / +9% / +12% Move SPD +5% / +6% / +7% / +9% / +12% ATK SPD",
@@ -1559,6 +1996,10 @@
       "name": "Pan Lid",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_128.jpg",
+      "comboSet": "Guardian",
+      "comboSets": [
+        "Guardian"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+2 / +4 / +6 / +8 / +11 / +15 MP Regen +1 / +2 / +3 / +4 / +5 / +6 Evasion On Physical Critical Hit, gain Endure : +3 DEF for 6s ( 3 Max Stacks)",
@@ -1573,6 +2014,10 @@
       "name": "Hiring Crest \"Collin\"",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_129.jpg",
+      "comboSet": "Companion",
+      "comboSets": [
+        "Companion"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Summons Collin : melee attack nearby enemies, dealing 18 / 22 / 28 Companion DMG ( 240 / 264 / 288 HP)",
@@ -1587,6 +2032,10 @@
       "name": "Frozen Heart",
       "stars": "★★★★★★★",
       "icon": "resources/cellImage_1861789692_130.jpg",
+      "comboSet": "Frost Relic",
+      "comboSets": [
+        "Frost Relic"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+10% / +18% / +26% / +40% / +55% / +70% / +85% / +100% Frost Relic Charge SPD",
@@ -1601,6 +2050,10 @@
       "name": "Reloading Wooden Crate",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_131.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+0 / +1 / +1 / +1 / +2 Magazine Count",
@@ -1615,6 +2068,10 @@
       "name": "Mystical Pendulum",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_132.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+22% / +26% / +32% / +40% / +50% Normal ATK DMG -10% ATK SPD",
@@ -1629,6 +2086,10 @@
       "name": "Impact Amplifier",
       "stars": "★★★★★★★★★★★★★★",
       "icon": "resources/cellImage_1861789692_133.jpg",
+      "comboSet": "Mystic",
+      "comboSets": [
+        "Mystic"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+1 / +1 / +1 / +2 / +2 / +3 / +4 / +4 / +5 / +6 / +7 / +8 / +9 / +12 / +14 True DMG",
@@ -1643,6 +2104,10 @@
       "name": "Meteorite Earrings",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_134.jpg",
+      "comboSet": "Solar Blade",
+      "comboSets": [
+        "Solar Blade"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Solar Blades land nearby after they are thrown, making them easier to collect +5% / +10% / +15% Solar Blade DMG +2 / +4 / +7 Fire DMG",
@@ -1657,6 +2122,10 @@
       "name": "Solis Dekri",
       "stars": "★★★★★★",
       "icon": "resources/cellImage_1861789692_135.jpg",
+      "comboSet": "Solar Blade",
+      "comboSets": [
+        "Solar Blade"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+2% / +4% / +6% / +8% / +10% / +12% / +14% Solar Blade Ignore DEF +5% / +10% / +15% / +22% / +30% / +40% / +50% Solar Blade Critical Chance",
@@ -1671,6 +2140,10 @@
       "name": "Ice Wings",
       "stars": "★★★★★★",
       "icon": "resources/cellImage_1861789692_136.jpg",
+      "comboSet": "Frost Relic",
+      "comboSets": [
+        "Frost Relic"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Frost Relics activate 0 / 0 / 0 / 1 / 1 / 1 / 2 additional time(s) -0% / -0% / -0% / -10% / -10% / -10% / -20% Frost Relic DMG +2% / +4% / +6% / +8% / +10% / +12% / +20% Critical DMG",
@@ -1685,6 +2158,10 @@
       "name": "Mage's Coin",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_139.jpg",
+      "comboSet": "Academy",
+      "comboSets": [
+        "Academy"
+      ],
       "placement": "2 MP Cost [1s CD]",
       "placementHtml": "2 MP Cost [1s CD]",
       "stats": "+50% Chance for Grimoire to appear as an artifact reward +15 / +20 / +30 Grimoire Haste",
@@ -1699,6 +2176,10 @@
       "name": "Fire Bolt",
       "stars": "★",
       "icon": "resources/cellImage_1861789692_140.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember"
+      ],
       "placement": "2 MP Cost [1s CD]",
       "placementHtml": "2 MP Cost [1s CD]",
       "stats": "Grants Fire Bolt spell: on use, hurls a small flame projectile that deals 25 / 28 + 50% / 80% Fire DMG",
@@ -1713,6 +2194,10 @@
       "name": "Lightning Bolt",
       "stars": "★",
       "icon": "resources/cellImage_1861789692_141.jpg",
+      "comboSet": "Magitech",
+      "comboSets": [
+        "Magitech"
+      ],
       "placement": "2 MP Cost [1s CD]",
       "placementHtml": "2 MP Cost [1s CD]",
       "stats": "Grants Lightning Bolt spell: on use, shoots a lightning projectile that deals 20 / 22 + 40% / 60% Lightning DMG and also zaps nearby enemies",
@@ -1727,6 +2212,10 @@
       "name": "Ice Bolt",
       "stars": "★",
       "icon": "resources/cellImage_1861789692_142.jpg",
+      "comboSet": "Glacier",
+      "comboSets": [
+        "Glacier"
+      ],
       "placement": "20 / 12 MP Cost [20s CD]",
       "placementHtml": "<span style=\"font-weight: bold; color: #34a853\">20</span><span style=\"font-weight: bold\"> / </span><span style=\"font-weight: bold; color: #34a853\">12</span> MP Cost [20s CD]",
       "stats": "Grants Ice Bolt spell: on use, shoot 2 ice shots that deal 14 / 16 + 20% / 30% Cold DMG each",
@@ -1741,6 +2230,10 @@
       "name": "Barrier",
       "stars": "★",
       "icon": "resources/cellImage_1861789692_143.jpg",
+      "comboSet": "Guardian",
+      "comboSets": [
+        "Guardian"
+      ],
       "placement": "Must be placed on the edges [0.4s CD]",
       "placementHtml": "Must be placed on the edges [0.4s CD]",
       "stats": "Grants Barrier spell: on use, give +12 Barrier for 6s",
@@ -1755,6 +2248,10 @@
       "name": "Blue Ink Bottle",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_144.jpg",
+      "comboSet": "Curse",
+      "comboSets": [
+        "Curse"
+      ],
       "placement": "[30s CD]",
       "placementHtml": "[30s CD]",
       "stats": "On debuff, +20% / +30% / +40% / +50% chance to also apply it on a nearby enemy",
@@ -1769,6 +2266,10 @@
       "name": "Golden Cloak",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_145.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+1 / +1 / +2 Dash Count +3% / +6% / +9% ATK SPD",
@@ -1783,6 +2284,11 @@
       "name": "Captivating Lure",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_146.jpg",
+      "comboSet": "Lake",
+      "comboSets": [
+        "Lake",
+        "Elemental"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+3 / +5 / +8 MP Regen +1 / +1 / +2 Fire DMG +1 / +1 / +2 Cold DMG +1 / +1 / +2 Lightning DMG +1 / +1 / +2 Physical DMG",
@@ -1797,6 +2303,10 @@
       "name": "Echo of the Glacier",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_147.jpg",
+      "comboSet": "Glacier",
+      "comboSets": [
+        "Glacier"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Inflicts Frostbite to enemies within 5 tiles every 5s / 4s / 3s / 2.5s +3 / +6 / +10 / +10 DEF",
@@ -1811,6 +2321,10 @@
       "name": "Scrap of Red Cloth",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_148.jpg",
+      "comboSet": "Curse",
+      "comboSets": [
+        "Curse"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "For each debuff on an enemy, +4% / +5% / +7% / +10% All DMG",
@@ -1825,6 +2339,10 @@
       "name": "Brass Mirror Fragment",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_149.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "-20% / -30% / -40% / -50% Special ATK MP Cost",
@@ -1839,6 +2357,10 @@
       "name": "Bucket of Plump Berries",
       "stars": "★",
       "icon": "resources/cellImage_1861789692_150.jpg",
+      "comboSet": "Lake",
+      "comboSets": [
+        "Lake"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Recover 50% / 100% MP on use Reduce cooldown by 3% for each MP Regen point Formula: [30s / (1 + 0.03xMPRegen)]",
@@ -1853,6 +2375,10 @@
       "name": "Bicorn Pipe",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_151.jpg",
+      "comboSet": "Academy",
+      "comboSets": [
+        "Academy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Splits each Bolt Spell projectiles into 3 , -69% / -63% / -57% / -51% / -45% / -39% Bolt Spell DMG and +0% / +25% / +50% / +75% / +100% / +125% Bolt MP Cost",
@@ -1867,6 +2393,10 @@
       "name": "Jeweled Armor",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_152.jpg",
+      "comboSet": "Academy",
+      "comboSets": [
+        "Academy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+10% / +20% / +30% Grimoire Critical Chance +4 / +6 / +8 MP Regen -3 / -5 / -7 Physical DMG",
@@ -1881,6 +2411,10 @@
       "name": "Glowing Hourglass",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_153.jpg",
+      "comboSet": "Academy",
+      "comboSets": [
+        "Academy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+30% / +60% / +100% / +140% Grimoire Haste of Grimoire in the right slot of this artifact",
@@ -1895,6 +2429,8 @@
       "name": "Bloodstone Earrings",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_154.jpg",
+      "comboSet": "",
+      "comboSets": [],
       "placement": "",
       "placementHtml": "",
       "stats": "+8 HP Steal -30 / -25 / -20 / -10 DEF",
@@ -1909,6 +2445,10 @@
       "name": "Blue Wrist Guard",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_155.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+7% / +14% / +21% / +28% / +35% / +42% Special ATK DMG",
@@ -1923,6 +2463,10 @@
       "name": "Smoke Screen",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_156.jpg",
+      "comboSet": "Shadow",
+      "comboSets": [
+        "Shadow"
+      ],
       "placement": "24 MP Cost [30s CD]",
       "placementHtml": "24 MP Cost [30s CD]",
       "stats": "Grants Smoke Screen spell: on use, create a smokescreen that evade the next 3 hits taken while inside, disappears after 10s",
@@ -1937,6 +2481,10 @@
       "name": "Enhancement Potion Cap",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_157.jpg",
+      "comboSet": "Mystic",
+      "comboSets": [
+        "Mystic"
+      ],
       "placement": "22 / 24 / 26 / 28 MP Cost (16s CD)",
       "placementHtml": "<span style=\"font-weight: bold; color: #cc0000\">22 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">24 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">26 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">28</span> MP Cost (16s CD)",
       "stats": "While at or below 30% HP, +30% Healing Received from HP Potions",
@@ -1951,6 +2499,10 @@
       "name": "Solis Fracto",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_158.jpg",
+      "comboSet": "Solar Blade",
+      "comboSets": [
+        "Solar Blade"
+      ],
       "placement": "Works on Bosses",
       "placementHtml": "Works on Bosses",
       "stats": "+2 / +3 / +5 Fire DMG +2 / +4 / +6 Max HP",
@@ -1965,6 +2517,10 @@
       "name": "Eternal Furnace",
       "stars": "★★★★★",
       "icon": "resources/cellImage_1861789692_159.jpg",
+      "comboSet": "Solar Blade",
+      "comboSets": [
+        "Solar Blade"
+      ],
       "placement": "[0.8s CD]",
       "placementHtml": "[0.8s CD]",
       "stats": "+1 Solar Blade every 10s / 8s / 5s +1% / +2.5% / +5% Critical Chance",
@@ -1979,6 +2535,10 @@
       "name": "Flaming Eye Patch",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_160.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember"
+      ],
       "placement": "[30s CD]",
       "placementHtml": "[30s CD]",
       "stats": "+11% / +22% / +33% Fire Critical DMG +2% / +4% / +6% ATK SPD (Companion included)",
@@ -1993,6 +2553,10 @@
       "name": "White Cape",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_161.jpg",
+      "comboSet": "Mystic",
+      "comboSets": [
+        "Mystic"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+30% / +60% / +100% / +130% / +160% / +200% duration of self buffs",
@@ -2007,6 +2571,10 @@
       "name": "Spiny Shell",
       "stars": "★★★★",
       "icon": "resources/cellImage_1861789692_162.jpg",
+      "comboSet": "Guardian",
+      "comboSets": [
+        "Guardian"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "On hit, deal 150% / 300% / 450% DEF as Physical DMG +2 / +5 / +10 DEF",
@@ -2021,6 +2589,10 @@
       "name": "Silver Bracelet",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_163.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+4% / +8% / +12% / +16% ATK SPD -4% / -6% / -8% / -10% Move SPD",
@@ -2035,6 +2607,10 @@
       "name": "Kaleidoscope",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_164.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+15% / +25% / +35% / +45% / +55% All DMG to enemies with Super Armor",
@@ -2049,6 +2625,10 @@
       "name": "Rain of Arrows",
       "stars": "★★★",
       "icon": "resources/cellImage_1861789692_165.jpg",
+      "comboSet": "Glacier",
+      "comboSets": [
+        "Glacier"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Grants Rain of Arrows spell: rain down multiple ice arrows at the casting area, dealing 10 / 12 / 14 / 16 + 40% / 70% / 100% / 130% Cold DMG with 66% chance to inflict Frostbite",
@@ -2063,6 +2643,10 @@
       "name": "Dull Bell",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_166.jpg",
+      "comboSet": "Curse",
+      "comboSets": [
+        "Curse"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "On Direct ATK, 1% / 2% / 4% chance to inflict Stun",
@@ -2077,6 +2661,10 @@
       "name": "Sword Earrings",
       "stars": "★★",
       "icon": "resources/cellImage_1861789692_167.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "+10% / +16% / +24% / +33% Critical DMG -16 / -13 / -10 / -7 Max MP",
@@ -2091,6 +2679,10 @@
       "name": "Ice Vine",
       "stars": "",
       "icon": "resources/cellImage_1861789692_168.jpg",
+      "comboSet": "Glacier",
+      "comboSets": [
+        "Glacier"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "On Special ATK, creates an Ice Thorn : travels in a line forward, dealing 10 + 50% / 90% / 140% Cold DMG and inflict Frostbite",
@@ -2105,12 +2697,1600 @@
       "name": "Banner of Encouragement",
       "stars": "",
       "icon": "resources/cellImage_1861789692_169.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song"
+      ],
       "placement": "",
       "placementHtml": "",
       "stats": "Grants Banner of Encouragement ability: on use, summon a Banner : allies within 3 tile range gains +10% / +20% / +30% ATK SPD",
       "statsHtml": "Grants <span style=\"font-weight: bold\">Banner of Encouragement</span> ability: on use, summon a <span style=\"font-weight: bold\">Banner</span>: <br>allies within 3 tile range gains<br><span style=\"font-weight: bold; color: #34a853\">+10% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+20% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+30% </span>ATK SPD",
       "flavor": "We are this strong.",
       "flavorHtml": "We are this strong.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-151",
+      "name": "Blizzard Hammer",
+      "stars": "★★★★★",
+      "icon": "resources/cellImage_1861789692_170.jpg",
+      "comboSet": "Frost Relic",
+      "comboSets": [
+        "Frost Relic"
+      ],
+      "placement": "[7s CD]",
+      "placementHtml": "[7s CD]",
+      "stats": "On Dash, throws a hammer at nearby enemies, dealing 14 + 50% / 100% / 150% / 200% / 250% / 300% Cold DMG",
+      "statsHtml": "On Dash, throws a hammer at nearby enemies, dealing <span style=\"font-weight: bold\">14</span> + <span style=\"font-weight: bold; color: #34a853\">50% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">100% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">150% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">200% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">250% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">300%</span><span style=\"font-weight: bold\"> </span>Cold DMG",
+      "flavor": "It is said to have been placed next to a forge that used blue flames.",
+      "flavorHtml": "It is said to have been placed next to a forge that used blue flames.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-152",
+      "name": "Ice Star",
+      "stars": "★★★★★",
+      "icon": "resources/cellImage_1861789692_171.jpg",
+      "comboSet": "Frost Relic",
+      "comboSets": [
+        "Frost Relic"
+      ],
+      "placement": "[3.5s CD]",
+      "placementHtml": "[3.5s CD]",
+      "stats": "Frost Relics activate 0 / 0 / 0 / 0 / 0 / 1 additional time -0% / -0% / -0% / -0% / -0% / -10% Frost Relic DMG +0 / +0 / +1 / +1 / +2 / +2 Luck",
+      "statsHtml": "Frost Relics activate<span style=\"color: #999999\"> </span><span style=\"font-weight: bold; color: #999999\">0 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #999999\">0 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #999999\">0 </span><span style=\"font-weight: bold\">/ <br></span><span style=\"font-weight: bold; color: #999999\">0 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #999999\">0</span><span style=\"font-weight: bold; color: #34a853\"> </span><span style=\"font-weight: bold\">/</span><span style=\"font-weight: bold; color: #34a853\"> 1 </span>additional time<br><span style=\"font-weight: bold; color: #999999\">-0% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #999999\">-0% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #999999\">-0% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #999999\">-0% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #999999\">-0%</span><span style=\"font-weight: bold; color: #cc0000\"> </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-10% <br></span>Frost Relic DMG<br><span style=\"font-weight: bold; color: #999999\">+0</span><span style=\"font-weight: bold\"> /</span><span style=\"font-weight: bold; color: #999999\"> +0</span><span style=\"font-weight: bold; color: #34a853\"> </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2</span> Luck",
+      "flavor": "A flower said to only grow in snow-covered lands.",
+      "flavorHtml": "A flower said to only grow in snow-covered lands.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-153",
+      "name": "Phoenix Wing",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_172.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember"
+      ],
+      "placement": "[2s CD]",
+      "placementHtml": "[2s CD]",
+      "stats": "Summons 1 / 2 / 3 fire feathers that fly at nearby enemies, inflicting Burn +2 / +3 / +5 Fire DMG",
+      "statsHtml": "Summons <span style=\"font-weight: bold; color: #34a853\">1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">3 </span>fire feathers that fly at nearby enemies, inflicting <span style=\"font-weight: bold\">Burn</span><br><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+5</span><span style=\"font-weight: bold\"> </span>Fire DMG",
+      "flavor": "A feather from a unique animal, even in the days when there was a world outside the tower. The warmth never fades.",
+      "flavorHtml": "A feather from a unique animal, even in the days when there was a world outside the tower. The warmth never fades.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-154",
+      "name": "Crossbow Quiver",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_173.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
+      "placement": "[1s CD]",
+      "placementHtml": "[1s CD]",
+      "stats": "+20 / +40 / +65 / +100 Reload SPD",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+20 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+40 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+65 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+100</span><span style=\"font-weight: bold\"> </span>Reload SPD",
+      "flavor": "It's made by reinforcing it with light and sturdy wood.",
+      "flavorHtml": "It&#39;s made by reinforcing it with light and sturdy wood.",
+      "rarity": "Advanced Artifact Crossbow Exclusive",
+      "rarityHtml": "Advanced Artifact<br><span style=\"font-weight: bold\">Crossbow Exclusive</span>"
+    },
+    {
+      "id": "artifact-155",
+      "name": "Thrust Manual",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_174.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
+      "placement": "[5s CD]",
+      "placementHtml": "[5s CD]",
+      "stats": "Enhances Dash ATK, dealing +30% DMG as the highest DMG type",
+      "statsHtml": "Enhances Dash ATK, dealing <span style=\"font-weight: bold\">+30%</span> DMG as the highest DMG type",
+      "flavor": "The essence of the thrust lies in feeling the connection between points.",
+      "flavorHtml": "The essence of the thrust lies in feeling the connection between points.",
+      "rarity": "Advanced Artifact Blade Exclusive",
+      "rarityHtml": "Advanced Artifact<br><span style=\"font-weight: bold\">Blade Exclusive</span>"
+    },
+    {
+      "id": "artifact-156",
+      "name": "Vital Touch",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_175.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "On Direct ATK, recover 1 HP -55% / -48% / -40% / -33% Max HP",
+      "statsHtml": "On Direct ATK, recover <span style=\"font-weight: bold\">1</span> HP<br><span style=\"font-weight: bold; color: #cc0000\">-55% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-48% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-40% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-33%</span> Max HP",
+      "flavor": "To gain something means to lose something else.",
+      "flavorHtml": "To gain something means to lose something else.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-157",
+      "name": "Frozen Egg",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_176.jpg",
+      "comboSet": "Glacier",
+      "comboSets": [
+        "Glacier"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+5% / +10% / +15% / +20% Ice Critical Chance -9 / -6 / -3 / -0 MP Regen",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+5% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+10% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+15% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+20%<br></span>Ice Critical Chance <br><span style=\"font-weight: bold; color: #cc0000\">-9 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-6 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #999999\">-0</span> MP Regen",
+      "flavor": "No one has ever seen its unfrozen form.",
+      "flavorHtml": "No one has ever seen its unfrozen form.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-158",
+      "name": "Pointed Club",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_177.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "All ATKs have 10% chance to Miss : -20% All DMG +20% / +40% / +60% Critical DMG",
+      "statsHtml": "All ATKs have <span style=\"font-weight: bold\">10% </span>chance to <span style=\"font-weight: bold\">Miss</span>: <span style=\"font-weight: bold\">-20% </span>All DMG<br><span style=\"font-weight: bold; color: #34a853\">+20% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+40% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+60% </span>Critical DMG",
+      "flavor": "Highly effective, but it causes hesitation in the animal that wields it.",
+      "flavorHtml": "Highly effective, but it causes hesitation in the animal that wields it.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-159",
+      "name": "Hand Mirror",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_178.jpg",
+      "comboSet": "Guardian",
+      "comboSets": [
+        "Guardian"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "On Dash, gain +5 / +5 / +10 Barrier for 5s +3 / +6 / +9 DEF",
+      "statsHtml": "On Dash, gain <span style=\"font-weight: bold; color: #34a853\">+5 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+5 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+10</span> Barrier for 5s<br><span style=\"font-weight: bold; color: #34a853\">+3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+9 </span>DEF",
+      "flavor": "A tool carried by animals seeking more than just fur grooming.",
+      "flavorHtml": "A tool carried by animals seeking more than just fur grooming.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-160",
+      "name": "Kirin's Horn",
+      "stars": "",
+      "icon": "resources/cellImage_1861789692_179.jpg",
+      "comboSet": "Magitech",
+      "comboSets": [
+        "Magitech"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+10% / +20% / +30% Lightning Critical Chance (Companion included) -2 / -4 / -6 Cold DMG",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+10% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+20% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+30% </span>Lightning<br>Critical Chance (Companion included)<br><span style=\"font-weight: bold; color: #cc0000\">-2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-6 </span>Cold DMG",
+      "flavor": "It was covered in leather to prevent it from harming other animals.",
+      "flavorHtml": "It was covered in leather to prevent it from harming other animals.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-161",
+      "name": "Thunder's Earring",
+      "stars": "★★★★★",
+      "icon": "resources/cellImage_1861789692_180.jpg",
+      "comboSet": "Magitech",
+      "comboSets": [
+        "Magitech"
+      ],
+      "placement": "[4s CD]",
+      "placementHtml": "[4s CD]",
+      "stats": "Deal 30% Lightning DMG to 1 / 2 / 2 / 3 / 3 / 4 nearby enemies +1 / +2 / +3 / +4 / +5 / +6 Lightning DMG",
+      "statsHtml": "Deal <span style=\"font-weight: bold\">30% </span>Lightning DMG to <br><span style=\"font-weight: bold; color: #34a853\">1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">4</span><span style=\"font-weight: bold\"> </span>nearby enemies<br><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+5 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6</span> Lightning DMG",
+      "flavor": "Lightweight thanks to new materials developed by the library.",
+      "flavorHtml": "Lightweight thanks to new materials developed by the library.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-162",
+      "name": "Cloak of Verdant Spirit",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_181.jpg",
+      "comboSet": "Shadow",
+      "comboSets": [
+        "Shadow"
+      ],
+      "placement": "Amount is affected by the Leaf Drop stat",
+      "placementHtml": "Amount is affected by the Leaf Drop stat",
+      "stats": "+0 / +1 / +1 Dash Count +4 / +6 / +8 Evasion +1% / +2% / +4% Critical Chance",
+      "statsHtml": "<span style=\"font-weight: bold; color: #999999\">+0</span><span style=\"font-weight: bold; color: #34a853\"> </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1</span><span style=\"font-weight: bold\"> /</span><span style=\"font-weight: bold; color: #34a853\"> +1</span><span style=\"font-weight: bold\"> </span>Dash Count<span style=\"font-weight: bold; color: #34a853\"><br>+4</span><span style=\"font-weight: bold\"> / </span><span style=\"font-weight: bold; color: #34a853\">+6 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8 </span>Evasion<br><span style=\"font-weight: bold; color: #34a853\">+1% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4% </span>Critical Chance",
+      "flavor": "Infused with the energy of nature, move stealthily in verdant places.",
+      "flavorHtml": "Infused with the energy of nature, move stealthily in verdant places.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-163",
+      "name": "Lucky Medal",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_182.jpg",
+      "comboSet": "Negotiation",
+      "comboSets": [
+        "Negotiation"
+      ],
+      "placement": "[3s CD]",
+      "placementHtml": "[3s CD]",
+      "stats": "Gain 100 / 150 / 200 Leaf on opening shop (once per merchant) +2 / +6 / +10 Barter",
+      "statsHtml": "Gain <span style=\"font-weight: bold; color: #34a853\">100 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">150 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">200</span> Leaf on opening shop (once per merchant)<br><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+10</span> Barter",
+      "flavor": "A token of luck that finds the fallen leaves on the ground.",
+      "flavorHtml": "A token of luck that finds the fallen leaves on the ground.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-164",
+      "name": "Multicolored Candy Glass Jar",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_183.jpg",
+      "comboSet": "Elemental",
+      "comboSets": [
+        "Elemental"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Gain Elemental Bomb Ability: fires 1 / 2 / 3 / 4 Elemental bombs, dealing 100% / 150% / 200% / 250% of Highest Elemental DMG",
+      "statsHtml": "Gain <span style=\"font-weight: bold\">Elemental Bomb</span> Ability: <br>fires <span style=\"font-weight: bold; color: #34a853\">1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">4</span> Elemental bombs, dealing <span style=\"font-weight: bold; color: #34a853\">100% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">150% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">200% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">250%</span> of Highest Elemental DMG",
+      "flavor": "Always kept out of reach from young animals.",
+      "flavorHtml": "Always kept out of reach from young animals.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-165",
+      "name": "Counterattack Bracelet",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_184.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "On Perfect Guard, +4% / +8% / +12% All DMG for 7s",
+      "statsHtml": "On Perfect Guard, <span style=\"font-weight: bold; color: #34a853\">+4% </span><span style=\"font-weight: bold\">/</span><span style=\"font-weight: bold; color: #34a853\"> +8% </span><span style=\"font-weight: bold\">/</span><span style=\"font-weight: bold; color: #34a853\"> +12%</span> <br>All DMG for 7s",
+      "flavor": "Never let your guard down.",
+      "flavorHtml": "Never let your guard down.",
+      "rarity": "Advanced Artifact Staff Exclusive",
+      "rarityHtml": "Advanced Artifact<br><span style=\"font-weight: bold\">Staff Exclusive</span>"
+    },
+    {
+      "id": "artifact-166",
+      "name": "Flame Bug",
+      "stars": "★★★★★",
+      "icon": "resources/cellImage_1861789692_185.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+0 / +1 / +1 / +2 / +3 / +4 Burn Stacks",
+      "statsHtml": "<span style=\"font-weight: bold; color: #999999\">+0</span><span style=\"font-weight: bold; color: #34a853\"> </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4</span> Burn Stacks",
+      "flavor": "A bug with the ability to spontaneously combust. It can be tamed.",
+      "flavorHtml": "A bug with the ability to spontaneously combust. It can be tamed.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-167",
+      "name": "Ice Bug",
+      "stars": "★★★★★",
+      "icon": "resources/cellImage_1861789692_186.jpg",
+      "comboSet": "Glacier",
+      "comboSets": [
+        "Glacier"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+10% / +15% / +20% / +25% / +30% / +40% Freeze DMG",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+10% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+15% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+20% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+25% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+30% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+40%</span> Freeze DMG",
+      "flavor": "A bug that's really cold to the touch. It can be tamed.",
+      "flavorHtml": "A bug that&#39;s really cold to the touch. It can be tamed.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-168",
+      "name": "Zap Bug",
+      "stars": "★★★★★",
+      "icon": "resources/cellImage_1861789692_187.jpg",
+      "comboSet": "Magitech",
+      "comboSets": [
+        "Magitech"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+0 / +1 / +1 / +2 / +2 / +3 Electrocution Stacks",
+      "statsHtml": "<span style=\"font-weight: bold; color: #999999\">+0</span><span style=\"font-weight: bold; color: #34a853\"> </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+3</span> <br>Electrocution Stacks",
+      "flavor": "A bug that generates electricity. Can be tamed.",
+      "flavorHtml": "A bug that generates electricity. Can be tamed.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-169",
+      "name": "Battle Mage's Gloves",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_188.jpg",
+      "comboSet": "Academy",
+      "comboSets": [
+        "Academy"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+10% / +12% / +15% / +20% Grimoire DMG +3% / +4% / +5% / +6% Move SPD",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+10% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+15% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+20%<br></span>Grimoire DMG<br><span style=\"font-weight: bold; color: #34a853\">+3% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+5% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6%</span> Move SPD",
+      "flavor": "Heavy and thick. Likely belonged to a magic warrior, not a battle mage.",
+      "flavorHtml": "Heavy and thick. Likely belonged to a magic warrior, not a battle mage.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-170",
+      "name": "Academy Brigandine",
+      "stars": "★★★★★",
+      "icon": "resources/cellImage_1861789692_189.jpg",
+      "comboSet": "Guardian",
+      "comboSets": [
+        "Guardian",
+        "Academy"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+2 / +3 / +4 / +6 / +8 / +10 DEF +14 / +18 / +20 / +24 / +29 / +35 Grimoire Haste",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+10</span><span style=\"color: #34a853\"> </span>DEF<br><span style=\"font-weight: bold; color: #34a853\">+14 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+18 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+20 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+24 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+29 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+35</span> Grimoire Haste",
+      "flavor": "Armor worn by academy guards.",
+      "flavorHtml": "Armor worn by academy guards.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-171",
+      "name": "Riposte Staff Fragment",
+      "stars": "★★★★★",
+      "icon": "resources/cellImage_1861789692_190.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
+      "placement": "15 / 17 / 19 MP Cost [9s CD]",
+      "placementHtml": "<span style=\"font-weight: bold; color: #cc0000\">15 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">17 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">19</span><span style=\"font-weight: bold\"> </span>MP Cost [9s CD]",
+      "stats": "When hit while blocking, Counter : perform a short-ranged melee attack forward, dealing 100% / 200% / 310% / 440% / 580% / 720% Physical DMG",
+      "statsHtml": "When hit while blocking, <span style=\"font-weight: bold\">Counter</span>: perform a short-ranged melee attack forward, dealing <span style=\"font-weight: bold; color: #34a853\">100% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">200% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">310% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">440% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">580% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">720%</span> Physical DMG",
+      "flavor": "A sophisticated staff fragment that does not hinder its bearer's movements.",
+      "flavorHtml": "A sophisticated staff fragment that does not hinder its bearer&#39;s movements.",
+      "rarity": "Advanced Artifact Staff Exclusive",
+      "rarityHtml": "Advanced Artifact<br><span style=\"font-weight: bold\">Staff Exclusive</span>"
+    },
+    {
+      "id": "artifact-172",
+      "name": "Ray's Star Fragment",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_191.jpg",
+      "comboSet": "Academy",
+      "comboSets": [
+        "Academy"
+      ],
+      "placement": "16 / 18 / 19 / 20 MP Cost (10s CD)",
+      "placementHtml": "<span style=\"font-weight: bold; color: #cc0000\">16 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">18 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">19 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">20</span> MP Cost (10s CD)",
+      "stats": "-30% / -35% / -42% / -55% MP Cost of Grimoire in the left slot of this artifact",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">-30% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">-35% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">-42% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">-55%</span><span style=\"font-weight: bold\"> </span>MP Cost of Grimoire in the left slot of this artifact",
+      "flavor": "A fragment from a hot, bright star.",
+      "flavorHtml": "A fragment from a hot, bright star.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-173",
+      "name": "Mouse Mage's Pendant",
+      "stars": "★",
+      "icon": "resources/cellImage_1861789692_192.jpg",
+      "comboSet": "Academy",
+      "comboSets": [
+        "Academy"
+      ],
+      "placement": "36 / 33 / 30 / 30 / 30 MP Cost (25s CD)",
+      "placementHtml": "<span style=\"font-weight: bold; color: #34a853\">36 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">33 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">30 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">30 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">30</span> MP Cost (25s CD)",
+      "stats": "Bolt Spells homes in on enemies +2 / +5 MP Regen",
+      "statsHtml": "Bolt Spells homes in on enemies<br><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+5 </span>MP Regen",
+      "flavor": "A necklace used as proof of being a wizard. They tend to vary in shape, making actual verification difficult.",
+      "flavorHtml": "A necklace used as proof of being a wizard. They tend to vary in shape, making actual verification difficult.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-174",
+      "name": "Crabapple Fruit",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_193.jpg",
+      "comboSet": "Academy",
+      "comboSets": [
+        "Academy"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+6 / +10 / +14 Grimoire Haste +5% / +8% / +12% Dash Recovery SPD",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+6</span><span style=\"font-weight: bold\"> / </span><span style=\"font-weight: bold; color: #34a853\">+10 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+14 </span>Grimoire Haste<br><span style=\"font-weight: bold; color: #34a853\">+5% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12% </span>Dash Recovery SPD",
+      "flavor": "It is small and has a strong sour taste, so it is used as an ingredient in magical potions.",
+      "flavorHtml": "It is small and has a strong sour taste, so it is used as an ingredient in magical potions.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-175",
+      "name": "Fire Arrow",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_194.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Grants Fire Arrow skill: fires 5 flame arrows that pierces through enemies, dealing 18 / 20 / 22 + 120% / 240% / 360% Fire DMG with 2 Burn stacks",
+      "statsHtml": "Grants <span style=\"font-weight: bold\">Fire Arrow </span>skill: fires 5 flame arrows that pierces through enemies, dealing <span style=\"font-weight: bold; color: #34a853\">18 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">20 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">22 </span>+ <span style=\"font-weight: bold; color: #34a853\">120% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">240% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">360% </span>Fire DMG with <span style=\"font-weight: bold\">2 </span>Burn stacks",
+      "flavor": "A book containing a Fire Arrow spell.",
+      "flavorHtml": "A book containing a Fire Arrow spell.",
+      "rarity": "Advanced Grimoire",
+      "rarityHtml": "Advanced Grimoire"
+    },
+    {
+      "id": "artifact-176",
+      "name": "Fire Circus",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_195.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Grants Fire Circus spell: sling 8 fire orbs at the target, dealing 18 + 55% / 75% / 100% / 130% Fire DMG with +10% / +16% / +22% / +30% Critical Chance",
+      "statsHtml": "Grants <span style=\"font-weight: bold\">Fire Circus </span>spell: sling 8 fire orbs at the target, dealing <span style=\"font-weight: bold\">18</span> + <span style=\"font-weight: bold; color: #34a853\">55% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">75% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">100% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">130%</span> Fire DMG with <span style=\"font-weight: bold; color: #34a853\">+10% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+16% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+22% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+30%</span><span style=\"font-weight: bold\"> </span>Critical Chance",
+      "flavor": "A book containing a Fire Circus spell.",
+      "flavorHtml": "A book containing a Fire Circus spell.",
+      "rarity": "Rare Grimoire",
+      "rarityHtml": "Rare Grimoire"
+    },
+    {
+      "id": "artifact-177",
+      "name": "Thunder Armor",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_196.jpg",
+      "comboSet": "Magitech",
+      "comboSets": [
+        "Magitech"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Grants Thunder Armor spell: grant an aura for 10s that chains lightning to nearby enemies, dealing 2 / 2 / 2 / 3 / 3 + 60% / 70% / 80% / 95% / 110% Lightning DMG 3 times per second",
+      "statsHtml": "Grants <span style=\"font-weight: bold\">Thunder Armor </span>spell: grant an aura for 10s that chains lightning to nearby enemies, dealing <span style=\"font-weight: bold; color: #34a853\">2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">3</span> + <span style=\"font-weight: bold; color: #34a853\">60% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">70% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">80% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">95% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">110%</span><span style=\"font-weight: bold\"> <br></span>Lightning DMG 3 times per second",
+      "flavor": "A book containing a Thunder Armor spell.",
+      "flavorHtml": "A book containing a Thunder Armor spell.",
+      "rarity": "Rare Grimoire",
+      "rarityHtml": "Rare Grimoire"
+    },
+    {
+      "id": "artifact-178",
+      "name": "Faultfinder Needle",
+      "stars": "★★★★★★",
+      "icon": "resources/cellImage_1861789692_197.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+3% / +6% / +9% / +12% / +15% / +18% / +21% Critical Chance",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+3% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+9% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+15% </span><span style=\"font-weight: bold\">/ <br></span><span style=\"font-weight: bold; color: #34a853\">+18% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+21%</span> Critical Chance",
+      "flavor": "Primarily used by training instructors and magic circle teachers.",
+      "flavorHtml": "Primarily used by training instructors and magic circle teachers.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-179",
+      "name": "Wanderer's Necklace",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_198.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+6% / +12% / +18% ATK SPD +2 / +4 / +6 Highest Elemental DMG",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+18%</span><span style=\"color: #34a853\"> </span>ATK SPD<br><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6</span> Highest Elemental DMG",
+      "flavor": "I'm not homeless, I'm just traveling.",
+      "flavorHtml": "I&#39;m not homeless, I&#39;m just traveling.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-180",
+      "name": "Stone Spindle Whorl",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_199.jpg",
+      "comboSet": "Lake",
+      "comboSets": [
+        "Lake"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+6% / +12% / +18% / +24% / +30% DMG of MP-Using ATK",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+18% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+24% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+30%</span> <br>DMG of MP-Using ATK",
+      "flavor": "In the distant past, it was used for weaving or rituals.",
+      "flavorHtml": "In the distant past, it was used for weaving or rituals.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-181",
+      "name": "Sharp Eye",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_200.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
+      "placement": "24 / 16 / 6 MP Cost [30s CD]",
+      "placementHtml": "<span style=\"font-weight: bold; color: #34a853\">24 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">16 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">6</span><span style=\"font-weight: bold\"> </span>MP Cost [30s CD]",
+      "stats": "Grants Sharp Eye skill: gains +12% Critical Chance for 15s",
+      "statsHtml": "Grants <span style=\"font-weight: bold\">Sharp Eye </span>skill: gains <span style=\"font-weight: bold\">+12%</span> Critical Chance for 15s",
+      "flavor": "A book containing a Sharp Eye spell.",
+      "flavorHtml": "A book containing a Sharp Eye spell.",
+      "rarity": "Advanced Grimoire",
+      "rarityHtml": "Advanced Grimoire"
+    },
+    {
+      "id": "artifact-182",
+      "name": "Haste",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_201.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song"
+      ],
+      "placement": "36 / 24 / 12 MP Cost [38s CD]",
+      "placementHtml": "<span style=\"font-weight: bold; color: #34a853\">36 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">24 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">12</span><span style=\"font-weight: bold\"> </span>MP Cost [38s CD]",
+      "stats": "Grants Haste skill: gains +15% ATK SPD and +15% Move SPD for 24s",
+      "statsHtml": "Grants <span style=\"font-weight: bold\">Haste </span>skill: gains <span style=\"font-weight: bold\">+15%</span> ATK SPD and <span style=\"font-weight: bold\">+15% </span>Move SPD for 24s",
+      "flavor": "A book containing a Haste spell.",
+      "flavorHtml": "A book containing a Haste spell.",
+      "rarity": "Advanced Grimoire",
+      "rarityHtml": "Advanced Grimoire"
+    },
+    {
+      "id": "artifact-183",
+      "name": "Frost Dagger",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_202.jpg",
+      "comboSet": "Glacier",
+      "comboSets": [
+        "Glacier"
+      ],
+      "placement": "10 / 11 / 12 / 13 / 14 MP Cost [10s CD]",
+      "placementHtml": "<span style=\"font-weight: bold; color: #cc0000\">10 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">11 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">12 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">13 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">14</span><span style=\"font-weight: bold\"> </span>MP Cost [10s CD]",
+      "stats": "Grants Frost Dagger skill: summons 4 homing frost daggers that explodes, dealing 25 + 90% / 135% / 180% / 220% / 240% Cold DMG",
+      "statsHtml": "Grants <span style=\"font-weight: bold\">Frost Dagger </span>skill: summons 4 homing frost daggers that explodes, dealing <span style=\"font-weight: bold\">25</span> + <span style=\"font-weight: bold; color: #34a853\">90% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">135% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">180% </span><span style=\"font-weight: bold\">/</span> <span style=\"font-weight: bold; color: #34a853\">220% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">240%</span> Cold DMG",
+      "flavor": "A book containing a Frost Dagger spell.",
+      "flavorHtml": "A book containing a Frost Dagger spell.",
+      "rarity": "Advanced Grimoire",
+      "rarityHtml": "Advanced Grimoire"
+    },
+    {
+      "id": "artifact-184",
+      "name": "Lightning Boomerang",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_203.jpg",
+      "comboSet": "Magitech",
+      "comboSets": [
+        "Magitech"
+      ],
+      "placement": "9 / 10 / 11 / 12 / 12 MP Cost [10s CD]",
+      "placementHtml": "<span style=\"font-weight: bold; color: #cc0000\">9 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">10 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">11 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">12 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">12</span><span style=\"font-weight: bold\"> </span>MP Cost [10s CD]",
+      "stats": "Grants Lightning Boomerang skill: launch an electric boomerang that deals 30 + 180% / 240% / 310% / 380% / 450% Lightning DMG, collecting the boomerang that returned recovers part of the CD",
+      "statsHtml": "Grants <span style=\"font-weight: bold\">Lightning Boomerang </span>skill: launch an electric boomerang that deals <span style=\"font-weight: bold\">30</span> + <span style=\"font-weight: bold; color: #34a853\">180% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">240% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">310% </span><span style=\"font-weight: bold\">/</span> <span style=\"font-weight: bold; color: #34a853\">380% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">450%</span> Lightning DMG, collecting the boomerang that returned recovers part of the CD",
+      "flavor": "A book containing a Lightning Boomerang spell.",
+      "flavorHtml": "A book containing a Lightning Boomerang spell.",
+      "rarity": "Advanced Grimoire",
+      "rarityHtml": "Advanced Grimoire"
+    },
+    {
+      "id": "artifact-185",
+      "name": "Shield Earrings",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_204.jpg",
+      "comboSet": "Guardian",
+      "comboSets": [
+        "Guardian"
+      ],
+      "placement": "[0.8s CD]",
+      "placementHtml": "[0.8s CD]",
+      "stats": "+6 / +12 / +18 / +24 Max HP -5 / -4 / -3 / -2 Evasion",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+6 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+18 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+24</span><span style=\"font-weight: bold\"> </span>Max HP<br><span style=\"font-weight: bold; color: #cc0000\">-5 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-2</span><span style=\"font-weight: bold\"> </span>Evasion<br>",
+      "flavor": "The complete set consists of a pair of sword and shield earrings.",
+      "flavorHtml": "The complete set consists of a pair of sword and shield earrings.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-186",
+      "name": "Battle Bracelet of Lerid",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_205.jpg",
+      "comboSet": "Shadow",
+      "comboSets": [
+        "Shadow"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+0 / +1 / +1 / +2 Dash Count +1 / +1 / +2 / +3 True DMG +2% / +4% / +6% / +8% Move SPD [ ★★ ]: Successful Dodge with Dash counts as Evasion",
+      "statsHtml": "<span style=\"font-weight: bold; color: #999999\">+0</span><span style=\"font-weight: bold; color: #34a853\"> </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2</span><span style=\"color: #34a853\"> </span>Dash Count<br><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+3 </span>True DMG<br><span style=\"font-weight: bold; color: #34a853\">+2% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8%</span> Move SPD<br>[<span style=\"color: #34a853\">★★</span>]: Successful Dodge with Dash counts as Evasion",
+      "flavor": "After wearing, you'll have to make an effort to keep your feet heavy.",
+      "flavorHtml": "After wearing, you&#39;ll have to make an effort to keep your feet heavy.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-187",
+      "name": "Shield Bag",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_206.jpg",
+      "comboSet": "Guardian",
+      "comboSets": [
+        "Guardian",
+        "Academy"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "For every 10 DEF: +1 / +1 / +2 / +3 Fire DMG +1 / +1 / +2 / +3 Cold DMG +1 / +1 / +2 / +3 Lightning DMG",
+      "statsHtml": "For every 10 DEF:<br><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+3</span> Fire DMG<br><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+3</span><span style=\"color: #34a853\"> </span>Cold DMG<br><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+3</span> Lightning DMG",
+      "flavor": "An item needed for dangerous journeys, sought after even by turtles.",
+      "flavorHtml": "An item needed for dangerous journeys, sought after even by turtles.",
+      "rarity": "Rare Bond Artifact",
+      "rarityHtml": "Rare Bond Artifact"
+    },
+    {
+      "id": "artifact-188",
+      "name": "Tuning Fork",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_207.jpg",
+      "comboSet": "Academy",
+      "comboSets": [
+        "Academy",
+        "Sturdy"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "On Grimoire Cast, +1 stack of Sonic Wave (5 Max): On Direct ATK, consume all stacks and deal Chaos/Grimoire DMG equal to 200% / 250% / 300% / 350% / 450% of the AVG of all DMG types per stack +1% Tuning Fork DMG per Grimoire Haste",
+      "statsHtml": "On Grimoire Cast, +1 stack of <span style=\"font-weight: bold\">Sonic Wave<br></span>(5 Max): On Direct ATK, consume all stacks and deal Chaos/Grimoire DMG equal to<br><span style=\"font-weight: bold; color: #34a853\">200% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">250% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">300% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">350% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">450%</span> of the AVG of all DMG types per stack<br><span style=\"font-weight: bold\">+1%</span> Tuning Fork DMG per Grimoire Haste",
+      "flavor": "A device used to tune instruments.",
+      "flavorHtml": "A device used to tune instruments.",
+      "rarity": "Rare Bond Artifact",
+      "rarityHtml": "Rare Bond Artifact"
+    },
+    {
+      "id": "artifact-189",
+      "name": "Scale of Conflict",
+      "stars": "★★★★★",
+      "icon": "resources/cellImage_1861789692_208.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember",
+        "Glacier"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Based on which side this item is on: +2 / +4 / +6 / +9 / +11 / +15 Main DMG ( Left : Fire | Right : Ice) +0 / +1 / +2 / +3 / +4 / +5 Sub DMG ( Left : Ice | Right : Fire)",
+      "statsHtml": "Based on which side this item is on:<br><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+9 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+11 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+15</span><span style=\"color: #34a853\"> </span>Main DMG<br>(<span style=\"font-weight: bold\">Left</span>: Fire | <span style=\"font-weight: bold\">Right</span>: Ice)<br><span style=\"font-weight: bold; color: #34a853\">+0 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+5</span> Sub DMG<br>(<span style=\"font-weight: bold\">Left</span>: Ice | <span style=\"font-weight: bold\">Right</span>: Fire)",
+      "flavor": "Balance can never be achieved.",
+      "flavorHtml": "Balance can never be achieved.",
+      "rarity": "Rare Bond Artifact",
+      "rarityHtml": "Rare Bond Artifact"
+    },
+    {
+      "id": "artifact-190",
+      "name": "Ruby Brooch",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_209.jpg",
+      "comboSet": "Storm Cloud",
+      "comboSets": [
+        "Storm Cloud",
+        "Ember"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "On Storm Cloud hit, inflict Burn +3 / +5 / +7 / +10 Lightning DMG +3 / +5 / +7 / +10 Fire DMG",
+      "statsHtml": "On <span style=\"font-weight: bold\">Storm Cloud</span> hit, inflict <span style=\"font-weight: bold\">Burn</span><br><span style=\"font-weight: bold; color: #34a853\">+3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+5 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+7 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+10</span><span style=\"color: #34a853\"> </span>Lightning DMG<br><span style=\"font-weight: bold; color: #34a853\">+3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+5 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+7 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+10</span> Fire DMG",
+      "flavor": "It sears. It shines. It shoots.",
+      "flavorHtml": "It sears. It shines. It shoots.",
+      "rarity": "Rare Bond Artifact",
+      "rarityHtml": "Rare Bond Artifact"
+    },
+    {
+      "id": "artifact-191",
+      "name": "Thorn Charm",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_210.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
+      "placement": "Must not be placed on the edges",
+      "placementHtml": "Must <span style=\"font-weight: bold\">not</span> be placed on the edges",
+      "stats": "+2% / +4% / +6% / +10% Critical Chance +1 / +1 / +2 / +3 Physical DMG",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+2% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+10%</span><span style=\"font-weight: bold\"> </span>Critical Chance<br><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+3</span> Physical DMG",
+      "flavor": "Its thorns may poke through if placed in a bag.",
+      "flavorHtml": "Its thorns may poke through if placed in a bag.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-192",
+      "name": "Pinwheel",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_211.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song",
+        "Shadow"
+      ],
+      "placement": "(despite the description, it cannot be fixed)",
+      "placementHtml": "(despite the description, it cannot be fixed)",
+      "stats": "+3% / +6% / +9% ATK SPD +2 / +4 / +6 Evasion",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+3% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+9%</span><span style=\"font-weight: bold\"> </span>ATK SPD<br><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6</span> Evasion",
+      "flavor": "Recite the incantation for it to spin on its own.",
+      "flavorHtml": "Recite the incantation for it to spin on its own.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-193",
+      "name": "Thorn Bush",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_212.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song"
+      ],
+      "placement": "[15s CD]",
+      "placementHtml": "[15s CD]",
+      "stats": "Touching enemies during Dash deals 30% / 45% / 60% / 75% / 100% Physical DMG, deal double damage if Dash Point is used",
+      "statsHtml": "Touching enemies during Dash deals <span style=\"font-weight: bold; color: #34a853\">30% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">45% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">60% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">75% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">100%</span><span style=\"font-weight: bold\"> <br></span>Physical DMG, deal double<span style=\"font-weight: bold\"> </span>damage if Dash Point is used",
+      "flavor": "Don't come near.",
+      "flavorHtml": "Don&#39;t come near.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-194",
+      "name": "Broken Mirror",
+      "stars": "★",
+      "icon": "resources/cellImage_1861789692_213.jpg",
+      "comboSet": "Guardian",
+      "comboSets": [
+        "Guardian"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "When moving to a new floor, grants +5 / +12 Shield +4 / +8 DEF",
+      "statsHtml": "When moving to a new floor, <br>grants <span style=\"font-weight: bold; color: #34a853\">+5 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12 </span>Shield<br><span style=\"font-weight: bold; color: #34a853\">+4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8 </span>DEF",
+      "flavor": "There might be someone who can fix it.",
+      "flavorHtml": "There might be someone who can fix it.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-195",
+      "name": "Star Aquamarine",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_214.jpg",
+      "comboSet": "Lake",
+      "comboSets": [
+        "Lake"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+10% / +20% / +33% Max MP",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+10% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+20% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+33%</span><span style=\"font-weight: bold\"> </span>Max MP",
+      "flavor": "For glorious vengeance.",
+      "flavorHtml": "For glorious vengeance.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-196",
+      "name": "Icebound Tejas",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_215.jpg",
+      "comboSet": "Ember",
+      "comboSets": [
+        "Ember",
+        "Glacier"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Burn becomes Blue Burn : DMG is now based on the higher DMG between Fire and Ice with extra 25% of the lower DMG +3% / +6% / +9% / +12% Burn DMG",
+      "statsHtml": "<span style=\"font-weight: bold\">Burn</span> becomes <span style=\"font-weight: bold\">Blue Burn</span>: DMG is now based on the higher DMG between Fire and Ice with extra <span style=\"font-weight: bold\">25%</span> of the lower DMG<br><span style=\"font-weight: bold; color: #34a853\">+3% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+9% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12%</span> Burn DMG",
+      "flavor": "A fierce spirit of fire is sealed within.",
+      "flavorHtml": "A fierce spirit of fire is sealed within.",
+      "rarity": "Rare Bond Artifact",
+      "rarityHtml": "Rare Bond Artifact"
+    },
+    {
+      "id": "artifact-197",
+      "name": "Thunderfrost Butterfly",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_216.jpg",
+      "comboSet": "Storm Cloud",
+      "comboSets": [
+        "Storm Cloud",
+        "Glacier"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Storm Cloud becomes Snowstorm Cloud : DMG is now based on the higher DMG between Lighting and Cold with extra 25% of the lower DMG +2 / +4 / +6 / +8 Cold DMG +6% / +12% / +18% / +24% Storm Cloud ATK SPD",
+      "statsHtml": "<span style=\"font-weight: bold\">Storm Cloud</span> becomes <span style=\"font-weight: bold\">Snowstorm Cloud</span>: DMG is now based on the higher DMG between Lighting and Cold with extra 25% of the lower DMG<br><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8</span> Cold DMG<br><span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+18% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+24%</span><span style=\"color: #34a853\"> </span>Storm Cloud ATK SPD",
+      "flavor": "My beloved familiar stayed by my side, even in this form.",
+      "flavorHtml": "My beloved familiar stayed by my side, even in this form.",
+      "rarity": "Rare Bond Artifact",
+      "rarityHtml": "Rare Bond Artifact"
+    },
+    {
+      "id": "artifact-198",
+      "name": "Sheet Music 'The Typhoon'",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_217.jpg",
+      "comboSet": "Storm Cloud",
+      "comboSets": [
+        "Storm Cloud",
+        "Wind Song"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Gain 25% / 50% / 100% of ATK SPD as Storm Cloud ATK SPD On Direct ATK, deal an extra 5 / 10 / 15 Lightning DMG +4% / +8% / +12% ATK SPD",
+      "statsHtml": "Gain <span style=\"font-weight: bold; color: #34a853\">25% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">50% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">100%</span> of ATK SPD as Storm Cloud ATK SPD<br>On Direct ATK, deal an extra <span style=\"font-weight: bold; color: #34a853\">5 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">10 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">15</span><span style=\"color: #34a853\"> </span>Lightning DMG<br><span style=\"font-weight: bold; color: #34a853\">+4% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12%</span> ATK SPD",
+      "flavor": "Feel it, the light resting in a moment.",
+      "flavorHtml": "Feel it, the light resting in a moment.",
+      "rarity": "Rare Bond Artifact",
+      "rarityHtml": "Rare Bond Artifact"
+    },
+    {
+      "id": "artifact-199",
+      "name": "Rock Elephant",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_218.jpg",
+      "comboSet": "Guardian",
+      "comboSets": [
+        "Guardian",
+        "Wind Song"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Gain Rock Spears ability: fire 3 stone spears, dealing DMG equal to 70% / 95% / 125% / 160% / 200% of DEF Every 15% ATK SPD, fire 1 more spear On Dash Count used, -3s CD",
+      "statsHtml": "Gain <span style=\"font-weight: bold\">Rock Spears</span> ability: fire 3 stone spears, dealing DMG equal to <span style=\"font-weight: bold; color: #34a853\">70% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">95% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">125% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">160% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">200%</span> of DEF<br>Every 15% ATK SPD, fire 1 more spear<br>On Dash Count used, -3s CD",
+      "flavor": "The horn is intricately carved, seemingly fragile, yet incredibly sturdy.",
+      "flavorHtml": "The horn is intricately carved, seemingly fragile, yet incredibly sturdy.",
+      "rarity": "Rare Bond Artifact",
+      "rarityHtml": "Rare Bond Artifact"
+    },
+    {
+      "id": "artifact-200",
+      "name": "Droplet of Plitvice",
+      "stars": "",
+      "icon": "resources/cellImage_1861789692_219.jpg",
+      "comboSet": "Frost Relic",
+      "comboSets": [
+        "Frost Relic",
+        "Lake"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "On Frost Relic activated, summon rotating ice swords dealing 6% Cold DMG + 50% of Additional MP above 50",
+      "statsHtml": "On Frost Relic activated, summon rotating ice swords dealing <span style=\"font-weight: bold\">6%</span> Cold DMG + <span style=\"font-weight: bold\">50%</span> of Additional MP above 50",
+      "flavor": "One of the crystals formed beneath the feet of an ice fairy dancing upon the lake.",
+      "flavorHtml": "One of the crystals formed beneath the feet of an ice fairy dancing upon the lake.",
+      "rarity": "Rare Bond Artifact",
+      "rarityHtml": "Rare Bond Artifact"
+    },
+    {
+      "id": "artifact-201",
+      "name": "Water Bag",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_220.jpg",
+      "comboSet": "Lake",
+      "comboSets": [
+        "Lake"
+      ],
+      "placement": "[5s CD]",
+      "placementHtml": "[5s CD]",
+      "stats": "+1 Max MP when MP is consumed ( 10 / 15 / 20 / 25 Max Stacks)",
+      "statsHtml": "<span style=\"font-weight: bold\">+1 </span>Max MP when MP is consumed<br>(<span style=\"font-weight: bold; color: #34a853\">10 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">15 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">20 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">25</span><span style=\"font-weight: bold\"> </span>Max Stacks)",
+      "flavor": "Dew fills it overnight, and the bud closes during the day.",
+      "flavorHtml": "Dew fills it overnight, and the bud closes during the day.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-202",
+      "name": "Star Ruby",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_221.jpg",
+      "comboSet": "Lake",
+      "comboSets": [
+        "Lake"
+      ],
+      "placement": "20s Revive Time",
+      "placementHtml": "20s Revive Time",
+      "stats": "+10% / +20% / +33% Max HP",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+10% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+20% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+33%</span><span style=\"font-weight: bold\"> </span>Max HP",
+      "flavor": "To a new life.",
+      "flavorHtml": "To a new life.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-203",
+      "name": "Blood of Obrus",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_222.jpg",
+      "comboSet": "Lake",
+      "comboSets": [
+        "Lake"
+      ],
+      "placement": "[0.1s CD] for each Companion",
+      "placementHtml": "[0.1s CD] for each Companion",
+      "stats": "+3 / +6 / +9 / +12 MP Steal",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+9 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12</span><span style=\"font-weight: bold\"> </span>MP Steal",
+      "flavor": "They say that drinking this blood brings a sickness that makes crossing running water impossible.",
+      "flavorHtml": "They say that drinking this blood brings a sickness that makes crossing running water impossible.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-204",
+      "name": "Ahmad's Spirit Powder",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_223.jpg",
+      "comboSet": "Companion",
+      "comboSets": [
+        "Companion",
+        "Magitech"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Summons Electric Jellyfish : fires lightning projectiles, dealing 20 / 37 / 62 / 85 / 110 Companion DMG and inflicting Electrocution ( 66 / 72 / 78 / 84 / 105 HP)",
+      "statsHtml": "Summons <span style=\"font-weight: bold\">Electric Jellyfish</span>: fires lightning projectiles, dealing <span style=\"font-weight: bold; color: #34a853\">20 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">37 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">62 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">85 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">110 </span>Companion DMG and inflicting <span style=\"font-weight: bold\">Electrocution</span> (<span style=\"font-weight: bold; color: #34a853\">66 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">72 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">78 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">84 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">105</span><span style=\"font-weight: bold\"> </span>HP)",
+      "flavor": "The place without waves. The place without waves. The place where no one has to be hurt. I want to go back there.",
+      "flavorHtml": "The place without waves. The place without waves. The place where no one has to be hurt. I want to go back there.",
+      "rarity": "Advanced Companion",
+      "rarityHtml": "Advanced Companion"
+    },
+    {
+      "id": "artifact-205",
+      "name": "Devotion Insignia",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_224.jpg",
+      "comboSet": "Companion",
+      "comboSets": [
+        "Companion"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Companions in the same row deals Chaos DMG instead +6 / +12 / +18 / +24 Companion DEF",
+      "statsHtml": "Companions in the same row deals Chaos DMG instead<br><span style=\"font-weight: bold; color: #34a853\">+6 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+18 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+24</span><span style=\"font-weight: bold\"> </span>Companion DEF",
+      "flavor": "For the sake of the one and only.",
+      "flavorHtml": "For the sake of the one and only.",
+      "rarity": "Advanced Companion",
+      "rarityHtml": "Advanced Companion"
+    },
+    {
+      "id": "artifact-206",
+      "name": "Tactical Manual",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_225.jpg",
+      "comboSet": "Companion",
+      "comboSets": [
+        "Companion",
+        "Precision"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Companions gain 30% / 60% / 90% / 120% of your Critical Chance/DMG +2% / +4% / +6% / +8% Critical Chance",
+      "statsHtml": "Companions gain <span style=\"font-weight: bold; color: #34a853\">30% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">60% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">90% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">120%</span> of your Critical Chance/DMG<br><span style=\"font-weight: bold; color: #34a853\">+2% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8%</span><span style=\"color: #34a853\"> </span>Critical Chance",
+      "flavor": "A book stored in the library. Its date of writing is unknown.",
+      "flavorHtml": "A book stored in the library. Its date of writing is unknown.",
+      "rarity": "Rare Bond Artifact",
+      "rarityHtml": "Rare Bond Artifact"
+    },
+    {
+      "id": "artifact-207",
+      "name": "Shimmering Eyes",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_226.jpg",
+      "comboSet": "Shadow",
+      "comboSets": [
+        "Shadow",
+        "Precision"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "On Critical Hit, gain Mirage : when full, evade the next attack and deal Chaos DMG equal to 300% / 600% / 900% / 1200% / 1500% of Evasion to enemies within a ??? tiles range",
+      "statsHtml": "On Critical Hit, gain <span style=\"font-weight: bold\">Mirage</span>: when full, evade the next attack and deal Chaos DMG equal to <span style=\"font-weight: bold; color: #34a853\">300% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">600% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">900% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">1200% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">1500%</span> of Evasion to enemies within a ??? tiles range",
+      "flavor": "Formless yet tangible, it won't escape even when placed in a bag.",
+      "flavorHtml": "Formless yet tangible, it won&#39;t escape even when placed in a bag.",
+      "rarity": "Rare Bond Artifact",
+      "rarityHtml": "Rare Bond Artifact"
+    },
+    {
+      "id": "artifact-208",
+      "name": "Sheet Music 'Galaxy'",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_227.jpg",
+      "comboSet": "Planet",
+      "comboSets": [
+        "Planet",
+        "Wind Song"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+4% / +8% / +12% ATK SPD [ ★★ ] : Each Direct ATK hit increases Planet ATK SPD",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+4% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12%</span> ATK SPD<br><span style=\"font-weight: bold\">[</span><span style=\"font-weight: bold; color: #34a853\">★★</span><span style=\"font-weight: bold\">]</span>: Each Direct ATK hit increases Planet ATK SPD",
+      "flavor": "Woven with the darkness of the sky and the stars.",
+      "flavorHtml": "Woven with the darkness of the sky and the stars.",
+      "rarity": "Rare Bond Artifact",
+      "rarityHtml": "Rare Bond Artifact"
+    },
+    {
+      "id": "artifact-209",
+      "name": "Eternal Eclipse",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_228.jpg",
+      "comboSet": "Solar Blade",
+      "comboSets": [
+        "Solar Blade",
+        "Frost Relic"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Left Side: Frost Relic scales to Fire DMG Right Side: Solar Blade scales to Cold DMG Solar Blade now activates on Frost Relic hit +6% / +13% / +21% / +30% Frost Relic DMG +6% / +13% / +21% / +30% Solar Blade DMG",
+      "statsHtml": "<span style=\"font-weight: bold\">Left </span>Side: <span style=\"font-weight: bold\">Frost Relic</span> scales to Fire DMG<br><span style=\"font-weight: bold\">Right </span>Side: <span style=\"font-weight: bold\">Solar Blade</span> scales to Cold DMG<br>Solar Blade now activates on Frost Relic hit<br><span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+13% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+21% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+30%</span> Frost Relic DMG<br><span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+13% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+21% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+30%</span> Solar Blade DMG",
+      "flavor": "Model carved with the blue moon and sun.",
+      "flavorHtml": "Model carved with the blue moon and sun.",
+      "rarity": "Rare Bond Artifact",
+      "rarityHtml": "Rare Bond Artifact"
+    },
+    {
+      "id": "artifact-210",
+      "name": "Flux Coupler Mk.2",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_229.jpg",
+      "comboSet": "Storm Cloud",
+      "comboSets": [
+        "Storm Cloud",
+        "Companion"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "When Lightning DMG is dealt by a Companion: Shoot Storm Cloud +3% / +6% / +9% / +12% Companion DMG",
+      "statsHtml": "When Lightning DMG is dealt by a Companion: Shoot Storm Cloud<br><span style=\"font-weight: bold; color: #34a853\">+3% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+9% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12%</span><span style=\"color: #34a853\"> <br></span>Companion DMG",
+      "flavor": "Old device. Written on the back: 'Standard Issue - Compatible with Most Entities'.",
+      "flavorHtml": "Old device. Written on the back: &#39;Standard Issue - Compatible with Most Entities&#39;.",
+      "rarity": "Rare Bond Artifact",
+      "rarityHtml": "Rare Bond Artifact"
+    },
+    {
+      "id": "artifact-211",
+      "name": "Pearl Dust",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_230.jpg",
+      "comboSet": "Academy",
+      "comboSets": [
+        "Academy"
+      ],
+      "placement": "Reserve 15 MP",
+      "placementHtml": "Reserve <span style=\"font-weight: bold\">15 </span>MP",
+      "stats": "+8% / +10% / +12% Grimoire DMG",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+8% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+10% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12%</span><span style=\"font-weight: bold\"> </span>Grimoire DMG",
+      "flavor": "It can now be made artificially, but plenty of counterfeit dust is still in circulation.",
+      "flavorHtml": "It can now be made artificially, but plenty of counterfeit dust is still in circulation.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-212",
+      "name": "Orb of Yearning",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_231.jpg",
+      "comboSet": "Academy",
+      "comboSets": [
+        "Academy"
+      ],
+      "placement": "20s Revive Time",
+      "placementHtml": "20s Revive Time",
+      "stats": "+10% / +12% / +15% / +18% Grimoire DMG",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+10% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+15% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+18%<br></span>Grimoire DMG",
+      "flavor": "Looking at it causes your eyes to spin.",
+      "flavorHtml": "Looking at it causes your eyes to spin.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-213",
+      "name": "Tero's Spirit Powder",
+      "stars": "★★★★★",
+      "icon": "resources/cellImage_1861789692_232.jpg",
+      "comboSet": "Companion",
+      "comboSets": [
+        "Companion",
+        "Ember"
+      ],
+      "placement": "19 / 15 / 12 MP Cost [20s CD]",
+      "placementHtml": "<span style=\"font-weight: bold; color: #34a853\">19 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">15 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">12</span><span style=\"font-weight: bold\"> </span>MP Cost [20s CD]",
+      "stats": "Summons Fire Jellyfish : shoot fire projectiles, dealing 22 / 28 / 34 / 40 / 48 / 60 Companion DMG and inflicting Burn ( 66 / 72 / 78 / 84 / 105 / 120 HP)",
+      "statsHtml": "Summons <span style=\"font-weight: bold\">Fire Jellyfish</span>: shoot fire projectiles, dealing <span style=\"font-weight: bold; color: #34a853\">22 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">28 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">34 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">40 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">48 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">60 </span>Companion DMG and inflicting <span style=\"font-weight: bold\">Burn</span> (<span style=\"font-weight: bold; color: #34a853\">66 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">72 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">78 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">84 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">105 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">120</span><span style=\"font-weight: bold\"> </span>HP)",
+      "flavor": "My little friend who danced with me in the stillness.",
+      "flavorHtml": "My little friend who danced with me in the stillness.",
+      "rarity": "Advanced Companion",
+      "rarityHtml": "Advanced Companion"
+    },
+    {
+      "id": "artifact-214",
+      "name": "Great Blessing",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_233.jpg",
+      "comboSet": "Mystic",
+      "comboSets": [
+        "Mystic"
+      ],
+      "placement": "Must be placed on the lowest slots",
+      "placementHtml": "Must be placed on the lowest slots",
+      "stats": "Grants Great Blessing skill: gains +12% All DMG for 12s",
+      "statsHtml": "Grants <span style=\"font-weight: bold\">Great Blessing </span>skill: gains <span style=\"font-weight: bold\">+12%</span> All DMG for 12s",
+      "flavor": "A book containing a Great Blessing spell.",
+      "flavorHtml": "A book containing a Great Blessing spell.",
+      "rarity": "Advanced Grimoire",
+      "rarityHtml": "Advanced Grimoire"
+    },
+    {
+      "id": "artifact-215",
+      "name": "Elastic Band",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_234.jpg",
+      "comboSet": "Shadow",
+      "comboSets": [
+        "Shadow"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "On Evasion, recover Dash Count by 1 / 1 / 2 +2% / +4% / +6% Critical DMG +1 / +2 / +3 Evasion",
+      "statsHtml": "On Evasion, recover Dash Count by <br><span style=\"font-weight: bold; color: #34a853\">1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">2<br>+2% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6% </span>Critical DMG<br><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+3</span> Evasion",
+      "flavor": "Made for stiff animals.",
+      "flavorHtml": "Made for stiff animals.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-216",
+      "name": "Eternal Winter",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_235.jpg",
+      "comboSet": "Glacier",
+      "comboSets": [
+        "Glacier",
+        "Sturdy"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "On Normal ATK hit, 16% / 24% / 36% chance to additionally deal 100% of Physical DMG + 80% / 150% / 250% of Cold DMG as Normal ATK DMG (Affected by Weighted Activation Probability)",
+      "statsHtml": "On Normal ATK hit, <span style=\"font-weight: bold; color: #34a853\">16% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">24% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">36%</span> chance to additionally deal <span style=\"font-weight: bold\">100%</span> of Physical DMG + <span style=\"font-weight: bold; color: #34a853\">80% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">150% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">250%</span> of Cold DMG as Normal ATK DMG (Affected by Weighted Activation Probability)",
+      "flavor": "It was buried in the dirt. Doesn't seem like something of this world. - Taga",
+      "flavorHtml": "It was buried in the dirt. Doesn&#39;t seem like something of this world. - Taga",
+      "rarity": "Rare Bond Artifact",
+      "rarityHtml": "Rare Bond Artifact"
+    },
+    {
+      "id": "artifact-217",
+      "name": "Agma Projection Sword No. 190, 191",
+      "stars": "★★★★★★★",
+      "icon": "resources/cellImage_1861789692_236.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+2 / +3 / +4 / +6 / +8 / +10 / +12 / +14 Physical DMG",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+10 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+14</span><span style=\"color: #34a853\"> </span>Physical DMG",
+      "flavor": "The 190th. Its shape resembles a sword. Energy manifests only in symmetrical form. The blade itself does not appear. - Agma",
+      "flavorHtml": "The 190th. Its shape resembles a sword. Energy manifests only in symmetrical form. The blade itself does not appear. - Agma",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-218",
+      "name": "Multipurpose Belt",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_237.jpg",
+      "comboSet": "Mystic",
+      "comboSets": [
+        "Mystic"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "For each artifact on the top slots: +1 / +1 / +1 / +2 Fire DMG +1 / +1 / +1 / +2 Lightning DMG +1 / +1 / +1 / +2 Cold DMG",
+      "statsHtml": "For each artifact on the top slots:<br><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2</span> Fire DMG<br><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2</span><span style=\"color: #34a853\"> </span>Lightning DMG<br><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2</span> Cold DMG",
+      "flavor": "A must-have item for wanderers! Color code items to access them with ease! - Kiki",
+      "flavorHtml": "A must-have item for wanderers! Color code items to access them with ease! - Kiki",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-219",
+      "name": "Blue Hook",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_238.jpg",
+      "comboSet": "Mystic",
+      "comboSets": [
+        "Mystic"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "When HP is at or above 70%: +6% / +8% / +10% / +15% All DMG",
+      "statsHtml": "When HP is at or above 70%:<br><span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+10% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+15%</span><span style=\"color: #34a853\"> </span>All DMG",
+      "flavor": "You must not look when taking it out of the bag.",
+      "flavorHtml": "You must not look when taking it out of the bag.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-220",
+      "name": "Meditation Book",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_239.jpg",
+      "comboSet": "Academy",
+      "comboSets": [
+        "Academy"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Grimoires can be cast without initial delay +6% / +8% / +11% / +14% Grimoire DMG",
+      "statsHtml": "Grimoires can be cast<br>without initial delay<br><span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+11% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+14%<br></span>Grimoire DMG",
+      "flavor": "Don't try to grow yourself, accept who you are in this moment.",
+      "flavorHtml": "Don&#39;t try to grow yourself, accept who you are in this moment.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-221",
+      "name": "Glass Hammer",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_240.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
+      "placement": "20s Revive Time",
+      "placementHtml": "20s Revive Time",
+      "stats": "+3% / +6% / +9% / +12% Weapon DMG -3% / -6% / -9% / -12% Max HP",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+3% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+9% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12%</span><span style=\"font-weight: bold\"> </span>Weapon DMG<br><span style=\"font-weight: bold; color: #cc0000\">-3% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-9% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-12%</span><span style=\"font-weight: bold\"> </span>Max HP<br>",
+      "flavor": "It says it commemorates someone, but it's hard to make out.",
+      "flavorHtml": "It says it commemorates someone, but it&#39;s hard to make out.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-222",
+      "name": "Heita's Spirit Powder",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_241.jpg",
+      "comboSet": "Companion",
+      "comboSets": [
+        "Companion",
+        "Glacier"
+      ],
+      "placement": "Works on dual-combo pairs",
+      "placementHtml": "Works on dual-combo pairs",
+      "stats": "Summons Frost Jellyfish : fires ice projectiles, dealing 32 / 42 / 51 / 60 / 72 Companion DMG and inflicting Frostbite ( 110 / 120 / 130 / 140 / 175 HP)",
+      "statsHtml": "Summons <span style=\"font-weight: bold\">Frost Jellyfish</span>: fires ice projectiles, dealing <span style=\"font-weight: bold; color: #34a853\">32 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">42 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">51 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">60 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">72 </span>Companion DMG and inflicting <span style=\"font-weight: bold\">Frostbite<br></span>(<span style=\"font-weight: bold; color: #34a853\">110 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">120 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">130 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">140 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">175</span><span style=\"font-weight: bold\"> </span>HP)",
+      "flavor": "My comrades who parted ways with me on the night the world trembled.",
+      "flavorHtml": "My comrades who parted ways with me on the night the world trembled.",
+      "rarity": "Advanced Companion",
+      "rarityHtml": "Advanced Companion"
+    },
+    {
+      "id": "artifact-223",
+      "name": "Firefly",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_242.jpg",
+      "comboSet": "Magitech",
+      "comboSets": [
+        "Magitech"
+      ],
+      "placement": "Counts as a Melee ATK [No CD]",
+      "placementHtml": "Counts as a Melee ATK [No CD]",
+      "stats": "+4 / +8 / +12 Lightning DMG Disabled for 6s on damage taken",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12</span><span style=\"font-weight: bold\"> </span>Lightning DMG<br>Disabled for <span style=\"font-weight: bold\">6s</span> on damage taken",
+      "flavor": "A bug that emits a cold light. It tingles when touched.",
+      "flavorHtml": "A bug that emits a cold light. It tingles when touched.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-224",
+      "name": "Kunai",
+      "stars": "★★",
+      "icon": "resources/cellImage_1861789692_243.jpg",
+      "comboSet": "Precision",
+      "comboSets": [
+        "Precision"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "On Normal ATK, 20% / 25% / 30% chance to fire a Kunai : dealing 10 + 20% / 25% / 30% Critical DMG (Affected by Weighted Activation Probability)",
+      "statsHtml": "On Normal ATK, <span style=\"font-weight: bold; color: #34a853\">20% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">25% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">30%</span><span style=\"font-weight: bold\"> </span>chance to fire a <span style=\"font-weight: bold\">Kunai</span>: dealing <span style=\"font-weight: bold\">10</span> + <span style=\"font-weight: bold; color: #34a853\">20% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">25% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">30%</span> Critical DMG<br><span style=\"font-size: 9pt\">(Affected by Weighted Activation Probability)</span>",
+      "flavor": "Great for gardening. - Ken",
+      "flavorHtml": "Great for gardening. - Ken",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-225",
+      "name": "White Paper",
+      "stars": "★",
+      "icon": "resources/cellImage_1861789692_244.jpg",
+      "comboSet": "",
+      "comboSets": [],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "If artifact on the left and right slot is from the same combo, White Paper copies that combo +3% / +6% All DMG",
+      "statsHtml": "If artifact on the left and right slot is from the same combo, <br>White Paper copies that combo<br><span style=\"font-weight: bold; color: #34a853\">+3% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6%</span> All DMG",
+      "flavor": "The moment you touch it, a desire to fill the paper arises.",
+      "flavorHtml": "The moment you touch it, a desire to fill the paper arises.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-226",
+      "name": "Bunnyville Guard Helmet",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_245.jpg",
+      "comboSet": "Sturdy",
+      "comboSets": [
+        "Sturdy"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+4% / +8% / +12% / +16% Weapon DMG -4 / -4 / -8 / -8 Evasion",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+4% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+16%</span><span style=\"color: #34a853\"> </span>Weapon DMG<br><span style=\"font-weight: bold; color: #cc0000\">-4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-8 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-8</span> Evasion",
+      "flavor": "Fits only the face of an average-sized rabbit.",
+      "flavorHtml": "Fits only the face of an average-sized rabbit.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-227",
+      "name": "Green Gi",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_246.jpg",
+      "comboSet": "Shadow",
+      "comboSets": [
+        "Shadow"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "On Successful Evasion, cast Tiger Strike : launch an energy forward, dealing 30 + 200% / 300% / 450% / 600% Physical DMG +2 / +3 / +4 / +5 Evasion +5% / +7% / +9% / +12% Move SPD",
+      "statsHtml": "On Successful Evasion, cast <span style=\"font-weight: bold\">Tiger Strike</span>: launch an energy forward, dealing <span style=\"font-weight: bold\">30</span> + <span style=\"font-weight: bold; color: #34a853\">200% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">300% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">450% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">600%</span> Physical DMG<br><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+3 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+5</span><span style=\"color: #34a853\"> </span>Evasion<br><span style=\"font-weight: bold; color: #34a853\">+5% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+7% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+9% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12%</span> Move SPD",
+      "flavor": "Those who protect wear green.",
+      "flavorHtml": "Those who protect wear green.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-228",
+      "name": "Oink Shaman's Necklace",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_247.jpg",
+      "comboSet": "Curse",
+      "comboSets": [
+        "Curse"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+20% / +40% / +60% / +80% / +100% Duration of debuffs inflicted on enemies",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+20% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+40% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+60% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+80% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+100%</span><span style=\"color: #34a853\"> </span>Duration of debuffs inflicted on enemies",
+      "flavor": "A crudely woven necklace of fangs, bones, and gems.",
+      "flavorHtml": "A crudely woven necklace of fangs, bones, and gems.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-229",
+      "name": "Crimson Sunset",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_248.jpg",
+      "comboSet": "Solar Blade",
+      "comboSets": [
+        "Solar Blade"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Solar Blades have 20% / 40% / 60% / 80% / 100% chance to become Large : deals +33% more DMG",
+      "statsHtml": "Solar Blades have <span style=\"font-weight: bold; color: #34a853\">20% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">40% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">60% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">80% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">100%</span><span style=\"color: #34a853\"> </span>chance to become <span style=\"font-weight: bold\">Large</span>: deals <span style=\"font-weight: bold\">+33%</span> more DMG",
+      "flavor": "Captured the precise moment with color-infused fabric.",
+      "flavorHtml": "Captured the precise moment with color-infused fabric.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-230",
+      "name": "Lightning Stone",
+      "stars": "★★★★★★",
+      "icon": "resources/cellImage_1861789692_249.jpg",
+      "comboSet": "Storm Cloud",
+      "comboSets": [
+        "Storm Cloud"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+25% / +30% / +35% / +40% / +45% / +50% / +60% Storm Cloud DMG",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+25% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+30% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+35% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+40% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+45% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+50% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+60%</span><span style=\"color: #34a853\"> </span>Storm Cloud DMG",
+      "flavor": "Though it was discovered that contact with metal is what causes lightning to strike, nobody wants to risk using this stone.",
+      "flavorHtml": "Though it was discovered that contact with metal is what causes lightning to strike, nobody wants to risk using this stone.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-231",
+      "name": "Ancient Anvil",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_250.jpg",
+      "comboSet": "Solar Blade",
+      "comboSets": [
+        "Solar Blade"
+      ],
+      "placement": "[ 10s / 8s / 6s / 4s / 2.5s CD]",
+      "placementHtml": "[<span style=\"font-weight: bold; color: #34a853\">10s </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">8s </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">6s </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">4s </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">2.5s</span><span style=\"font-weight: bold\"> </span>CD]",
+      "stats": "+10% / +20% / +30% / +40% Solar Blade Fall SPD +2 / +4 / +6 / +8 Fire DMG",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+10% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+20% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+30% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+40%<br></span>Solar Blade Fall SPD<br><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8</span> Fire DMG",
+      "flavor": "Adapts to the user, but it's currently lost its power.",
+      "flavorHtml": "Adapts to the user, but it&#39;s currently lost its power.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-232",
+      "name": "Solis Parvo",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_251.jpg",
+      "comboSet": "Solar Blade",
+      "comboSets": [
+        "Solar Blade"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+1 / +1 / +2 / +2 / +3 Solar Blade Count +1% / +2% / +4% / +6% / +8% Move SPD",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+1 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+3</span><span style=\"font-weight: bold\"> </span>Solar Blade Count<br><span style=\"font-weight: bold; color: #34a853\">+1% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+2% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+4% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8%<br></span>Move SPD",
+      "flavor": "A dagger-shaped badge awarded to those who have become equals with the spirits.",
+      "flavorHtml": "A dagger-shaped badge awarded to those who have become equals with the spirits.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-233",
+      "name": "Solis Decussa",
+      "stars": "★★★",
+      "icon": "resources/cellImage_1861789692_252.jpg",
+      "comboSet": "Solar Blade",
+      "comboSets": [
+        "Solar Blade"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+5% / +10% / +15% / +20% Solar Blade DMG +4% / +8% / +12% / +16% Critical DMG",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+5% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+10% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+15% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+20%<br></span>Solar Blade DMG<br><span style=\"font-weight: bold; color: #34a853\">+4% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+8% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+12% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+16% </span>Critical DMG",
+      "flavor": "A twin sword-shaped badge awarded to one who skillfully handles spirits.",
+      "flavorHtml": "A twin sword-shaped badge awarded to one who skillfully handles spirits.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-234",
+      "name": "Meteorite Pauldrons",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_253.jpg",
+      "comboSet": "Solar Blade",
+      "comboSets": [
+        "Solar Blade"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Grants Meteorite Pauldrons ability: pull all Solar Blade s on the ground towards you and collect them, dealing Solar Blade DMG to enemies in their path",
+      "statsHtml": "Grants <span style=\"font-weight: bold\">Meteorite Pauldrons</span> ability: pull all <span style=\"font-weight: bold\">Solar Blade</span>s on the ground towards you and collect them, dealing <span style=\"font-weight: bold\">Solar Blade DMG</span> to enemies in their path",
+      "flavor": "Barely refined to preserve its unique effect.",
+      "flavorHtml": "Barely refined to preserve its unique effect.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-235",
+      "name": "Pallas's Cards",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_254.jpg",
+      "comboSet": "Wind Song",
+      "comboSets": [
+        "Wind Song"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "On Normal ATK, 10% + Luck x 0% / 0.5% / 1% / 1.5% / 2% chance to fire a Card : homes in towards nearest enemy, dealing 24 Physical DMG",
+      "statsHtml": "On Normal ATK, <span style=\"font-weight: bold\">10%</span> + <span style=\"font-weight: bold\">Luck x</span> <span style=\"font-weight: bold; color: #999999\">0%</span><span style=\"font-weight: bold; color: #34a853\"> </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">0.5% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">1% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">1.5% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">2%</span><span style=\"color: #34a853\"> </span>chance to fire a <span style=\"font-weight: bold\">Card</span>: homes in towards nearest enemy, dealing <span style=\"font-weight: bold\">24 </span>Physical DMG",
+      "flavor": "No matter how you shuffle, the Spade always rises to the top.",
+      "flavorHtml": "No matter how you shuffle, the Spade always rises to the top.",
+      "rarity": "Advanced Artifact",
+      "rarityHtml": "Advanced Artifact"
+    },
+    {
+      "id": "artifact-236",
+      "name": "Lizard Plate Armor",
+      "stars": "★★★★",
+      "icon": "resources/cellImage_1861789692_255.jpg",
+      "comboSet": "Guardian",
+      "comboSets": [
+        "Guardian"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "+14 / +16 / +18 / +21 / +24 DEF -2% / -4% / -6% / -8% / -10% Move SPD -2% / -4% / -6% / -8% / -10% ATK SPD -2 / -4 / -6 / -8 / -10 Grimoire Haste",
+      "statsHtml": "<span style=\"font-weight: bold; color: #34a853\">+14 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+16 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+18 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+21 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">+24</span><span style=\"color: #34a853\"> </span>DEF<br><span style=\"font-weight: bold; color: #cc0000\">-2% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-4% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-8% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-10%</span> Move SPD<br><span style=\"font-weight: bold; color: #cc0000\">-2% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-4% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-6% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-8% </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-10%</span> ATK SPD<br><span style=\"font-weight: bold; color: #cc0000\">-2 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-4 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-6 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-8 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #cc0000\">-10</span> Grimoire Haste",
+      "flavor": "Plate armor crafted by a skilled lizard artisan. It boosts excellent protection.",
+      "flavorHtml": "Plate armor crafted by a skilled lizard artisan. It boosts excellent protection.",
+      "rarity": "Rare Artifact",
+      "rarityHtml": "Rare Artifact"
+    },
+    {
+      "id": "artifact-237",
+      "name": "White Planet",
+      "stars": "★★★★★★★",
+      "icon": "resources/cellImage_1861789692_256.jpg",
+      "comboSet": "Planet",
+      "comboSets": [
+        "Planet"
+      ],
+      "placement": "",
+      "placementHtml": "",
+      "stats": "Summons a White Planet : fires ice bullets, dealing 30 / 36 / 42 / 48 / 54 / 60 / 66 / 72 Cold DMG",
+      "statsHtml": "Summons a <span style=\"font-weight: bold\">White Planet</span>: fires ice bullets, dealing <span style=\"font-weight: bold; color: #34a853\">30 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">36 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">42 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">48 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">54 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">60 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">66 </span><span style=\"font-weight: bold\">/ </span><span style=\"font-weight: bold; color: #34a853\">72</span><span style=\"color: #34a853\"> </span>Cold DMG",
+      "flavor": "A white planet model displayed in the library. It was made in the past by those who looked beyond the skies.",
+      "flavorHtml": "A white planet model displayed in the library. It was made in the past by those who looked beyond the skies.",
       "rarity": "Rare Artifact",
       "rarityHtml": "Rare Artifact"
     }

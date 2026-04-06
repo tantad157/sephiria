@@ -29,20 +29,10 @@
       <button type="button" class="tabs__btn" data-panel="artifacts">
         Artifacts
       </button>
+      <button type="button" class="tabs__btn" data-panel="combo-effects">
+        Combo effects
+      </button>
     </nav>
-
-    <div class="toolbar">
-      <label class="search">
-        <span class="search__icon" aria-hidden="true">⌕</span>
-        <input
-          type="search"
-          id="search"
-          class="search__input"
-          placeholder="Search names, stats, descriptions…"
-          autocomplete="off"
-        />
-      </label>
-    </div>
 
     <main class="main">
       <section id="panel-weapons" class="panel is-active" aria-labelledby="weapons-heading">
@@ -51,7 +41,17 @@
       </section>
       <section id="panel-artifacts" class="panel" aria-labelledby="artifacts-heading" hidden>
         <h2 id="artifacts-heading" class="visually-hidden">Artifacts</h2>
+        <div
+          id="artifact-set-filters"
+          class="artifact-set-filters"
+          role="toolbar"
+          aria-label="Filter by combo set"
+        ></div>
         <div id="artifacts-root" class="artifacts-root"></div>
+      </section>
+      <section id="panel-combo-effects" class="panel" aria-labelledby="combo-effects-heading" hidden>
+        <h2 id="combo-effects-heading" class="visually-hidden">Combo effects</h2>
+        <div id="combo-effects-root" class="combo-effects-root"></div>
       </section>
     </main>
 

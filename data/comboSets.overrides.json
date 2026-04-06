@@ -1,0 +1,66 @@
+{
+  "overrides": [
+    {
+      "name": "Frost Relic",
+      "icon": "resources/cellImage_1436729707_7.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "+6% Frost Relic CD SPD",
+          "effectHtml": "+6% Frost Relic CD SPD"
+        },
+        {
+          "pieces": 4,
+          "effect": "+8% Frost Relic CD SPD",
+          "effectHtml": "+8% Frost Relic CD SPD"
+        },
+        {
+          "pieces": 6,
+          "effect": "+6% Frost Relic DMG",
+          "effectHtml": "+6% Frost Relic DMG"
+        },
+        {
+          "pieces": 8,
+          "effect": "+8% Frost Relic DMG",
+          "effectHtml": "+8% Frost Relic DMG"
+        },
+        {
+          "pieces": 10,
+          "effect": "Frost Relics activate 1 additional time",
+          "effectHtml": "Frost Relics activate 1 additional time"
+        }
+      ]
+    },
+    {
+      "name": "Academy",
+      "icon": "resources/cellImage_1436729707_15.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "+8 Grimoire Haste",
+          "effectHtml": "+8 Grimoire Haste"
+        },
+        {
+          "pieces": 4,
+          "effect": "+12 Grimoire Haste",
+          "effectHtml": "+12 Grimoire Haste"
+        },
+        {
+          "pieces": 6,
+          "effect": "+16 Grimoire Haste",
+          "effectHtml": "+16 Grimoire Haste"
+        },
+        {
+          "pieces": 8,
+          "effect": "+20 Grimoire Haste",
+          "effectHtml": "+20 Grimoire Haste"
+        },
+        {
+          "pieces": 10,
+          "effect": "+15% Grimoire DMG +8 MP Regen",
+          "effectHtml": "+15% Grimoire DMG<br>+8 MP Regen"
+        }
+      ]
+    }
+  ]
+}

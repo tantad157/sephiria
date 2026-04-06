@@ -1,0 +1,440 @@
+{
+  "comboSets": [
+    {
+      "name": "Academy",
+      "icon": "resources/cellImage_1436729707_15.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "+8 Grimoire Haste",
+          "effectHtml": "+8 Grimoire Haste"
+        },
+        {
+          "pieces": 4,
+          "effect": "+12 Grimoire Haste",
+          "effectHtml": "+12 Grimoire Haste"
+        },
+        {
+          "pieces": 6,
+          "effect": "+16 Grimoire Haste",
+          "effectHtml": "+16 Grimoire Haste"
+        },
+        {
+          "pieces": 8,
+          "effect": "+20 Grimoire Haste",
+          "effectHtml": "+20 Grimoire Haste"
+        },
+        {
+          "pieces": 10,
+          "effect": "+15% Grimoire DMG +8 MP Regen",
+          "effectHtml": "+15% Grimoire DMG<br>+8 MP Regen"
+        }
+      ]
+    },
+    {
+      "name": "Companion",
+      "icon": "resources/cellImage_1436729707_10.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "+6% Companion DMG",
+          "effectHtml": "+6% Companion DMG"
+        },
+        {
+          "pieces": 4,
+          "effect": "+8% Companion DMG",
+          "effectHtml": "+8% Companion DMG"
+        },
+        {
+          "pieces": 6,
+          "effect": "+10% Companion DMG +15 Companion DEF",
+          "effectHtml": "+10% Companion DMG<br>+15 Companion DEF"
+        },
+        {
+          "pieces": 8,
+          "effect": "+12% Companion DMG +20 Companion DEF",
+          "effectHtml": "+12% Companion DMG<br>+20 Companion DEF"
+        },
+        {
+          "pieces": 10,
+          "effect": "+20% Companion DMG +40% Companion Revive SPD",
+          "effectHtml": "+20% Companion DMG<br>+40% Companion Revive SPD"
+        }
+      ]
+    },
+    {
+      "name": "Elemental",
+      "icon": "resources/cellImage_1436729707_13.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "+5 Highest Elemental DMG",
+          "effectHtml": "+5 Highest Elemental DMG"
+        },
+        {
+          "pieces": 4,
+          "effect": "+6 Highest Elemental DMG",
+          "effectHtml": "+6 Highest Elemental DMG"
+        },
+        {
+          "pieces": 6,
+          "effect": "+10% All Elemental DMG",
+          "effectHtml": "+10% All Elemental DMG"
+        }
+      ]
+    },
+    {
+      "name": "Ember",
+      "icon": "resources/cellImage_1436729707_11.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "Activate Flame Touch : Inflict Burn on Fire DMG dealt (exclude debuffs, 2s CD)",
+          "effectHtml": "Activate <span style=\"font-weight: bold\">Flame Touch</span>: Inflict <span style=\"font-weight: bold\">Burn </span>on Fire DMG dealt (exclude debuffs, 2s CD)"
+        },
+        {
+          "pieces": 4,
+          "effect": "+6 Fire DMG",
+          "effectHtml": "+6 Fire DMG"
+        },
+        {
+          "pieces": 6,
+          "effect": "+150% Flame Touch CD Haste",
+          "effectHtml": "+150% <span style=\"font-weight: bold\">Flame Touch</span> CD Haste"
+        },
+        {
+          "pieces": 8,
+          "effect": "+8 Fire DMG",
+          "effectHtml": "+8 Fire DMG"
+        },
+        {
+          "pieces": 10,
+          "effect": "Burn now deals 28% Fire DMG instead of 18%",
+          "effectHtml": "Burn now deals 28% Fire DMG <br>instead of 18%"
+        }
+      ]
+    },
+    {
+      "name": "Frost Relic",
+      "icon": "resources/cellImage_1436729707_7.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "+6% Frost Relic CD SPD",
+          "effectHtml": "+6% Frost Relic CD SPD"
+        },
+        {
+          "pieces": 4,
+          "effect": "+8% Frost Relic CD SPD",
+          "effectHtml": "+8% Frost Relic CD SPD"
+        },
+        {
+          "pieces": 6,
+          "effect": "+6% Frost Relic DMG",
+          "effectHtml": "+6% Frost Relic DMG"
+        },
+        {
+          "pieces": 8,
+          "effect": "+8% Frost Relic DMG",
+          "effectHtml": "+8% Frost Relic DMG"
+        },
+        {
+          "pieces": 10,
+          "effect": "Frost Relics activate 1 additional time",
+          "effectHtml": "Frost Relics activate 1 additional time"
+        }
+      ]
+    },
+    {
+      "name": "Glacier",
+      "icon": "resources/cellImage_1436729707_2.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "Activate Frost Touch : Inflict Frostbite on Cold DMG dealt (exclude debuffs, 2s CD)",
+          "effectHtml": "Activate <span style=\"font-weight: bold\">Frost Touch</span>: Inflict <span style=\"font-weight: bold\">Frostbite </span>on Cold DMG dealt (exclude debuffs, 2s CD)"
+        },
+        {
+          "pieces": 4,
+          "effect": "+6 Cold DMG",
+          "effectHtml": "+6 Cold DMG"
+        },
+        {
+          "pieces": 6,
+          "effect": "+150% Frost Touch CD Haste",
+          "effectHtml": "+150% <span style=\"font-weight: bold\">Frost Touch</span> CD Haste"
+        },
+        {
+          "pieces": 8,
+          "effect": "+8 Cold DMG",
+          "effectHtml": "+8 Cold DMG"
+        },
+        {
+          "pieces": 10,
+          "effect": "Freeze require 1 less Frostbite stacks",
+          "effectHtml": "<span style=\"font-weight: bold\">Freeze </span>require 1 less <span style=\"font-weight: bold\">Frostbite </span>stacks"
+        }
+      ]
+    },
+    {
+      "name": "Guardian",
+      "icon": "resources/cellImage_1436729707_14.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "+6 DEF",
+          "effectHtml": "+6 DEF"
+        },
+        {
+          "pieces": 4,
+          "effect": "+7 DEF",
+          "effectHtml": "+7 DEF"
+        },
+        {
+          "pieces": 6,
+          "effect": "+8 DEF",
+          "effectHtml": "+8 DEF"
+        }
+      ]
+    },
+    {
+      "name": "Lake",
+      "icon": "resources/cellImage_1436729707_3.jpg",
+      "tiers": [
+        {
+          "pieces": 3,
+          "effect": "+20 Max MP +5 MP Regen",
+          "effectHtml": "+20 Max MP<br>+5 MP Regen"
+        },
+        {
+          "pieces": 6,
+          "effect": "+30 Max MP +10% DMG on abilities with MP Cost",
+          "effectHtml": "+30 Max MP<br>+10% DMG on abilities with MP Cost"
+        },
+        {
+          "pieces": 9,
+          "effect": "+40 Max MP +25% DMG on abilities with MP Cost",
+          "effectHtml": "+40 Max MP<br>+25% DMG on abilities with MP Cost"
+        }
+      ]
+    },
+    {
+      "name": "Magitech",
+      "icon": "resources/cellImage_1436729707_6.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "Activate Shock Touch : Inflict Electrocute on Lightning DMG dealt (exclude debuffs, 2s CD)",
+          "effectHtml": "Activate <span style=\"font-weight: bold\">Shock Touch</span>: Inflict <span style=\"font-weight: bold\">Electrocute </span>on Lightning DMG dealt <br>(exclude debuffs, 2s CD)"
+        },
+        {
+          "pieces": 4,
+          "effect": "+6 Lightning DMG",
+          "effectHtml": "+6 Lightning DMG"
+        }
+      ]
+    },
+    {
+      "name": "Mystic",
+      "icon": "resources/cellImage_1436729707_5.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "Doubles ★ Level on one random inventory slot",
+          "effectHtml": "Doubles ★ Level on one random inventory slot"
+        },
+        {
+          "pieces": 4,
+          "effect": "Doubles ★ Level on another two random inventory slots",
+          "effectHtml": "Doubles ★ Level on another two random inventory slots"
+        }
+      ]
+    },
+    {
+      "name": "Planet",
+      "icon": "resources/cellImage_1436729707_8.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "+8% Planet DMG",
+          "effectHtml": "+8% Planet DMG"
+        },
+        {
+          "pieces": 4,
+          "effect": "+10% Planet DMG",
+          "effectHtml": "+10% Planet DMG"
+        },
+        {
+          "pieces": 6,
+          "effect": "+12% Planet DMG",
+          "effectHtml": "+12% Planet DMG"
+        },
+        {
+          "pieces": 8,
+          "effect": "+14% Planet DMG",
+          "effectHtml": "+14% Planet DMG"
+        },
+        {
+          "pieces": 10,
+          "effect": "+16% Planet DMG +12% Planet ATK SPD",
+          "effectHtml": "+16% Planet DMG<br>+12% Planet ATK SPD"
+        }
+      ]
+    },
+    {
+      "name": "Precision",
+      "icon": "resources/cellImage_1436729707_9.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "+4% Critical Chance",
+          "effectHtml": "+4% Critical Chance"
+        },
+        {
+          "pieces": 4,
+          "effect": "+6% Critical Chance",
+          "effectHtml": "+6% Critical Chance"
+        },
+        {
+          "pieces": 6,
+          "effect": "+8% Critical Chance",
+          "effectHtml": "+8% Critical Chance"
+        },
+        {
+          "pieces": 8,
+          "effect": "+10% Critical Chance",
+          "effectHtml": "+10% Critical Chance"
+        },
+        {
+          "pieces": 10,
+          "effect": "+30% Critical DMG",
+          "effectHtml": "+30% Critical DMG"
+        }
+      ]
+    },
+    {
+      "name": "Shadow",
+      "icon": "resources/cellImage_1436729707_1.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "+2 Evasion",
+          "effectHtml": "+2 Evasion"
+        },
+        {
+          "pieces": 4,
+          "effect": "+4 Evasion",
+          "effectHtml": "+4 Evasion"
+        },
+        {
+          "pieces": 6,
+          "effect": "+6 Evasion",
+          "effectHtml": "+6 Evasion"
+        },
+        {
+          "pieces": 8,
+          "effect": "+8 Evasion",
+          "effectHtml": "+8 Evasion"
+        },
+        {
+          "pieces": 10,
+          "effect": "+10 Evasion",
+          "effectHtml": "+10 Evasion"
+        }
+      ]
+    },
+    {
+      "name": "Storm Cloud",
+      "icon": "resources/cellImage_1436729707_12.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "Activate Storm Cloud : Summon clouds that strike enemies, dealing 110% Lightning DMG each sec Recover 5% of Capacity every 5s in combat",
+          "effectHtml": "Activate <span style=\"font-weight: bold\">Storm Cloud</span>: Summon clouds that strike enemies, dealing 110% Lightning DMG each sec<br>Recover 5% of Capacity every 5s in combat"
+        },
+        {
+          "pieces": 4,
+          "effect": "+8 Storm Cloud Capacity",
+          "effectHtml": "+8 Storm Cloud Capacity"
+        },
+        {
+          "pieces": 6,
+          "effect": "+12 Storm Cloud Capacity",
+          "effectHtml": "+12 Storm Cloud Capacity"
+        },
+        {
+          "pieces": 8,
+          "effect": "+16 Storm Cloud Capacity",
+          "effectHtml": "+16 Storm Cloud Capacity"
+        },
+        {
+          "pieces": 10,
+          "effect": "+20 Storm Cloud Capacity Storm Cloud now strikes twice on each activation",
+          "effectHtml": "+20 Storm Cloud Capacity<br><span style=\"font-size: 9pt; font-weight: bold\">Storm Cloud</span><span style=\"font-size: 9pt\"> now strikes twice on each activation</span>"
+        }
+      ]
+    },
+    {
+      "name": "Sturdy",
+      "icon": "resources/cellImage_1436729707_0.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "+2 Physical DMG",
+          "effectHtml": "+2 Physical DMG"
+        },
+        {
+          "pieces": 4,
+          "effect": "+4 Physical DMG",
+          "effectHtml": "+4 Physical DMG"
+        },
+        {
+          "pieces": 6,
+          "effect": "+6 Physical DMG",
+          "effectHtml": "+6 Physical DMG"
+        },
+        {
+          "pieces": 8,
+          "effect": "+8 Physical DMG",
+          "effectHtml": "+8 Physical DMG"
+        },
+        {
+          "pieces": 10,
+          "effect": "+15% Physical DMG",
+          "effectHtml": "+15% Physical DMG"
+        }
+      ]
+    },
+    {
+      "name": "Wind Song",
+      "icon": "resources/cellImage_1436729707_4.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "+8% ATK SPD",
+          "effectHtml": "+8% ATK SPD"
+        },
+        {
+          "pieces": 4,
+          "effect": "+12% ATK SPD",
+          "effectHtml": "+12% ATK SPD"
+        },
+        {
+          "pieces": 6,
+          "effect": "+16% ATK SPD",
+          "effectHtml": "+16% ATK SPD"
+        },
+        {
+          "pieces": 8,
+          "effect": "+20% ATK SPD",
+          "effectHtml": "+20% ATK SPD"
+        },
+        {
+          "pieces": 10,
+          "effect": "+15% Weapon DMG +1 Dash Count",
+          "effectHtml": "+15% Weapon DMG<br>+1 Dash Count"
+        }
+      ]
+    }
+  ]
+}

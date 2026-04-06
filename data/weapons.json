@@ -602,22 +602,6 @@
               "descriptionHtml": "<span style=\"font-weight: bold\">Fury</span> becomes <span style=\"font-weight: bold\">Special ATK: Liberation</span>: consumes all MP to release <span style=\"font-weight: bold\">[MP Used ÷ 8]</span> projectile(s) dealing DMG equal to <br><span style=\"font-weight: bold\">100% [+5% every 50 MP Used]</span> of highest DMG Type<br><span style=\"font-weight: bold; color: #cc0000\">Special ATK: Liberation cannot trigger Fury</span>"
             }
           ]
-        },
-        {
-          "tier2Icon": "resources/cellImage_0_128.jpg",
-          "tier2Name": "M-9199",
-          "tier2NameHtml": "M-9199",
-          "tier2Stats": "7 Ammo | 1 Magazines | 2.3/s Fire Rate | 1.4s Reload Normal Attack pierces through enemies Special ATK becomes Special ATK: Ammo Compression : combines all bullets in the magazine into one, dealing +25% DMG per bullet (10 MP Cost)",
-          "tier2StatsHtml": "<span style=\"font-weight: bold\">7 Ammo | 1 Magazines | 2.3/s Fire Rate | 1.4s Reload</span><br>Normal Attack pierces through enemies<br><span style=\"font-weight: bold\">Special ATK </span>becomes <span style=\"font-weight: bold\">Special ATK: Ammo Compression</span>: combines all bullets in the magazine into one, dealing +25% DMG per bullet (10 MP Cost)<br>",
-          "tier3": [
-            {
-              "icon": "resources/cellImage_0_129.jpg",
-              "name": "XRA-9",
-              "nameHtml": "XRA-9",
-              "description": "10 Ammo | 1 Magazines | 2.3/s Fire Rate | 1.4s Reload On Final Normal ATK, -25% Grimoire and Ability Cooldown",
-              "descriptionHtml": "<span style=\"font-weight: bold\">10 Ammo | 1 Magazines | 2.3/s Fire Rate | 1.4s Reload</span><br>On Final Normal ATK, -25% Grimoire and Ability Cooldown"
-            }
-          ]
         }
       ]
     },
@@ -784,18 +768,18 @@
           ]
         },
         {
-          "tier2Icon": "resources/cellImage_0_130.jpg",
-          "tier2Name": "Armor-Bender",
-          "tier2NameHtml": "Armor-Bender",
-          "tier2Stats": "+1% Direct ATK DMG every 2 DEF",
-          "tier2StatsHtml": "+1% Direct ATK DMG every 2 DEF",
+          "tier2Icon": "resources/cellImage_0_128.jpg",
+          "tier2Name": "M-9199",
+          "tier2NameHtml": "M-9199",
+          "tier2Stats": "7 Ammo | 1 Magazines | 2.3/s Fire Rate | 1.4s Reload Normal Attack pierces through enemies Special ATK becomes Special ATK: Ammo Compression : combines all bullets in the magazine into one, dealing +25% DMG per bullet (10 MP Cost)",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">7 Ammo | 1 Magazines | 2.3/s Fire Rate | 1.4s Reload</span><br>Normal Attack pierces through enemies<br><span style=\"font-weight: bold\">Special ATK </span>becomes <span style=\"font-weight: bold\">Special ATK: Ammo Compression</span>: combines all bullets in the magazine into one, dealing +25% DMG per bullet (10 MP Cost)<br>",
           "tier3": [
             {
-              "icon": "resources/cellImage_0_131.jpg",
-              "name": "Breakplate Blade",
-              "nameHtml": "Breakplate Blade",
-              "description": "While Unsheathed, +1 Stack of Hardening every 0.8s: +1 DEF per stack (10 Max) When Sheathed at max stacks, the next 10 Normal ATK create a wave of rocks and deals +4% DMG every 2 DEF",
-              "descriptionHtml": "While Unsheathed, +1 Stack of <span style=\"font-weight: bold\">Hardening </span>every 0.8s: <br>+1 DEF per stack (10 Max)<br>When Sheathed at max stacks, the next 10 Normal ATK create a wave of rocks and deals +4% DMG every 2 DEF"
+              "icon": "resources/cellImage_0_129.jpg",
+              "name": "XRA-9",
+              "nameHtml": "XRA-9",
+              "description": "10 Ammo | 1 Magazines | 2.3/s Fire Rate | 1.4s Reload On Final Normal ATK, -25% Grimoire and Ability Cooldown",
+              "descriptionHtml": "<span style=\"font-weight: bold\">10 Ammo | 1 Magazines | 2.3/s Fire Rate | 1.4s Reload</span><br>On Final Normal ATK, -25% Grimoire and Ability Cooldown"
             }
           ]
         }
@@ -960,6 +944,22 @@
               "nameHtml": "Lightning Flash",
               "description": "On hit using Electrocution , gain Electric Charge (10 Max) When using Special ATK: Heavy Slash , consume 2 stacks to instead use Special ATK: Issen : deal 50% x [Max Electrocution Stack] Lightning DMG",
               "descriptionHtml": "On hit using <span style=\"font-weight: bold\">Electrocution</span>, gain <span style=\"font-weight: bold\">Electric Charge</span> (10 Max) <br>When using <span style=\"font-weight: bold\">Special ATK: Heavy Slash</span>, consume 2 stacks to instead use <span style=\"font-weight: bold\">Special ATK: Issen</span>: deal <span style=\"font-weight: bold\">50% x [Max Electrocution Stack]</span> Lightning DMG"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_130.jpg",
+          "tier2Name": "Armor-Bender",
+          "tier2NameHtml": "Armor-Bender",
+          "tier2Stats": "+1% Direct ATK DMG every 2 DEF",
+          "tier2StatsHtml": "+1% Direct ATK DMG every 2 DEF",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_131.jpg",
+              "name": "Breakplate Blade",
+              "nameHtml": "Breakplate Blade",
+              "description": "While Unsheathed, +1 Stack of Hardening every 0.8s: +1 DEF per stack (10 Max) When Sheathed at max stacks, the next 10 Normal ATK create a wave of rocks and deals +4% DMG every 2 DEF",
+              "descriptionHtml": "While Unsheathed, +1 Stack of <span style=\"font-weight: bold\">Hardening </span>every 0.8s: <br>+1 DEF per stack (10 Max)<br>When Sheathed at max stacks, the next 10 Normal ATK create a wave of rocks and deals +4% DMG every 2 DEF"
             }
           ]
         }

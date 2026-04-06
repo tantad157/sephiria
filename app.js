@@ -133,8 +133,7 @@ function weaponTier2ModalHtml(u) {
     </div>`;
 }
 
-function renderWeapons(weapons, query, nav) {
-  const q = query.trim().toLowerCase();
+function renderWeapons(weapons, nav) {
   const root = document.getElementById("weapons-root");
   const baseId = nav && nav.baseId;
   const parts = [];
@@ -143,7 +142,7 @@ function renderWeapons(weapons, query, nav) {
     const w = weapons.find((x) => x.id === baseId);
     if (!w) {
       nav.baseId = null;
-      return renderWeapons(weapons, query, nav);
+      return renderWeapons(weapons, nav);
     }
 
     const titleHtml = w.tier1NameHtml
@@ -169,13 +168,8 @@ function renderWeapons(weapons, query, nav) {
     } else {
       for (let i = 0; i < upgrades.length; i++) {
         const u = upgrades[i];
-        const blob = JSON.stringify(u)
-          .replace(/<[^>]+>/g, " ")
-          .toLowerCase();
-        const match = !q || blob.includes(q);
-        const hidden = match ? "" : " is-hidden";
         parts.push(`
-      <button type="button" class="artifact-card weapon-tier2-card${hidden}" data-base-id="${esc(
+      <button type="button" class="artifact-card weapon-tier2-card" data-base-id="${esc(
         w.id
       )}" data-tier2-index="${i}">
         ${imgSmall(u.tier2Icon, u.tier2Name, "artifact-card__icon")}
@@ -193,18 +187,12 @@ function renderWeapons(weapons, query, nav) {
   }
 
   for (const w of weapons) {
-    const searchBlob = JSON.stringify(w)
-      .replace(/<[^>]+>/g, " ")
-      .toLowerCase();
-    const match = !q || searchBlob.includes(q);
-    const hidden = match ? "" : " is-hidden";
-
     const titleHtml = w.tier1NameHtml
       ? richContent(w.tier1NameHtml, w.name)
       : esc(w.name);
 
     parts.push(`
-      <button type="button" class="artifact-card weapon-base-card${hidden}" data-base-id="${esc(
+      <button type="button" class="artifact-card weapon-base-card" data-base-id="${esc(
         w.id
       )}">
         ${imgSmall(w.tier1Icon, w.name, "artifact-card__icon")}
@@ -221,22 +209,126 @@ function renderWeapons(weapons, query, nav) {
 
   root.innerHTML =
     parts.join("") ||
-    `<p class="empty-state">No weapons match your search.</p>`;
+    `<p class="empty-state">No weapon data.</p>`;
   postProcessRich(root);
 }
 
-function renderArtifacts(artifacts, query) {
-  const q = query.trim().toLowerCase();
+function artifactComboSetNames(a) {
+  if (a.comboSets && a.comboSets.length) return a.comboSets;
+  return a.comboSet ? [a.comboSet] : [];
+}
+
+function artifactRarityKind(rarity) {
+  const r = String(rarity || "").toLowerCase();
+  if (r.includes("rare bond")) return "bond";
+  if (r.includes("eternal")) return "eternal";
+  if (r.includes("legendary")) return "legendary";
+  if (r.includes("rare")) return "rare";
+  if (r.includes("advanced")) return "advanced";
+  if (r.includes("common")) return "common";
+  return "";
+}
+
+function artifactRaritySortRank(rarity) {
+  const r = String(rarity || "").toLowerCase();
+  if (r.includes("eternal")) return 6;
+  if (r.includes("legendary")) return 5;
+  if (r.includes("rare bond")) return 4;
+  if (r.includes("rare")) return 3;
+  if (r.includes("advanced")) return 2;
+  if (r.includes("common")) return 1;
+  return 0;
+}
+
+function sortArtifactsByRarity(artifacts) {
+  return [...artifacts].sort((a, b) => {
+    const ra = artifactRaritySortRank(a.rarity);
+    const rb = artifactRaritySortRank(b.rarity);
+    if (rb !== ra) return rb - ra;
+    return String(a.name || "").localeCompare(String(b.name || ""));
+  });
+}
+
+function artifactRarityClass(rarity) {
+  const k = artifactRarityKind(rarity);
+  return k ? `artifact-card--${k}` : "";
+}
+
+function comboSetNamesWithIcons(names, comboByName, iconClass, placeholderClass) {
+  const chips = (names || []).map((n) => {
+    const set = comboByName && comboByName[n];
+    const icon = set?.icon
+      ? `<img class="${iconClass}" src="${esc(
+          new URL(set.icon, DATA_BASE).href
+        )}" alt="" loading="lazy" />`
+      : `<span class="${placeholderClass}" aria-hidden="true"></span>`;
+    return `<span class="combo-set-inline">${icon}<span class="combo-set-inline__name">${esc(
+      n
+    )}</span><span class="combo-set-inline__suffix"> set</span></span>`;
+  });
+  return chips.join(`<span class="combo-set-inline-sep"> · </span>`);
+}
+
+function renderArtifactSetChips(comboSets, selectedFilter) {
+  const wrap = document.getElementById("artifact-set-filters");
+  if (!wrap) return;
+
+  const sel = (selectedFilter || "").trim();
+  const list = (comboSets || [])
+    .map((s) => s.name)
+    .filter(Boolean)
+    .sort((a, b) => a.localeCompare(b));
+
+  const allActive = !sel ? " is-active" : "";
+  const chips = [
+    `<button type="button" class="set-chip set-chip--all${allActive}" data-set-filter="" aria-pressed="${!sel}">
+      <span class="set-chip__name">All sets</span>
+    </button>`,
+  ];
+
+  for (const name of list) {
+    const active = sel === name ? " is-active" : "";
+    const set = comboSets.find((s) => s.name === name);
+    const iconHtml = set?.icon
+      ? `<img class="set-chip__icon" src="${esc(
+          new URL(set.icon, DATA_BASE).href
+        )}" alt="" loading="lazy" />`
+      : `<span class="set-chip__icon set-chip__icon--placeholder" aria-hidden="true"></span>`;
+    chips.push(
+      `<button type="button" class="set-chip${active}" data-set-filter="${esc(
+        name
+      )}" aria-pressed="${sel === name}">
+        ${iconHtml}
+        <span class="set-chip__name">${esc(name)}</span>
+      </button>`
+    );
+  }
+
+  wrap.innerHTML = chips.join("");
+}
+
+function renderArtifacts(artifacts, setFilter, comboByName) {
+  const sf = (setFilter || "").trim();
   const root = document.getElementById("artifacts-root");
   const parts = [];
+  const cb = comboByName || {};
 
-  for (const a of artifacts) {
-    const searchBlob = JSON.stringify(a)
-      .replace(/<[^>]+>/g, " ")
-      .toLowerCase();
-    const match = !q || searchBlob.includes(q);
-    const hidden = match ? "" : " is-hidden";
+  if (!artifacts.length) {
+    root.innerHTML = `<p class="empty-state">No artifact data.</p>`;
+    return;
+  }
 
+  const filtered = artifacts.filter((a) => {
+    if (!sf) return true;
+    return artifactComboSetNames(a).includes(sf);
+  });
+  if (!filtered.length) {
+    root.innerHTML = `<p class="empty-state">No artifacts in this set.</p>`;
+    return;
+  }
+
+  const sorted = sortArtifactsByRarity(filtered);
+  for (const a of sorted) {
     const icon =
       a.icon &&
       `<img class="artifact-card__icon" src="${esc(
@@ -244,22 +336,79 @@ function renderArtifacts(artifacts, query) {
       )}" alt="" loading="lazy" />`;
     const ph = !a.icon && `<div class="artifact-card__placeholder"></div>`;
 
+    const rarityCls = artifactRarityClass(a.rarity);
+    const rk = artifactRarityKind(a.rarity);
+    const names = artifactComboSetNames(a);
+    const comboLine =
+      names.length > 0
+        ? `<p class="artifact-card__combo-set">${comboSetNamesWithIcons(
+            names,
+            cb,
+            "artifact-card__set-icon",
+            "artifact-card__set-icon artifact-card__set-icon--empty"
+          )}</p>`
+        : "";
+    const rarityLabelCls = rk
+      ? `artifact-card__rarity artifact-card__rarity--${rk}`
+      : "artifact-card__rarity";
     parts.push(`
-      <button type="button" class="artifact-card${hidden}" data-artifact-id="${esc(
+      <button type="button" class="artifact-card${rarityCls ? ` ${rarityCls}` : ""}" data-artifact-id="${esc(
         a.id
       )}">
         ${icon || ph}
         <div class="artifact-card__meta">
           <h3>${esc(a.name)}</h3>
           <p class="artifact-card__stars">${esc(a.stars)}</p>
-          <p class="artifact-card__rarity">${esc(a.rarity)}</p>
+          ${comboLine}
+          <p class="${rarityLabelCls}">${esc(a.rarity)}</p>
         </div>
       </button>`);
   }
 
+  root.innerHTML = parts.join("") || `<p class="empty-state">No artifacts.</p>`;
+}
+
+function renderComboEffects(comboSets) {
+  const root = document.getElementById("combo-effects-root");
+  if (!root) return;
+
+  const parts = (comboSets || []).map((s) => {
+    const headIcon = s.icon
+      ? `<img class="combo-effect-card__icon" src="${esc(
+          new URL(s.icon, DATA_BASE).href
+        )}" alt="" loading="lazy" />`
+      : `<div class="combo-effect-card__icon combo-effect-card__icon--empty">—</div>`;
+    const rows = (s.tiers || [])
+      .map(
+        (t) => `
+          <tr>
+            <td>${esc(String(t.pieces))}</td>
+            <td>${richContent(t.effectHtml, t.effect)}</td>
+          </tr>`
+      )
+      .join("");
+    return `
+      <article class="combo-effect-card">
+        <header class="combo-effect-card__head">
+          ${headIcon}
+          <h3 class="combo-effect-card__title">${esc(s.name)}</h3>
+        </header>
+        <table class="combo-set-table">
+          <thead>
+            <tr>
+              <th scope="col">Pieces</th>
+              <th scope="col">Effect</th>
+            </tr>
+          </thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </article>`;
+  });
+
   root.innerHTML =
     parts.join("") ||
-    `<p class="empty-state">No artifacts match your search.</p>`;
+    `<p class="empty-state">No combo set data.</p>`;
+  postProcessRich(root);
 }
 
 function openModal(title, html) {
@@ -277,66 +426,156 @@ function closeModal() {
   document.body.style.overflow = "";
 }
 
-function artifactModalHtml(a) {
-  return `
-    <dl class="modal-dl">
+function artifactModalHtml(a, comboByName) {
+  const setNames = artifactComboSetNames(a);
+  const setPanels = setNames
+    .map((setName, idx) => {
+      const set = comboByName && comboByName[setName];
+      const titleId = `combo-set-title-${idx}`;
+      if (set) {
+        return `
+    <section class="combo-set-panel" aria-labelledby="${titleId}">
+      <h4 id="${titleId}" class="combo-set-panel__title">
+        ${
+          set.icon
+            ? `<img class="combo-set-panel__set-icon" src="${esc(
+                new URL(set.icon, DATA_BASE).href
+              )}" alt="" loading="lazy" />`
+            : ""
+        }
+        <span>${esc(set.name)} set effects</span>
+      </h4>
+      <table class="combo-set-table">
+        <thead>
+          <tr>
+            <th scope="col">Pieces</th>
+            <th scope="col">Effect</th>
+          </tr>
+        </thead>
+        <tbody>
+          ${set.tiers
+            .map(
+              (t) => `
+          <tr>
+            <td>${esc(String(t.pieces))}</td>
+            <td>${richContent(t.effectHtml, t.effect)}</td>
+          </tr>`
+            )
+            .join("")}
+        </tbody>
+      </table>
+    </section>`;
+      }
+      return `<p class="combo-set-missing">No tier list in data for “${esc(
+        setName
+      )}”.</p>`;
+    })
+    .join("");
+
+  const rk = artifactRarityKind(a.rarity);
+  const rarityRow = rk
+    ? `<span class="artifact-rarity-text artifact-rarity-text--${rk}">${esc(
+        a.rarity
+      )}</span>`
+    : richContent(a.rarityHtml, a.rarity);
+
+  const comboDd =
+    setNames.length > 0
+      ? comboSetNamesWithIcons(
+          setNames,
+          comboByName,
+          "artifact-modal__set-icon",
+          "artifact-modal__set-icon artifact-modal__set-icon--empty"
+        )
+      : "—";
+
+  const comboEffectsSection =
+    setNames.length > 0
+      ? `<section class="artifact-detail-combo" aria-labelledby="artifact-combo-fx-title">
+      <h4 id="artifact-combo-fx-title" class="artifact-detail-combo__title">Combo set effects</h4>
+      <div class="artifact-detail-combo__panels">
+        ${setPanels}
+      </div>
+    </section>`
+      : "";
+
+  return `<div class="artifact-modal">
+    <dl class="modal-dl modal-dl--artifact">
       <dt>Stars</dt><dd>${esc(a.stars)}</dd>
-      <dt>Rarity</dt><dd>${richContent(a.rarityHtml, a.rarity)}</dd>
+      <dt>Combo set</dt><dd class="modal-dd--combo-sets">${comboDd}</dd>
+      <dt>Rarity</dt><dd>${rarityRow}</dd>
       <dt>Placement</dt><dd>${richContent(a.placementHtml, a.placement)}</dd>
       <dt>Stats / effects</dt><dd>${richContent(a.statsHtml, a.stats)}</dd>
       <dt>Flavor</dt><dd>${richContent(a.flavorHtml, a.flavor)}</dd>
     </dl>
-  `;
+    ${comboEffectsSection}
+  </div>`;
 }
 
 function main() {
   let weaponsData = [];
   let artifactsData = [];
+  let comboSets = [];
+  let comboByName = {};
   const weaponNavState = { baseId: null };
+  let artifactSetFilter = "";
 
-  const search = document.getElementById("search");
   const tabs = document.querySelectorAll(".tabs__btn");
   const panelWeapons = document.getElementById("panel-weapons");
   const panelArtifacts = document.getElementById("panel-artifacts");
-
-  function currentQuery() {
-    return search.value;
-  }
+  const panelComboEffects = document.getElementById("panel-combo-effects");
 
   function refresh() {
-    const q = currentQuery();
-    renderWeapons(weaponsData, q, weaponNavState);
-    renderArtifacts(artifactsData, q);
+    renderWeapons(weaponsData, weaponNavState);
+    renderArtifacts(artifactsData, artifactSetFilter, comboByName);
+    renderArtifactSetChips(comboSets, artifactSetFilter);
+    renderComboEffects(comboSets);
   }
 
-  search.addEventListener("input", () => {
-    weaponNavState.baseId = null;
-    refresh();
-  });
+  function activatePanel(panel) {
+    const isWeapons = panel === "weapons";
+    const isArtifacts = panel === "artifacts";
+    const isCombo = panel === "combo-effects";
+
+    panelWeapons.classList.toggle("is-active", isWeapons);
+    panelWeapons.hidden = !isWeapons;
+    panelArtifacts.classList.toggle("is-active", isArtifacts);
+    panelArtifacts.hidden = !isArtifacts;
+    panelComboEffects.classList.toggle("is-active", isCombo);
+    panelComboEffects.hidden = !isCombo;
+
+    tabs.forEach((b) => {
+      b.classList.toggle("is-active", b.dataset.panel === panel);
+    });
+  }
 
   tabs.forEach((btn) => {
     btn.addEventListener("click", () => {
       const panel = btn.dataset.panel;
-      tabs.forEach((b) => b.classList.toggle("is-active", b === btn));
-      const isWeapons = panel === "weapons";
-      panelWeapons.classList.toggle("is-active", isWeapons);
-      panelWeapons.hidden = !isWeapons;
-      panelArtifacts.classList.toggle("is-active", !isWeapons);
-      panelArtifacts.hidden = isWeapons;
+      if (panel === "weapons") activatePanel("weapons");
+      else if (panel === "artifacts") activatePanel("artifacts");
+      else if (panel === "combo-effects") activatePanel("combo-effects");
     });
+  });
+
+  document.getElementById("artifact-set-filters")?.addEventListener("click", (e) => {
+    const chip = e.target.closest(".set-chip");
+    if (!chip) return;
+    artifactSetFilter = chip.dataset.setFilter ?? "";
+    refresh();
   });
 
   document.getElementById("weapons-root").addEventListener("click", (e) => {
     const back = e.target.closest("[data-weapons-back]");
     if (back) {
       weaponNavState.baseId = null;
-      renderWeapons(weaponsData, currentQuery(), weaponNavState);
+      renderWeapons(weaponsData, weaponNavState);
       return;
     }
     const baseBtn = e.target.closest(".weapon-base-card");
     if (baseBtn) {
       weaponNavState.baseId = baseBtn.dataset.baseId;
-      renderWeapons(weaponsData, currentQuery(), weaponNavState);
+      renderWeapons(weaponsData, weaponNavState);
       return;
     }
     const t2 = e.target.closest(".weapon-tier2-card");
@@ -361,7 +600,7 @@ function main() {
         u
       )}" alt="" loading="lazy" /></p>`;
     }
-    openModal(a.name, iconBlock + artifactModalHtml(a));
+    openModal(a.name, iconBlock + artifactModalHtml(a, comboByName));
   });
 
   document.querySelectorAll("[data-close-modal]").forEach((el) => {
@@ -377,7 +616,7 @@ function main() {
     }
     if (weaponNavState.baseId) {
       weaponNavState.baseId = null;
-      renderWeapons(weaponsData, currentQuery(), weaponNavState);
+      renderWeapons(weaponsData, weaponNavState);
     }
   });
 
@@ -388,6 +627,11 @@ function main() {
     })
     .then((d) => {
       artifactsData = d.artifacts || [];
+      return loadJson("comboSets.json").catch(() => ({ comboSets: [] }));
+    })
+    .then((d) => {
+      comboSets = d.comboSets || [];
+      comboByName = Object.fromEntries(comboSets.map((s) => [s.name, s]));
       refresh();
     })
     .catch((err) => {
@@ -395,6 +639,8 @@ function main() {
         String(err.message)
       )}</p>`;
       document.getElementById("artifacts-root").innerHTML = "";
+      const comboRoot = document.getElementById("combo-effects-root");
+      if (comboRoot) comboRoot.innerHTML = "";
     });
 }
 

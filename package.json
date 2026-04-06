@@ -5,5 +5,8 @@
   "scripts": {
     "extract": "node scripts/extract-data.mjs",
     "prune-images": "node scripts/prune-images.mjs"
+  },
+  "devDependencies": {
+    "csv-parse": "^6.2.1"
   }
 }
