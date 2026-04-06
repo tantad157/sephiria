@@ -63,6 +63,22 @@
       ]
     },
     {
+      "name": "Curse",
+      "icon": "resources/cellImage_1436729707_17.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "+10% Debuff DMG +7% Move SPD",
+          "effectHtml": "+10% Debuff DMG<br>+7% Move SPD"
+        },
+        {
+          "pieces": 4,
+          "effect": "+15% Debuff DMG",
+          "effectHtml": "+15% Debuff DMG"
+        }
+      ]
+    },
+    {
       "name": "Elemental",
       "icon": "resources/cellImage_1436729707_13.jpg",
       "tiers": [
@@ -251,6 +267,22 @@
       ]
     },
     {
+      "name": "Negotiation",
+      "icon": "resources/cellImage_1436729707_16.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "+10 Barter +15% Leaf Drop",
+          "effectHtml": "+10 Barter<br>+15% Leaf Drop"
+        },
+        {
+          "pieces": 4,
+          "effect": "+15 Barter Gain Golden Hand : +1% DMG per 200 Leaf (+20% Max)",
+          "effectHtml": "+15 Barter<br>Gain <span style=\"font-weight: bold\">Golden Hand</span>: <br>+1% DMG per 200 Leaf (+20% Max)"
+        }
+      ]
+    },
+    {
       "name": "Planet",
       "icon": "resources/cellImage_1436729707_8.jpg",
       "tiers": [
@@ -340,6 +372,22 @@
           "pieces": 10,
           "effect": "+10 Evasion",
           "effectHtml": "+10 Evasion"
+        }
+      ]
+    },
+    {
+      "name": "Solar Blade",
+      "icon": "resources/cellImage_1436729707_18.jpg",
+      "tiers": [
+        {
+          "pieces": 2,
+          "effect": "On Direct ATK or Grimoire hit, throw a Solar Blade : deals 115% Fire DMG (5 Max) [0.125s CD]",
+          "effectHtml": "On Direct ATK or Grimoire hit, <br>throw a <span style=\"font-weight: bold\">Solar Blade</span>: <br>deals 115% Fire DMG (5 Max) [0.125s CD]"
+        },
+        {
+          "pieces": 4,
+          "effect": "+6% Solar Blade DMG",
+          "effectHtml": "+6% <span style=\"font-weight: bold\">Solar Blade</span> DMG"
         }
       ]
     },

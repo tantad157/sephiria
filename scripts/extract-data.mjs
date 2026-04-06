@@ -519,7 +519,7 @@ function parseArtifacts(html) {
 }
 
 function isComboEffectsHeaderRow(cells) {
-  if (cells.length !== 14) return false;
+  if (cells.length !== 14 && cells.length !== 17) return false;
   const t3 = String(cells[3]?.text || "").trim();
   if (!cells[2]?.img || cells[3]?.cs !== 4 || !t3) return false;
   if (/^\+|^\-/.test(t3)) return false;
