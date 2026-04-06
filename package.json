@@ -1,0 +1,9 @@
+{
+  "name": "sephiria-codex",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "extract": "node scripts/extract-data.mjs",
+    "prune-images": "node scripts/prune-images.mjs"
+  }
+}

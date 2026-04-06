@@ -1,0 +1,1133 @@
+{
+  "weapons": [
+    {
+      "id": "weapon-base-0",
+      "name": "Sword and Shield",
+      "tier1NameHtml": "Sword and Shield",
+      "tier1Icon": "resources/cellImage_0_0.jpg",
+      "tier1Description": "Weighted Activation Probability: 100%",
+      "tier1DescriptionHtml": "Weighted Activation Probability: 100%",
+      "upgrades": [
+        {
+          "tier2Icon": "resources/cellImage_0_6.jpg",
+          "tier2Name": "Frost Shard",
+          "tier2NameHtml": "Frost Shard",
+          "tier2Stats": "+5 Cold DMG",
+          "tier2StatsHtml": "+5 Cold DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_7.jpg",
+              "name": "Glacial Blade",
+              "nameHtml": "Glacial Blade",
+              "description": "+50% Charge SPD of S cabbard of Exorcism",
+              "descriptionHtml": "+50% Charge SPD of <span style=\"font-weight: bold; text-decoration: underline; text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc\">S</span><span style=\"font-weight: bold; text-decoration: underline; text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc\">cabbard of Exorcism</span>"
+            },
+            {
+              "icon": "resources/cellImage_0_18.jpg",
+              "name": "Blizzard's Eve",
+              "nameHtml": "Blizzard&#39;s Eve",
+              "description": "On Dash Point use, activate Blizzard Hammer at -40% DMG",
+              "descriptionHtml": "On Dash Point use, activate <span style=\"font-weight: bold; text-decoration: underline; text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc\">Blizzard Hammer</span> at -40% DMG"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_24.jpg",
+          "tier2Name": "Tiny Destruction",
+          "tier2NameHtml": "Tiny Destruction",
+          "tier2Stats": "+40% Special ATK DMG",
+          "tier2StatsHtml": "+40% Special ATK DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_25.jpg",
+              "name": "Grip of Fear",
+              "nameHtml": "Grip of Fear",
+              "description": "Every 3s, gain a stack of Rising Dread (10 Max), gain rate is affected by ATK SPD On Special ATK, consume all stacks of Rising Dread : +30% Special ATK DMG per stack +200% Special ATK Range",
+              "descriptionHtml": "Every 3s, gain a stack of <span style=\"font-weight: bold\">Rising Dread </span>(10 Max), gain rate is affected by ATK SPD<br>On Special ATK, consume all stacks of <span style=\"font-weight: bold\">Rising Dread</span>: +30% Special ATK DMG per stack<br>+200% Special ATK Range"
+            },
+            {
+              "icon": "resources/cellImage_0_35.jpg",
+              "name": "Guardian's Return",
+              "nameHtml": "Guardian&#39;s Return",
+              "description": "Special ATK becomes Special ATK: Shield Throw : +1 Shields thrown every 20% Normal ATK DMG",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Special ATK</span> becomes <span style=\"font-weight: bold\">Special ATK: Shield Throw</span>: +1 Shields thrown every 20% Normal ATK DMG"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_42.jpg",
+          "tier2Name": "Unity of Offense and Defense",
+          "tier2NameHtml": "Unity of Offense and Defense",
+          "tier2Stats": "+15% ATK SPD Normal ATK guards 90° in front",
+          "tier2StatsHtml": "+15% ATK SPD<br>Normal ATK guards 90° in front",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_43.jpg",
+              "name": "Drifting Ash",
+              "nameHtml": "Drifting Ash",
+              "description": "+60% Dash ATK DMG Deal 50% Dash ATK DMG along the dash path (100% if dash points were consumed)",
+              "descriptionHtml": "+60% Dash ATK DMG<br>Deal 50% Dash ATK DMG along the dash path (100% if dash points were consumed)"
+            },
+            {
+              "icon": "resources/cellImage_0_52.jpg",
+              "name": "Indomitable",
+              "nameHtml": "Indomitable",
+              "description": "+33% Normal ATK DMG Cleave is disabled",
+              "descriptionHtml": "+33% Normal ATK DMG<br><span style=\"font-weight: bold; color: #cc0000\">Cleave is disabled</span>"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_62.jpg",
+          "tier2Name": "Rapier",
+          "tier2NameHtml": "Rapier",
+          "tier2Stats": "Changes Normal ATK to Dash ATK +10% ATK SPD",
+          "tier2StatsHtml": "Changes <span style=\"font-weight: bold\">Normal ATK</span> to <span style=\"font-weight: bold\">Dash ATK</span><br>+10% ATK SPD",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_63.jpg",
+              "name": "Flashing Rapier",
+              "nameHtml": "Flashing Rapier",
+              "description": "Extends range of Dash ATK +20% ATK SPD",
+              "descriptionHtml": "Extends range of Dash ATK<br>+20% ATK SPD"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_70.jpg",
+          "tier2Name": "Protection of the Fuzz",
+          "tier2NameHtml": "Protection of the Fuzz",
+          "tier2Stats": "On successful Block, -50% MP Cost for blocking",
+          "tier2StatsHtml": "On successful Block, -50% MP Cost for blocking",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_71.jpg",
+              "name": "Frozen Fury",
+              "nameHtml": "Frozen Fury",
+              "description": "After Perfect Guard, +20% All DMG for 14 secs",
+              "descriptionHtml": "After Perfect Guard, +20% All DMG for 14 secs"
+            },
+            {
+              "icon": "resources/cellImage_0_80.jpg",
+              "name": "Starlight",
+              "nameHtml": "Starlight",
+              "description": "Reflect 300% of incoming DMG on successful Block, 400% if Perfect Guard",
+              "descriptionHtml": "Reflect 300% of incoming DMG on successful Block, 400% if Perfect Guard"
+            },
+            {
+              "icon": "resources/cellImage_0_88.jpg",
+              "name": "Stone Sword",
+              "nameHtml": "Stone Sword",
+              "description": "Special ATK becomes Shield Bash : dash forward while blocking, dealing damage to enemies in the way (10 MP Cost) +1% Shield Bash DMG every 2 DEF",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Special ATK</span> becomes <span style=\"font-weight: bold\">Shield Bash</span>: dash forward while blocking, dealing damage to enemies in the way (10 MP Cost)<br>+1% Shield Bash DMG every 2 DEF"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_97.jpg",
+          "tier2Name": "Carrot Sword",
+          "tier2NameHtml": "Carrot Sword",
+          "tier2Stats": "+3 Physical DMG +3 Cold DMG +3 Fire DMG +3 Lightning DMG",
+          "tier2StatsHtml": "+3 Physical DMG<br>+3 Cold DMG<br>+3 Fire DMG<br>+3 Lightning DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_98.jpg",
+              "name": "Carrotcalibur",
+              "nameHtml": "Carrotcalibur",
+              "description": "Normal ATK becomes Carrot Sword Technique : 5-hit combo attacks (about +20% DPS) 1.2x multiplier on all ATK SPD bonuses",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Normal ATK</span> becomes <span style=\"font-weight: bold\">Carrot Sword Technique</span>: 5-hit combo attacks (about +20% DPS)<br>1.2x multiplier on all ATK SPD bonuses"
+            },
+            {
+              "icon": "resources/cellImage_0_107.jpg",
+              "name": "Excallion",
+              "nameHtml": "Excallion",
+              "description": "+2 Physical DMG +2 Cold DMG +2 Fire DMG +2 Lightning DMG +15% Grimoire DMG",
+              "descriptionHtml": "+2 Physical DMG<br>+2 Cold DMG<br>+2 Fire DMG<br>+2 Lightning DMG<br>+15% Grimoire DMG"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_116.jpg",
+          "tier2Name": "Magic Wand",
+          "tier2NameHtml": "Magic Wand",
+          "tier2Stats": "Normal ATK, Dash ATK, and Special ATK changes to variants of Magic Missile (Physical DMG)",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">Normal ATK, Dash ATK, and Special ATK</span> changes to variants of <span style=\"font-weight: bold\">Magic Missile</span> (Physical DMG)",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_117.jpg",
+              "name": "Wings of Lightning",
+              "nameHtml": "Wings of Lightning",
+              "description": "Damage now scales off of Lightning DMG +20% Special ATK DMG",
+              "descriptionHtml": "Damage now scales off of Lightning DMG<br>+20% Special ATK DMG"
+            },
+            {
+              "icon": "resources/cellImage_0_125.jpg",
+              "name": "Breath of Ice",
+              "nameHtml": "Breath of Ice",
+              "description": "Damage now scales off of Cold DMG +40% Dash ATK DMG",
+              "descriptionHtml": "Damage now scales off of Cold DMG<br>+40% Dash ATK DMG"
+            },
+            {
+              "icon": "resources/cellImage_0_132.jpg",
+              "name": "Gaze of Flames",
+              "nameHtml": "Gaze of Flames",
+              "description": "Damage now scales off of Fire DMG +20% Normal ATK DMG",
+              "descriptionHtml": "Damage now scales off of Fire DMG<br>+20% Normal ATK DMG"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_135.jpg",
+          "tier2Name": "Conductor",
+          "tier2NameHtml": "Conductor",
+          "tier2Stats": "+5 Lightning DMG",
+          "tier2StatsHtml": "+5 Lightning DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_136.jpg",
+              "name": "Superconductor",
+              "nameHtml": "Superconductor",
+              "description": "Special ATK becomes Lightning Spear : consumes 4 Storm Clouds to launch a Spear forward, dealing 165% Lightning DMG",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Special ATK</span> becomes <span style=\"font-weight: bold\">Lightning Spear</span>: <br>consumes 4 Storm Clouds to launch a Spear forward, dealing 165% Lightning DMG"
+            },
+            {
+              "icon": "resources/cellImage_0_138.jpg",
+              "name": "Ballista Sword",
+              "nameHtml": "Ballista Sword",
+              "description": "Upgrades Mini Ballista 's projectiles now goes through walls and homes in on enemies Successful Block forces Mini Ballista to shoot",
+              "descriptionHtml": "Upgrades <span style=\"font-weight: bold; text-decoration: underline; text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc\">Mini Ballista</span>&#39;s projectiles now goes through walls  and homes in on enemies<br>Successful Block forces <span style=\"font-weight: bold\">Mini Ballista</span> to shoot"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_141.jpg",
+          "tier2Name": "Incendium",
+          "tier2NameHtml": "Incendium",
+          "tier2Stats": "+5 Fire DMG",
+          "tier2StatsHtml": "+5 Fire DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_142.jpg",
+              "name": "Solis Missio",
+              "nameHtml": "Solis Missio",
+              "description": "On Normal ATK/Special ATK/Perfect Guard, gain +0.75s/+3s/+5s of Reignite : automatically throw Solar Blades while blocking (15s Max) -90% Move SPD while blocking",
+              "descriptionHtml": "On Normal ATK/Special ATK/Perfect Guard, gain <span style=\"font-weight: bold\">+0.75s/+3s/+5s</span> of <span style=\"font-weight: bold\">Reignite</span>: automatically throw Solar Blades while blocking (15s Max)<br><span style=\"font-weight: bold; color: #cc0000\">-90% Move SPD while blocking</span>"
+            },
+            {
+              "icon": "resources/cellImage_0_144.jpg",
+              "name": "Flame Eater: Haetae",
+              "nameHtml": "Flame Eater: Haetae",
+              "description": "Special ATK becomes Normal ATK: Flame Strike : damage scales off of Fire DMG, and convert all Burn stacks on enemies hit to stacks of Flame-Eating Beast buff on self Flame-Eating Beast : on Flame Strike hit, consume all stacks and deal 50% Fire DMG per stack (100% if 4+ stacks)",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Special ATK </span>becomes <span style=\"font-weight: bold\">Normal ATK: Flame Strike</span>: damage scales off of Fire DMG, and convert all Burn stacks on enemies hit to stacks of <span style=\"font-weight: bold\">Flame-Eating Beast</span> buff on self<span style=\"font-weight: bold\"><br>Flame-Eating Beast</span>: on <span style=\"font-weight: bold\">Flame Strike</span> hit, consume all stacks and deal 50% Fire DMG per stack (100% if 4+ stacks)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weapon-base-1",
+      "name": "Greatsword",
+      "tier1NameHtml": "Greatsword",
+      "tier1Icon": "resources/cellImage_0_1.jpg",
+      "tier1Description": "Weighted Activation Probability: 150%",
+      "tier1DescriptionHtml": "Weighted Activation Probability: <span style=\"color: #34a853\">150%</span>",
+      "upgrades": [
+        {
+          "tier2Icon": "resources/cellImage_0_8.jpg",
+          "tier2Name": "Frostbound Greatsword",
+          "tier2NameHtml": "Frostbound Greatsword",
+          "tier2Stats": "Deal additional 30% of Cold DMG on Direct ATKs",
+          "tier2StatsHtml": "Deal additional 30% of Cold DMG on Direct ATKs",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_9.jpg",
+              "name": "Greatsword of Exorcism",
+              "nameHtml": "Greatsword of Exorcism",
+              "description": "+50% Charge SPD of Scab bard of Exorcism",
+              "descriptionHtml": "+50% Charge SPD of <span style=\"font-weight: bold; text-decoration: underline; text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc\">Scab</span><span style=\"font-weight: bold; text-decoration: underline; text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc\">bard of Exorcism</span>"
+            },
+            {
+              "icon": "resources/cellImage_0_19.jpg",
+              "name": "Eternal Frost Greatsword",
+              "nameHtml": "Eternal Frost Greatsword",
+              "description": "Increased Normal ATK Range 1.25x multiplier on all DMG bonuses +15% Normal ATK Combo SPD (Total Time)",
+              "descriptionHtml": "Increased Normal ATK Range<br>1.25x multiplier on all DMG bonuses<br>+15% Normal ATK Combo SPD (Total Time)"
+            },
+            {
+              "icon": "resources/cellImage_0_26.jpg",
+              "name": "Icicle Sword",
+              "nameHtml": "Icicle Sword",
+              "description": "Direct ATKs have 80% chance to inflict Frostbite +20% Freeze DMG",
+              "descriptionHtml": "Direct ATKs have 80% chance to inflict Frostbite<br>+20% Freeze DMG"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_36.jpg",
+          "tier2Name": "Wooden Club",
+          "tier2NameHtml": "Wooden Club",
+          "tier2Stats": "+20% Normal ATK DMG -40% Dash ATK DMG",
+          "tier2StatsHtml": "+20% Normal ATK DMG<br>-40% Dash ATK DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_37.jpg",
+              "name": "Spike Club",
+              "nameHtml": "Spike Club",
+              "description": "On Direct ATK Critical Hit, launch 3 Piercing Thorn s: deals 26% Physical DMG For every +20% Critical DMG, launch 1 more Piercing Thorn",
+              "descriptionHtml": "On Direct ATK Critical Hit, launch 3 <span style=\"font-weight: bold\">Piercing Thorn</span>s: deals 26% Physical DMG<br>For every +20% Critical DMG, launch 1 more <span style=\"font-weight: bold\">Piercing Thorn</span>"
+            },
+            {
+              "icon": "resources/cellImage_0_44.jpg",
+              "name": "Mischievous Prank",
+              "nameHtml": "Mischievous Prank",
+              "description": "-20% Direct ATK Critical Chance +25% Direct ATK Weapon DMG",
+              "descriptionHtml": "-20% Direct ATK Critical Chance<br>+25% Direct ATK Weapon DMG"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_53.jpg",
+          "tier2Name": "Troubling Delight",
+          "tier2NameHtml": "Troubling Delight",
+          "tier2Stats": "Normal ATK, Dash ATK, and Special ATK changes to variants of Laser (Physical DMG)",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">Normal ATK, Dash ATK, and Special ATK</span> changes to variants of <span style=\"font-weight: bold\">Laser</span> (Physical DMG)",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_54.jpg",
+              "name": "Pristine Form",
+              "nameHtml": "Pristine Form",
+              "description": "Increase Normal ATK and Dash ATK Range +25% Normal ATK DMG +25% Dash ATK DMG",
+              "descriptionHtml": "Increase Normal ATK and Dash ATK Range<br>+25% Normal ATK DMG<br>+25% Dash ATK DMG"
+            },
+            {
+              "icon": "resources/cellImage_0_64.jpg",
+              "name": "Legacy of the Illusionist",
+              "nameHtml": "Legacy of the Illusionist",
+              "description": "+50 Grimoire Haste",
+              "descriptionHtml": "+50 Grimoire Haste"
+            },
+            {
+              "icon": "resources/cellImage_0_72.jpg",
+              "name": "Lazarion",
+              "nameHtml": "Lazarion",
+              "description": "Special ATK becomes Summon Amethyst : Summon Amethyst companion that deals (120% * Average of each DMG Type) as Void DMG (24 MP Cost, 3 Max) Amethyst consumes 5 of its HP per attack (80 HP total)",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Special ATK</span> becomes <span style=\"font-weight: bold\">Summon Amethyst</span>: Summon <span style=\"font-weight: bold\">Amethyst </span>companion that deals (120% * Average of each DMG Type) as Void DMG (24 MP Cost, 3 Max)<br><span style=\"font-weight: bold\">Amethyst </span>consumes 5 of its HP per attack (80 HP total)"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_81.jpg",
+          "tier2Name": "Hypersensitivity",
+          "tier2NameHtml": "Hypersensitivity",
+          "tier2Stats": "+20% Special ATK DMG Special ATK Charge 50% faster",
+          "tier2StatsHtml": "+20% Special ATK DMG<br>Special ATK Charge 50% faster",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_82.jpg",
+              "name": "Loving Gaze",
+              "nameHtml": "Loving Gaze",
+              "description": "+50% Special ATK Critical Chance +50% Casting SPD",
+              "descriptionHtml": "+50% Special ATK Critical Chance<br>+50% Casting SPD"
+            },
+            {
+              "icon": "resources/cellImage_0_89.jpg",
+              "name": "Negligence",
+              "nameHtml": "Negligence",
+              "description": "+15% Special ATK DMG Special ATK charges instantly -15% Special ATK SPD",
+              "descriptionHtml": "+15% Special ATK DMG<br>Special ATK charges instantly<br>-15% Special ATK SPD"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_99.jpg",
+          "tier2Name": "The Emberforged",
+          "tier2NameHtml": "The Emberforged",
+          "tier2Stats": "Deal additional 30% of Fire DMG on Direct ATKs",
+          "tier2StatsHtml": "Deal additional 30% of Fire DMG on Direct ATKs",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_100.jpg",
+              "name": "Red Snake Crush",
+              "nameHtml": "Red Snake Crush",
+              "description": "On each swing, reduce R ed Snake Eyes CD by 1.5s (does not need to hit) +20% Red Snake Eyes DMG",
+              "descriptionHtml": "On each swing, reduce <span style=\"font-weight: bold; text-decoration: underline; text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc\">R</span><span style=\"font-weight: bold; text-decoration: underline; text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc\">ed Snake Eyes</span><span style=\"font-weight: bold; color: #000000\"> </span>CD by 1.5s (does not need to hit)<br>+20% Red Snake Eyes DMG"
+            },
+            {
+              "icon": "resources/cellImage_0_108.jpg",
+              "name": "Solis Cineris",
+              "nameHtml": "Solis Cineris",
+              "description": "On Direct ATK, Solar Blade fires two blades each time +33% Solar Blade Critical DMG",
+              "descriptionHtml": "On Direct ATK, <span style=\"font-weight: bold\">Solar Blade</span> fires two blades each time<br>+33% <span style=\"font-weight: bold\">Solar Blade</span> Critical DMG"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_118.jpg",
+          "tier2Name": "Swarming Shadow",
+          "tier2NameHtml": "Swarming Shadow",
+          "tier2Stats": "-50% Special ATK Charge SPD +20% Normal ATK DMG",
+          "tier2StatsHtml": "-50% Special ATK Charge SPD<br>+20% Normal ATK DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_119.jpg",
+              "name": "Swift Regret",
+              "nameHtml": "Swift Regret",
+              "description": "Can perform final attack of Normal ATK two additional times +10% Normal ATK DMG",
+              "descriptionHtml": "Can perform final attack of Normal ATK two additional times<br>+10% Normal ATK DMG"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_126.jpg",
+          "tier2Name": "Bone Gearblade",
+          "tier2NameHtml": "Bone Gearblade",
+          "tier2Stats": "Special ATK becomes Reassemble : increase ATK Range and change Normal ATKs to be 1-hit swings (25 MP cost, 8s) +15 + (50% of DEF) DMG on each consecutive Normal ATK during Reassemble",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">Special ATK</span> becomes <span style=\"font-weight: bold\">Reassemble</span>: increase ATK Range and change Normal ATKs to be 1-hit swings (25 MP cost, 8s)<br>+15 + (50% of DEF) DMG on each consecutive Normal ATK during <span style=\"font-weight: bold\">Reassemble</span>",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_127.jpg",
+              "name": "Creaking Spine",
+              "nameHtml": "Creaking Spine",
+              "description": "Increase range of Reassemble 's attacks Increase ATK SPD on each consecutive Normal ATK during Reassemble, up to +35%",
+              "descriptionHtml": "Increase range of <span style=\"font-weight: bold\">Reassemble</span>&#39;s attacks<br>Increase ATK SPD on each consecutive Normal ATK during Reassemble, up to +35%"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_133.jpg",
+          "tier2Name": "Crimson Thorn",
+          "tier2NameHtml": "Crimson Thorn",
+          "tier2Stats": "On Hit, inflict Wound : deal 10 Chaos DMG every sec for 10s (4 Stacks Max)",
+          "tier2StatsHtml": "On Hit, inflict <span style=\"font-weight: bold\">Wound</span>: deal 10 Chaos DMG every sec for 10s <br>(4 Stacks Max)",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_134.jpg",
+              "name": "Crimson Vortex",
+              "nameHtml": "Crimson Vortex",
+              "description": "Normal ATK and Dash ATK becomes 3-hit combos, each hit dealing -60% of original DMG +6 Max Wound Stacks",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Normal ATK and Dash ATK</span> becomes 3-hit combos, each hit dealing -60% of original DMG<br>+6 Max Wound Stacks"
+            },
+            {
+              "icon": "resources/cellImage_0_137.jpg",
+              "name": "The Inquisitor",
+              "nameHtml": "The Inquisitor",
+              "description": "Direct ATK DMG is converted to Chaos DMG Special ATK becomes Wound Explosion : remove all inflicted debuffs on enemies within 8 tiles to deal (debuff stacks removed) x 120 Chaos DMG (2 MP Cost)",
+              "descriptionHtml": "Direct ATK DMG is converted to Chaos DMG<br><span style=\"font-weight: bold\">Special ATK</span> becomes <span style=\"font-weight: bold\">Wound Explosion</span>: remove all inflicted debuffs on enemies within 8 tiles to deal (debuff stacks removed) x 120 Chaos DMG (2 MP Cost)"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_139.jpg",
+          "tier2Name": "Lightning Greatsword \"E2G\"",
+          "tier2NameHtml": "Lightning Greatsword &quot;E2G&quot;",
+          "tier2Stats": "Deal additional 30% of Lightning DMG on Direct ATKs",
+          "tier2StatsHtml": "Deal additional 30% of Lightning DMG on Direct ATKs",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_140.jpg",
+              "name": "Lightning Greatsword \"S3G\"",
+              "nameHtml": "Lightning Greatsword &quot;S3G&quot;",
+              "description": "On hit, 80% Chance to inflict Electrocution +20% Electrocution DMG",
+              "descriptionHtml": "On hit, 80% Chance to inflict <span style=\"font-weight: bold\">Electrocution</span><br>+20% Electrocution DMG"
+            },
+            {
+              "icon": "resources/cellImage_0_143.jpg",
+              "name": "Lightning Greatsword \"E3G\"",
+              "nameHtml": "Lightning Greatsword &quot;E3G&quot;",
+              "description": "+5 Storm Cloud every 5 attacks On Special ATK, grants a stack of buff that gives +100% Storm Cloud ATK SPD for 10s (5 Max)",
+              "descriptionHtml": "+5 Storm Cloud every 5 attacks<br>On Special ATK, grants a stack of buff that gives +100% Storm Cloud ATK SPD for 10s (5 Max)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weapon-base-2",
+      "name": "Dagger",
+      "tier1NameHtml": "Dagger",
+      "tier1Icon": "resources/cellImage_0_2.jpg",
+      "tier1Description": "Weighted Activation Probability: 68.75%",
+      "tier1DescriptionHtml": "Weighted Activation Probability: <span style=\"color: #cc0000\">68.75%</span>",
+      "upgrades": [
+        {
+          "tier2Icon": "resources/cellImage_0_10.jpg",
+          "tier2Name": "Lightning Dagger",
+          "tier2NameHtml": "Lightning Dagger",
+          "tier2Stats": "Deal additional 20% of Lightning DMG on Direct ATKs",
+          "tier2StatsHtml": "Deal additional 20% of Lightning DMG on Direct ATKs",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_11.jpg",
+              "name": "Lightning's Wrath",
+              "nameHtml": "Lightning&#39;s Wrath",
+              "description": "On hit, 70% Chance to inflict Electrocution +1 Electrocution Stack",
+              "descriptionHtml": "On hit, 70% Chance to inflict <span style=\"font-weight: bold\">Electrocution<br></span>+1 Electrocution Stack"
+            },
+            {
+              "icon": "resources/cellImage_0_20.jpg",
+              "name": "Overhanging Storm Cloud",
+              "nameHtml": "Overhanging Storm Cloud",
+              "description": "+15% Storm Cloud DMG +5 Lightning DMG",
+              "descriptionHtml": "+15% Storm Cloud DMG<br>+5 Lightning DMG"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_27.jpg",
+          "tier2Name": "Arid Breeze",
+          "tier2NameHtml": "Arid Breeze",
+          "tier2Stats": "+20% Fury DMG",
+          "tier2StatsHtml": "+20% Fury DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_28.jpg",
+              "name": "Harsh Trial",
+              "nameHtml": "Harsh Trial",
+              "description": "Parry is disabled 20% Chance to gain Trance using Direct ATK Trance can be charged up to 2 times",
+              "descriptionHtml": "<span style=\"font-weight: bold; color: #cc0000\">Parry is disabled</span><br>20% Chance to gain <span style=\"font-weight: bold\">Trance </span>using Direct ATK<br><span style=\"font-weight: bold\">Trance </span>can be charged up to 2 times"
+            },
+            {
+              "icon": "resources/cellImage_0_38.jpg",
+              "name": "Creeping Despair",
+              "nameHtml": "Creeping Despair",
+              "description": "+10% Fury DMG Trance is charged twice after successful Parry",
+              "descriptionHtml": "+10% Fury DMG<br><span style=\"font-weight: bold\">Trance </span>is charged twice after successful Parry"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_45.jpg",
+          "tier2Name": "Alpine Edelweiss",
+          "tier2NameHtml": "Alpine Edelweiss",
+          "tier2Stats": "Normal ATK, Dash ATK, and Special ATK changes to variants of Shuriken Throw (Physical DMG)",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">Normal ATK, Dash ATK, and Special ATK</span> changes to variants of <span style=\"font-weight: bold\">Shuriken Throw</span> (Physical DMG)<br>",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_46.jpg",
+              "name": "Adonis",
+              "nameHtml": "Adonis",
+              "description": "+30% Critical DMG of Direct ATKs",
+              "descriptionHtml": "+30% Critical DMG of Direct ATKs"
+            },
+            {
+              "icon": "resources/cellImage_0_55.jpg",
+              "name": "Dark Veil",
+              "nameHtml": "Dark Veil",
+              "description": "On Direct Attack, gain Dominate : +5% Companion DMG and +6% Companion ATK SPD for 10s (5 Stacks Max) Attacks automatically homes in on nearby enemies",
+              "descriptionHtml": "On Direct Attack, gain <span style=\"font-weight: bold\">Dominate</span>: +5% Companion DMG and +6% Companion ATK SPD for 10s (5 Stacks Max)<br>Attacks automatically homes in on nearby enemies"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_65.jpg",
+          "tier2Name": "Beyond the Threshold",
+          "tier2NameHtml": "Beyond the Threshold",
+          "tier2Stats": "On Dash ATK, gain 20s buff: +20% Normal ATK DMG and +30% Dash ATK DMG Fury is disabled",
+          "tier2StatsHtml": "On Dash ATK, gain 20s buff: +20% Normal ATK DMG and +30% Dash ATK DMG <br><span style=\"font-weight: bold; color: #cc0000\">Fury is disabled</span>",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_66.jpg",
+              "name": "Shadow of Hope",
+              "nameHtml": "Shadow of Hope",
+              "description": "On Dash Point use, Dash ATK becomes Dash ATK: Blade Prison : deal -33% DMG in a small area For every 30% ATK SPD, Dash ATK: Blade Prison hits one more time and dealing +7% DMG for each additional hit",
+              "descriptionHtml": "On Dash Point use, <span style=\"font-weight: bold\">Dash ATK </span>becomes <span style=\"font-weight: bold\">Dash ATK: <br>Blade Prison</span>: deal -33% DMG in a small area<br>For every 30% ATK SPD, <span style=\"font-weight: bold\">Dash ATK: Blade Prison </span>hits one more time and dealing +7% DMG for each additional hit"
+            },
+            {
+              "icon": "resources/cellImage_0_73.jpg",
+              "name": "Absolute Envy",
+              "nameHtml": "Absolute Envy",
+              "description": "+25% Normal ATK DMG for 3rd/4th/5th Normal ATK Increased Stagger Value for 3rd/4th/5th Normal ATK",
+              "descriptionHtml": "+25% Normal ATK DMG for 3rd/4th/5th Normal ATK<br>Increased Stagger Value for 3rd/4th/5th Normal ATK"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_83.jpg",
+          "tier2Name": "Fire Dagger",
+          "tier2NameHtml": "Fire Dagger",
+          "tier2Stats": "Special ATK becomes Dagger Throw , firing 5 daggers forward, dealing 100% of Fire DMG Dagger Throw cannot Parry",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">Special ATK</span> becomes <span style=\"font-weight: bold\">Dagger</span> <span style=\"font-weight: bold\">Throw</span>, firing 5 daggers forward, dealing 100% of Fire DMG<br><span style=\"font-weight: bold; color: #cc0000\">Dagger Throw cannot Parry</span>",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_84.jpg",
+              "name": "Burning Fang",
+              "nameHtml": "Burning Fang",
+              "description": "Dagger Throw now inflicts Burn",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Dagger Throw</span> now inflicts Burn"
+            },
+            {
+              "icon": "resources/cellImage_0_90.jpg",
+              "name": "Heated Blade",
+              "nameHtml": "Heated Blade",
+              "description": "Dagger Throw now pierces enemies +10% Dagger Throw DMG",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Dagger Throw</span> now pierces enemies<br>+10% <span style=\"font-weight: bold\">Dagger Throw</span> DMG"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_101.jpg",
+          "tier2Name": "Jade Vestige",
+          "tier2NameHtml": "Jade Vestige",
+          "tier2Stats": "Parry is Disabled Gain Trance every 2.8s +1% Trance Charge Rate per Evasion, max 33% (2.1s)",
+          "tier2StatsHtml": "<span style=\"font-weight: bold; color: #cc0000\">Parry is Disabled</span><br>Gain <span style=\"font-weight: bold\">Trance </span>every 2.8s<br>+1% Trance Charge Rate per Evasion, max 33% (2.1s)",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_102.jpg",
+              "name": "Unbound Immersion",
+              "nameHtml": "Unbound Immersion",
+              "description": "+0.25% More Trance Charge Rate per Evasion Trance Charge Rate is no longer capped at 33% Formula: [2.8s / TCR%]",
+              "descriptionHtml": "+0.25% More Trance Charge Rate per Evasion<br>Trance Charge Rate is no longer capped at 33%<br>Formula: [2.8s / TCR%]"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_109.jpg",
+          "tier2Name": "Academy Enchanted Sword",
+          "tier2NameHtml": "Academy Enchanted Sword",
+          "tier2Stats": "Parry consumes 0 MP On successful Parry , recover 22% MP",
+          "tier2StatsHtml": "Parry<span style=\"font-weight: normal\"> consumes 0 MP<br>On successful </span>Parry<span style=\"font-weight: normal\">, recover 22% MP</span>",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_110.jpg",
+              "name": "Tome of Mimicry",
+              "nameHtml": "Tome of Mimicry",
+              "description": "Fury becomes Grimoire: Duplicate : reuse the last used Grimoire (6 MP Cost) Grimoire: Duplicate cannot trigger Fury",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Fury</span> becomes <span style=\"font-weight: bold\">Grimoire: Duplicate</span>: reuse the last used Grimoire (6 MP Cost)<br><span style=\"font-weight: bold; color: #cc0000\">Grimoire: Duplicate cannot trigger Fury</span>"
+            },
+            {
+              "icon": "resources/cellImage_0_120.jpg",
+              "name": "Academy Magic Sword - Liberation",
+              "nameHtml": "Academy Magic Sword <br>- Liberation",
+              "description": "Fury becomes Special ATK: Liberation : consumes all MP to release [MP Used ÷ 8] projectile(s) dealing DMG equal to 100% [+5% every 50 MP Used] of highest DMG Type Special ATK: Liberation cannot trigger Fury",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Fury</span> becomes <span style=\"font-weight: bold\">Special ATK: Liberation</span>: consumes all MP to release <span style=\"font-weight: bold\">[MP Used ÷ 8]</span> projectile(s) dealing DMG equal to <br><span style=\"font-weight: bold\">100% [+5% every 50 MP Used]</span> of highest DMG Type<br><span style=\"font-weight: bold; color: #cc0000\">Special ATK: Liberation cannot trigger Fury</span>"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_128.jpg",
+          "tier2Name": "M-9199",
+          "tier2NameHtml": "M-9199",
+          "tier2Stats": "7 Ammo | 1 Magazines | 2.3/s Fire Rate | 1.4s Reload Normal Attack pierces through enemies Special ATK becomes Special ATK: Ammo Compression : combines all bullets in the magazine into one, dealing +25% DMG per bullet (10 MP Cost)",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">7 Ammo | 1 Magazines | 2.3/s Fire Rate | 1.4s Reload</span><br>Normal Attack pierces through enemies<br><span style=\"font-weight: bold\">Special ATK </span>becomes <span style=\"font-weight: bold\">Special ATK: Ammo Compression</span>: combines all bullets in the magazine into one, dealing +25% DMG per bullet (10 MP Cost)<br>",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_129.jpg",
+              "name": "XRA-9",
+              "nameHtml": "XRA-9",
+              "description": "10 Ammo | 1 Magazines | 2.3/s Fire Rate | 1.4s Reload On Final Normal ATK, -25% Grimoire and Ability Cooldown",
+              "descriptionHtml": "<span style=\"font-weight: bold\">10 Ammo | 1 Magazines | 2.3/s Fire Rate | 1.4s Reload</span><br>On Final Normal ATK, -25% Grimoire and Ability Cooldown"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weapon-base-3",
+      "name": "Crossbow",
+      "tier1NameHtml": "Crossbow",
+      "tier1Icon": "resources/cellImage_0_3.jpg",
+      "tier1Description": "10 Ammo | 1 Magazine | 3/s Fire Rate | 2s Reload Weighted Activation Probability: 120%",
+      "tier1DescriptionHtml": "10 Ammo | 1 Magazine | 3/s Fire Rate | 2s Reload<br><span style=\"font-size: 10pt\">Weighted Activation Probability: </span><span style=\"font-size: 10pt; color: #34a853\">120%</span>",
+      "upgrades": [
+        {
+          "tier2Icon": "resources/cellImage_0_12.jpg",
+          "tier2Name": "Colossal Crossbow Reload Device",
+          "tier2NameHtml": "<span style=\"font-size: 7pt\">Colossal Crossbow</span><br>Reload Device",
+          "tier2Stats": "20 Ammo | 1 Magazine | 8.3/s Fire Rate | 2.5s Reload -45% Normal ATK DMG Special ATK becomes Advanced Reload : 400% Reload SPD (25 MP Cost)",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">20 Ammo | 1 Magazine | 8.3/s Fire Rate | 2.5s Reload<br></span><span style=\"font-weight: bold; color: #cc0000\">-45% Normal ATK DMG<br></span><span style=\"font-weight: bold\">Special ATK </span>becomes <span style=\"font-weight: bold\">Advanced Reload</span>: 400% Reload SPD (25 MP Cost)",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_13.jpg",
+              "name": "Colossal Crossbow Acceleration Core",
+              "nameHtml": "<span style=\"font-size: 7pt\">Colossal Crossbow<br></span>Acceleration Core",
+              "description": "10 Ammo | 9 Magazines | 6.7/s Fire Rate | 4s Reload Increase ATK SPD while firing, up to +60%",
+              "descriptionHtml": "<span style=\"font-weight: bold\">10 Ammo | 9 Magazines | 6.7/s Fire Rate | 4s Reload<br></span>Increase ATK SPD while firing, up to +60%"
+            },
+            {
+              "icon": "resources/cellImage_0_21.jpg",
+              "name": "Crossbow Twin",
+              "nameHtml": "<span style=\"font-size: 7pt\">Crossbow<br></span>Twin",
+              "description": "10 Ammo | 2 Magazines | 4.2/s Fire Rate | 2.5s Reload Normal Attack now fires 2 projectiles with less slowdowns during the shot Fire Rate now scales with Move SPD",
+              "descriptionHtml": "<span style=\"font-weight: bold\">10 Ammo | 2 Magazines | 4.2/s Fire Rate | 2.5s Reload<br></span>Normal Attack now fires 2 projectiles with less slowdowns during the shot<br>Fire Rate now scales with Move SPD"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_29.jpg",
+          "tier2Name": "Colossal Crossbow Scattershot Shooter",
+          "tier2NameHtml": "<span style=\"font-size: 7pt\">Colossal Crossbow</span><br>Scattershot Shooter",
+          "tier2Stats": "5 Ammo | 1 Magazine | 1.8/s Fire Rate | 1.6s Reload Normal ATK becomes Powder Bullet : a short-ranged burst attack, counts as Melee ATK and deals +80% DMG",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">5 Ammo | 1 Magazine | 1.8/s Fire Rate | 1.6s Reload<br>Normal ATK</span> becomes <span style=\"font-weight: bold\">Powder Bullet</span>: a short-ranged burst attack, counts as Melee ATK and deals +80% DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_30.jpg",
+              "name": "Colossal Crossbow Gunpowder Synthesis",
+              "nameHtml": "<span style=\"font-size: 7pt\">Colossal Crossbow<br></span>Gunpowder Synthesis",
+              "description": "7 Ammo | 1 Magazine | 1.8/s Fire Rate | 1.6s Reload +35% Direct ATK Critical Chance Reloads 1 Bullet on Critical Hit",
+              "descriptionHtml": "<span style=\"font-weight: bold\">7 Ammo | 1 Magazine | 1.8/s Fire Rate | 1.6s Reload<br></span>+35% Direct ATK Critical Chance<br>Reloads 1 Bullet on Critical Hit"
+            },
+            {
+              "icon": "resources/cellImage_0_39.jpg",
+              "name": "Colossal Crossbow Explosive Device",
+              "nameHtml": "<span style=\"font-size: 7pt\">Colossal Crossbow<br></span>Explosive Device",
+              "description": "2 Ammo | 2 Magazines | 6.3/s Fire Rate | 2.4s Reload +10% Normal ATK DMG",
+              "descriptionHtml": "<span style=\"font-weight: bold\">2 Ammo | 2 Magazines | 6.3/s Fire Rate | 2.4s Reload<br></span>+10% Normal ATK DMG"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_47.jpg",
+          "tier2Name": "Colossal Crossbow Enhanced Special Bolts",
+          "tier2NameHtml": "<span style=\"font-size: 7pt\">Colossal Crossbow<br></span>Enhanced Special Bolts",
+          "tier2Stats": "10 Ammo | 2 Magazines | 3/s Fire Rate | 2s Reload Increased Special ATK Size +30% Special ATK DMG",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">10 Ammo | 2 Magazines | 3/s Fire Rate | 2s Reload</span><br>Increased Special ATK Size<br>+30% Special ATK DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_48.jpg",
+              "name": "Colossal Crossbow Rapid-Fire Device",
+              "nameHtml": "<span style=\"font-size: 7pt\">Colossal Crossbow<br></span>Rapid-Fire Device",
+              "description": "10 Ammo | 2 Magazines | 3/s Fire Rate | 2s Reload On Special ATK, gain 1 stack of buff: +10% Special ATK DMG (up to 5 stacks), -1 stack when Special ATK is not used for 2s",
+              "descriptionHtml": "<span style=\"font-weight: bold\">10 Ammo | 2 Magazines | 3/s Fire Rate | 2s Reload</span><br>On Special ATK, gain 1 stack of buff: +10% Special ATK DMG (up to 5 stacks), -1 stack when Special ATK is not used for 2s"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_56.jpg",
+          "tier2Name": "Colossal Crossbow Fire Mine",
+          "tier2NameHtml": "<span style=\"font-size: 7pt\">Colossal Crossbow<br></span>Fire Mine",
+          "tier2Stats": "6 Ammo | 1 Magazine | 5/s Fire Rate | 1.5s Reload -20% Direct ATK DMG Damage now scales off of Fire DMG",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">6 Ammo | 1 Magazine | 5/s Fire Rate | 1.5s Reload</span><br>-20% Direct ATK DMG<br>Damage now scales off of Fire DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_57.jpg",
+              "name": "Colossal Crossbow Equipped with Guidance Module",
+              "nameHtml": "<span style=\"font-size: 7pt\">Colossal Crossbow<br></span>Equipped with Guidance Module",
+              "description": "6 Ammo | 1 Magazine | 5/s Fire Rate | 1.5s Reload Special ATK becomes Guidance Module : tracks nearby enemies, dealing +0.9% DMG for each Additional MP above 50 (3 MP Cost)",
+              "descriptionHtml": "<span style=\"font-weight: bold\">6 Ammo | 1 Magazine | 5/s Fire Rate | 1.5s Reload</span><br><span style=\"font-weight: bold\">Special ATK</span> becomes <span style=\"font-weight: bold\">Guidance Module</span>: <br>tracks nearby enemies, dealing +0.9% DMG for each Additional MP above 50 (3 MP Cost)"
+            },
+            {
+              "icon": "resources/cellImage_0_67.jpg",
+              "name": "Mini Cannon",
+              "nameHtml": "Mini Cannon",
+              "description": "5 Ammo | 1 Magazine | 2/s Fire Rate | 2s Reload Normal ATK becomes Grenade +75% Normal ATK DMG",
+              "descriptionHtml": "<span style=\"font-weight: bold\">5 Ammo | 1 Magazine | 2/s Fire Rate | 2s Reload</span><br><span style=\"font-weight: bold\">Normal ATK</span> becomes <span style=\"font-weight: bold\">Grenade</span><br>+75% Normal ATK DMG"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_74.jpg",
+          "tier2Name": "Colossal Crossbow Unstable Lightning Mark",
+          "tier2NameHtml": "<span style=\"font-size: 7pt\">Colossal Crossbow</span><br>Unstable Lightning Mark",
+          "tier2Stats": "5 Ammo | 3 Magazines | 4/s Fire Rate | 2s Reload On Normal ATK, 40% Chance to shoot Lightning Arrow : deal 160% Lightning DMG on hit On Lightning Arrow hit, zap a random nearby enemy for 160% Lightning DMG",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">5 Ammo | 3 Magazines | 4/s Fire Rate | 2s Reload<br></span>On Normal ATK, 40% Chance to shoot <span style=\"font-weight: bold\">Lightning Arrow</span>: deal 160% Lightning DMG on hit<br>On <span style=\"font-weight: bold\">Lightning Arrow</span> hit, zap a random nearby enemy for 160% Lightning DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_75.jpg",
+              "name": "Colossal Crossbow Mark Stabilization",
+              "nameHtml": "<span style=\"font-size: 7pt\">Colossal Crossbow<br></span>Mark Stabilization",
+              "description": "5 Ammo | 3 Magazines | 4/s Fire Rate | 2s Reload Lightning Arrow applies Electrocution +25% Electrocution DMG",
+              "descriptionHtml": "<span style=\"font-weight: bold\">5 Ammo | 3 Magazines | 4/s Fire Rate | 2s Reload<br>Lightning Arrow</span> applies <span style=\"font-weight: bold\">Electrocution</span><br>+25% Electrocution DMG"
+            },
+            {
+              "icon": "resources/cellImage_0_85.jpg",
+              "name": "Colossal Crossbow Cloud Gatherer",
+              "nameHtml": "<span style=\"font-size: 7pt\">Colossal Crossbow<br></span>Cloud Gatherer",
+              "description": "5 Ammo | 3 Magazines | 4/s Fire Rate | 2s Reload +3 Storm Cloud on Lightning Arrow hit",
+              "descriptionHtml": "<span style=\"font-weight: bold\">5 Ammo | 3 Magazines | 4/s Fire Rate | 2s Reload<br></span>+3 Storm Cloud on <span style=\"font-weight: bold\">Lightning Arrow</span> hit"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_91.jpg",
+          "tier2Name": "Colossal Crossbow Frost Veil",
+          "tier2NameHtml": "<span style=\"font-size: 7pt\">Colossal Crossbow</span><br>Frost Veil",
+          "tier2Stats": "12 Ammo | 1 Magazine | 3.3/s Fire Rate | 2s Reload Special ATK becomes Frost Veil : gain buff, giving +10% Normal ATK DMG and Normal ATK scales off of Cold DMG for 10s (30 MP Cost)",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">12 Ammo | 1 Magazine | 3.3/s Fire Rate | 2s Reload<br>Special ATK </span>becomes <span style=\"font-weight: bold\">Frost Veil</span>: gain buff, giving +10% Normal ATK DMG and Normal ATK scales off of Cold DMG for 10s (30 MP Cost)",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_92.jpg",
+              "name": "Colossal Crossbow Rapid Freeze Crystal",
+              "nameHtml": "<span style=\"font-size: 7pt\">Colossal Crossbow<br></span>Rapid Freeze Crystal",
+              "description": "12 Ammo | 1 Magazine | 3.3/s Fire Rate | 2s Reload Frost Veil's buff also grants Infinite Ammo",
+              "descriptionHtml": "<span style=\"font-weight: bold\">12 Ammo | 1 Magazine | 3.3/s Fire Rate | 2s Reload<br></span>Frost Veil&#39;s buff also grants Infinite Ammo"
+            },
+            {
+              "icon": "resources/cellImage_0_103.jpg",
+              "name": "Colossal Crossbow Expansion Device",
+              "nameHtml": "<span style=\"font-size: 7pt\">Colossal Crossbow<br></span>Expansion Device",
+              "description": "12 Ammo | 1 Magazine | 3.3/s Fire Rate | 2s Reload While in Frost Veil, shoot piercing projectiles that inflicts Frostbite and set Ammo Capacity to 5",
+              "descriptionHtml": "<span style=\"font-weight: bold\">12 Ammo | 1 Magazine | 3.3/s Fire Rate | 2s Reload<br></span>While in Frost Veil, shoot piercing projectiles that inflicts Frostbite and set Ammo Capacity to 5"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_111.jpg",
+          "tier2Name": "Kagumede",
+          "tier2NameHtml": "Kagumede",
+          "tier2Stats": "10 Ammo | 1 Magazine | 3/s Fire Rate | 0.8s Reload Attacks inflict Poison",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">10 Ammo | 1 Magazine | 3/s Fire Rate | 0.8s Reload<br></span>Attacks inflict <span style=\"font-weight: bold\">Poison</span>",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_112.jpg",
+              "name": "Kalim's Form",
+              "nameHtml": "Kalim&#39;s Form",
+              "description": "10 Ammo | 1 Magazine | 3/s Fire Rate | 0.8s Reload Heita's, Tero's, and Ahmad's Spirit Powder attacks twice and deals +25% DMG.",
+              "descriptionHtml": "<span style=\"font-weight: bold\">10 Ammo | 1 Magazine | 3/s Fire Rate | 0.8s Reload</span><br><span style=\"font-weight: bold; text-decoration: underline; text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc\">Heita&#39;s, Tero&#39;s, and Ahmad&#39;s Spirit Powder</span> attacks twice and deals +25% DMG."
+            },
+            {
+              "icon": "resources/cellImage_0_121.jpg",
+              "name": "Purple Jacket",
+              "nameHtml": "Purple Jacket",
+              "description": "10 Ammo | 1 Magazine | 3.6/s Fire Rate | 0.8s Reload +3 Poison Stack",
+              "descriptionHtml": "<span style=\"font-weight: bold\">10 Ammo | 1 Magazine | 3.6/s Fire Rate | 0.8s Reload</span><br>+3 Poison Stack"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_130.jpg",
+          "tier2Name": "Armor-Bender",
+          "tier2NameHtml": "Armor-Bender",
+          "tier2Stats": "+1% Direct ATK DMG every 2 DEF",
+          "tier2StatsHtml": "+1% Direct ATK DMG every 2 DEF",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_131.jpg",
+              "name": "Breakplate Blade",
+              "nameHtml": "Breakplate Blade",
+              "description": "While Unsheathed, +1 Stack of Hardening every 0.8s: +1 DEF per stack (10 Max) When Sheathed at max stacks, the next 10 Normal ATK create a wave of rocks and deals +4% DMG every 2 DEF",
+              "descriptionHtml": "While Unsheathed, +1 Stack of <span style=\"font-weight: bold\">Hardening </span>every 0.8s: <br>+1 DEF per stack (10 Max)<br>When Sheathed at max stacks, the next 10 Normal ATK create a wave of rocks and deals +4% DMG every 2 DEF"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weapon-base-4",
+      "name": "Blade",
+      "tier1NameHtml": "Blade",
+      "tier1Icon": "resources/cellImage_0_4.jpg",
+      "tier1Description": "Weighted Activation Probability: 82.50%",
+      "tier1DescriptionHtml": "Weighted Activation Probability: <span style=\"color: #cc0000\">82.50%</span>",
+      "upgrades": [
+        {
+          "tier2Icon": "resources/cellImage_0_14.jpg",
+          "tier2Name": "Long Blade 'Onohara'",
+          "tier2NameHtml": "Long Blade &#39;Onohara&#39;",
+          "tier2Stats": "+15% ATK SPD ATK SPD now affects Special ATK: Heavy Slash",
+          "tier2StatsHtml": "+15% ATK SPD<br>ATK SPD now affects Special ATK: Heavy Slash",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_15.jpg",
+              "name": "Famed Sword 'Muramasa'",
+              "nameHtml": "Famed Sword &#39;Muramasa&#39;",
+              "description": "Permanently Sheathed Special ATK: Heavy Slash becomes Special ATK: Swift Slash : -30% DMG but 0 MP Cost 1.8x multiplier on all ATK SPD bonuses",
+              "descriptionHtml": "<span style=\"font-weight: bold; color: #cc0000\">Permanently Sheathed</span><br><span style=\"font-weight: bold\">Special ATK: Heavy Slash</span> becomes <span style=\"font-weight: bold\">Special ATK: Swift Slash</span>: -30% DMG but 0 MP Cost<br>1.8x multiplier on all ATK SPD bonuses"
+            },
+            {
+              "icon": "resources/cellImage_0_22.jpg",
+              "name": "Beast Marks Sword 'Hou'",
+              "nameHtml": "Beast Marks Sword &#39;Hou&#39;",
+              "description": "-24% ATK SPD of Special ATK: Heavy Slash Special ATK: Heavy Slash now creates a vortex of slashes at your cursor location +1% DMG every 2 Evasion",
+              "descriptionHtml": "-24% ATK SPD of Special ATK: Heavy Slash<br>Special ATK: Heavy Slash now creates a vortex of slashes at your cursor location<br>+1% DMG every 2 Evasion"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_31.jpg",
+          "tier2Name": "Helbanus",
+          "tier2NameHtml": "Helbanus",
+          "tier2Stats": "On Direct ATK, also deal 30% Fire DMG",
+          "tier2StatsHtml": "On Direct ATK, also deal 30% Fire DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_32.jpg",
+              "name": "Blazing Helbanus",
+              "nameHtml": "Blazing Helbanus",
+              "description": "+2 Burn Stacks +4 Fire DMG",
+              "descriptionHtml": "+2 Burn Stacks<br>+4 Fire DMG"
+            },
+            {
+              "icon": "resources/cellImage_0_40.jpg",
+              "name": "Heidi",
+              "nameHtml": "Heidi",
+              "description": "On Dash Point use, +1 Overheat stack (2 if Sheathed, 6 max) On Normal ATK, consume an Overheat stack: Normal ATK deals 110% Fire DMG instead at a fixed 300% ATK SPD",
+              "descriptionHtml": "On Dash Point use, +1 <span style=\"font-weight: bold\">Overheat </span>stack (2 if Sheathed, 6 max)<br>On Normal ATK, consume an <span style=\"font-weight: bold\">Overheat </span>stack: Normal ATK deals 110% Fire DMG instead at a fixed 300% ATK SPD"
+            },
+            {
+              "icon": "resources/cellImage_0_49.jpg",
+              "name": "Solis Ekli",
+              "nameHtml": "Solis Ekli",
+              "description": "Sheath becomes Eclipse : use up to 10 Solar Blades for a buff (10s): ● On Direct ATK, deal an additional 70% Fire DMG ● Solar Blade stats also apply to Normal ATK ● +10% Direct ATK DMG per Solar Blades consumed",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Sheath</span> becomes <span style=\"font-weight: bold\">Eclipse</span>: use up to 10 Solar Blades for a buff (10s):<br>● On Direct ATK, deal an additional 70% Fire DMG<br>● Solar Blade stats also apply to Normal ATK<br>● +10% Direct ATK DMG per Solar Blades consumed"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_58.jpg",
+          "tier2Name": "Rendblade: Heavenrend",
+          "tier2NameHtml": "Rendblade: Heavenrend",
+          "tier2Stats": "Special ATK: Heavy Slash becomes Normal ATK: Iaido Slash : unsheath and perform a 1-hit circular slash, dealing 200% Physical DMG On Normal ATK, gain Sword Strike : upon 100% charged, Normal ATK: Iaido Slash becomes Normal ATK: Great Iaido Slash : greatly increases range and deals 400% Physical DMG",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">Special ATK: Heavy Slash</span> becomes <span style=\"font-weight: bold\">Normal ATK: Iaido Slash</span>: unsheath and perform a 1-hit circular slash, dealing 200% Physical DMG<br><br>On Normal ATK, gain <span style=\"font-weight: bold\">Sword Strike</span>: upon 100% charged, <span style=\"font-weight: bold\">Normal ATK: Iaido Slash</span> becomes <span style=\"font-weight: bold\">Normal ATK: Great Iaido Slash</span>: greatly increases range and deals 400% Physical DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_59.jpg",
+              "name": "Rendblade: Drifting Willow",
+              "nameHtml": "Rendblade: Drifting Willow",
+              "description": "+30% Critical Chance Normal ATK: Great Iaido Slash now damage enemies in a massive range (larger than the screen)",
+              "descriptionHtml": "+30% Critical Chance<br><span style=\"font-weight: bold\">Normal ATK: Great Iaido Slash</span> now damage enemies in a massive range (larger than the screen)"
+            },
+            {
+              "icon": "resources/cellImage_0_68.jpg",
+              "name": "Rendblade: RuinDance",
+              "nameHtml": "Rendblade: RuinDance",
+              "description": "Normal ATK: Great Iaido Slash disabled On 100% Sword Strike , gain Barrage : Normal ATK changes to a 4-hit combo and deals 75% Physical DMG between normal ATKs",
+              "descriptionHtml": "<span style=\"font-weight: bold; color: #cc0000\">Normal ATK: Great Iaido Slash disabled</span><br>On 100% <span style=\"font-weight: bold\">Sword Strike</span>, gain <span style=\"font-weight: bold\">Barrage</span>: Normal ATK changes to a 4-hit combo and deals 75% Physical DMG between normal ATKs<br>"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_76.jpg",
+          "tier2Name": "The Awaiting Azureblade",
+          "tier2NameHtml": "The Awaiting Azureblade",
+          "tier2Stats": "Generate Blade Slash while Sheathed Consumes 10 Blade Slash on casting spells and deal +20% Grimoire DMG",
+          "tier2StatsHtml": "Generate <span style=\"font-weight: bold\">Blade Slash</span> while Sheathed<br>Consumes 10 <span style=\"font-weight: bold\">Blade Slash</span> on casting spells and deal +20% Grimoire DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_77.jpg",
+              "name": "Yui's Short Dagger",
+              "nameHtml": "Yui&#39;s Short Dagger",
+              "description": "+30% Grimoire Critical Chance",
+              "descriptionHtml": "+30% Grimoire Critical Chance"
+            },
+            {
+              "icon": "resources/cellImage_0_86.jpg",
+              "name": "Adamah's Oath",
+              "nameHtml": "Adamah&#39;s Oath",
+              "description": "When casting Grimoires, summons Magic Blade : flies towards enemies, dealing 20 + 70% Missing MP",
+              "descriptionHtml": "When casting Grimoires, summons <span style=\"font-weight: bold\">Magic Blade</span>: flies towards enemies, dealing 20 + 70% Missing MP"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_93.jpg",
+          "tier2Name": "Library Spectral Sealing Society Mark I",
+          "tier2NameHtml": "Library Spectral Sealing Society Mark I",
+          "tier2Stats": "+40% Dash ATK DMG On Dash Point used, creates a Spirit : performs Dash ATK on neaby enemies twice (2.5s CD)",
+          "tier2StatsHtml": "+40% Dash ATK DMG<br>On Dash Point used, creates a <span style=\"font-weight: bold\">Spirit</span>: performs Dash ATK on neaby enemies twice (2.5s CD)",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_94.jpg",
+              "name": "Library Spectral Sealing Society Mark II",
+              "nameHtml": "Library Spectral Sealing Society Mark II",
+              "description": "Change Spirit 's CD to 1s +50% Sheath's Block timing On successful block, summon Spirit to perform Dash ATKs equal to Dash Count",
+              "descriptionHtml": "Change <span style=\"font-weight: bold\">Spirit</span>&#39;s CD to 1s<br>+50% Sheath&#39;s Block timing<br>On successful block, summon <span style=\"font-weight: bold\">Spirit </span>to perform Dash ATKs equal to Dash Count"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_104.jpg",
+          "tier2Name": "Winter Smith's Draftblade",
+          "tier2NameHtml": "Winter Smith&#39;s Draftblade",
+          "tier2Stats": "Sheath becomes Tackle : move forward with a short block timing (5 MP Cost) Deal additional 15% of Cold DMG on Direct ATKs +3 Cold DMG",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">Sheath</span> becomes <span style=\"font-weight: bold\">Tackle</span>: move forward with a short block timing (5 MP Cost)<br>Deal additional 15% of Cold DMG on Direct ATKs<br>+3 Cold DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_105.jpg",
+              "name": "Silence of Everfrost",
+              "nameHtml": "Silence of Everfrost",
+              "description": "Tackle becomes Special ATK: Ice Sliding : Same effect as Tackle, but also deals 50% Cold DMG to enemies touched On successful block with Special ATK: Ice Sliding : activate Echo of the Glacier and deals 120% Cold DMG to enemies hit by this effect",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Tackle</span> becomes <span style=\"font-weight: bold\">Special ATK: Ice Sliding</span>: Same effect as Tackle, but also deals 50% Cold DMG to enemies touched<br>On successful block with <span style=\"font-weight: bold\">Special ATK: Ice Sliding</span>: activate <span style=\"font-weight: bold; text-decoration: underline; text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc\">Echo of the Glacier</span> and deals 120% Cold DMG to enemies hit by this effect"
+            },
+            {
+              "icon": "resources/cellImage_0_113.jpg",
+              "name": "Fragment of Nastrond",
+              "nameHtml": "Fragment of Nastrond",
+              "description": "When attacking after Tackle : activate Frost Relic: Skaði : summon spike trap that deals 25 + 175% Cold DMG to nearby enemies (4s CD)",
+              "descriptionHtml": "When attacking after <span style=\"font-weight: bold\">Tackle</span>: activate <span style=\"font-weight: bold\">Frost Relic: Skaði</span>: summon spike trap that deals 25 + 175% Cold DMG to nearby enemies (4s CD)"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_122.jpg",
+          "tier2Name": "Thunder Sword 'Bronte'",
+          "tier2NameHtml": "Thunder Sword &#39;Bronte&#39;",
+          "tier2Stats": "-20% Direct ATK DMG Damage now scales off of Lightning DMG",
+          "tier2StatsHtml": "-20% Direct ATK DMG<br>Damage now scales off of Lightning DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_123.jpg",
+              "name": "Lightning Flash",
+              "nameHtml": "Lightning Flash",
+              "description": "On hit using Electrocution , gain Electric Charge (10 Max) When using Special ATK: Heavy Slash , consume 2 stacks to instead use Special ATK: Issen : deal 50% x [Max Electrocution Stack] Lightning DMG",
+              "descriptionHtml": "On hit using <span style=\"font-weight: bold\">Electrocution</span>, gain <span style=\"font-weight: bold\">Electric Charge</span> (10 Max) <br>When using <span style=\"font-weight: bold\">Special ATK: Heavy Slash</span>, consume 2 stacks to instead use <span style=\"font-weight: bold\">Special ATK: Issen</span>: deal <span style=\"font-weight: bold\">50% x [Max Electrocution Stack]</span> Lightning DMG"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "weapon-base-5",
+      "name": "Staff",
+      "tier1NameHtml": "Staff",
+      "tier1Icon": "resources/cellImage_0_5.jpg",
+      "tier1Description": "Weighted Activation Probability: 90.00%",
+      "tier1DescriptionHtml": "Weighted Activation Probability: <span style=\"color: #cc0000\">90.00%</span>",
+      "upgrades": [
+        {
+          "tier2Icon": "resources/cellImage_0_16.jpg",
+          "tier2Name": "Flourish Staff",
+          "tier2NameHtml": "Flourish Staff",
+          "tier2Stats": "Normal ATK becomes Normal ATK: Flower Staff : Continuous attack by spinning the staff, dealing 63% Physical DMG and allowing unimpeded movement. Dash ATK is disabled",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">Normal ATK </span>becomes <span style=\"font-weight: bold\">Normal ATK: Flower Staff</span>: Continuous attack by spinning the staff, dealing 63% Physical DMG and allowing unimpeded movement.<br><span style=\"font-weight: bold; color: #cc0000\">Dash ATK is disabled</span>",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_17.jpg",
+              "name": "Staff of Great Might",
+              "nameHtml": "Staff of Great Might",
+              "description": "+30% Normal ATK DMG While attacking, gain Shield equal to 5% DEF (refreshes every 20s)",
+              "descriptionHtml": "+30% Normal ATK DMG<br>While attacking, gain Shield equal to 5% DEF (refreshes every 20s)"
+            },
+            {
+              "icon": "resources/cellImage_0_23.jpg",
+              "name": "Ilonica's Spirit Staff",
+              "nameHtml": "Ilonica&#39;s Spirit Staff",
+              "description": "Grimoires cannot be used Normal ATK becomes Grimoire: Bolt Barrage : instead of attacking, cast a random Bolt Spell you have (Bolt will go on CD but cost 0 MP) Bolts fired are also affected by Normal ATK DMG bonuses",
+              "descriptionHtml": "<span style=\"font-weight: bold; color: #cc0000\">Grimoires cannot be used <br></span><span style=\"font-weight: bold\">Normal ATK </span>becomes <span style=\"font-weight: bold\">Grimoire: Bolt Barrage</span>: instead of attacking, cast a random Bolt Spell you have (Bolt will go on CD but cost 0 MP)<br>Bolts fired are also affected by Normal ATK DMG bonuses"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_33.jpg",
+          "tier2Name": "Divine Iron Staff",
+          "tier2NameHtml": "Divine Iron Staff",
+          "tier2Stats": "On Direct ATK, gain Extend Staff : for each stack, +4% Melee ATK Range and +10% Final Normal ATK DMG for 4s (5 Max)",
+          "tier2StatsHtml": "On Direct ATK, gain <span style=\"font-weight: bold\">Extend Staff</span>: for each stack, <br>+4% Melee ATK Range and +10% Final Normal ATK DMG for 4s (5 Max)",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_34.jpg",
+              "name": "Weight of the Sea",
+              "nameHtml": "Weight of the Sea",
+              "description": "On Successful Block, gain Heavy Staff : Normal ATK starts at the final step of the combo for 8~10s(?) (the thrust attack / 4th step)",
+              "descriptionHtml": "On Successful Block, gain <span style=\"font-weight: bold\">Heavy Staff</span>: Normal ATK starts at the final step of the combo for 8~10s(?)<br>(the thrust attack / 4th step)"
+            },
+            {
+              "icon": "resources/cellImage_0_41.jpg",
+              "name": "Ringless Staff",
+              "nameHtml": "Ringless Staff",
+              "description": "When Critical Chance is less than 30%, +20% All DMG",
+              "descriptionHtml": "When Critical Chance is less than 30%, +20% All DMG"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_50.jpg",
+          "tier2Name": "Distant Starlight",
+          "tier2NameHtml": "Distant Starlight",
+          "tier2Stats": "+20% Special ATK DMG At 100+ Max MP, Special ATK now block in all directions",
+          "tier2StatsHtml": "+20% Special ATK DMG<br>At 100+ Max MP, Special ATK now block in all directions",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_51.jpg",
+              "name": "Scale of the Astral Sea",
+              "nameHtml": "Scale of the Astral Sea",
+              "description": "After Successful Block, on next Normal ATK, use Crystal Explosion : deal 300% of Highest Elemental DMG as Chaos DMG, this damage is affected by Normal ATK and Special ATK DMG bonuses",
+              "descriptionHtml": "After Successful Block, on next Normal ATK, <br>use <span style=\"font-weight: bold\">Crystal Explosion</span>: deal 300% of Highest Elemental DMG as Chaos DMG, this damage is affected by Normal ATK and Special ATK DMG bonuses"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_60.jpg",
+          "tier2Name": "Georoid Spear",
+          "tier2NameHtml": "Georoid Spear",
+          "tier2Stats": "Normal ATK becomes Normal ATK: Spear Thrust : rapidly attack 5 times (about +30% DPS) Dash ATK becomes Dash ATK: Spear Attack : dash forward while thrusting, dealing 300% Physical DMG",
+          "tier2StatsHtml": "<span style=\"font-weight: bold\">Normal ATK</span> becomes <span style=\"font-weight: bold\">Normal ATK: Spear Thrust</span>: rapidly attack 5 times (about +30% DPS)<br><br><span style=\"font-weight: bold\">Dash ATK </span>becomes <span style=\"font-weight: bold\">Dash ATK: Spear Attack</span>: dash forward while thrusting, dealing 300% Physical DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_61.jpg",
+              "name": "Ruadhslea Spear",
+              "nameHtml": "Ruadhslea Spear",
+              "description": "+10% ATK SPD +5% Direct ATK DMG per Dash Point",
+              "descriptionHtml": "+10% ATK SPD<br>+5% Direct ATK DMG per Dash Point"
+            },
+            {
+              "icon": "resources/cellImage_0_69.jpg",
+              "name": "Fuarsca Spear",
+              "nameHtml": "Fuarsca Spear",
+              "description": "Dash ATK: Spear Attack now also blocks during the thrust +30% Dash ATK DMG per Dash Point used before using Dash ATK (6 Max)",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Dash ATK: Spear Attack</span> now also blocks during the thrust<br>+30% Dash ATK DMG per Dash Point used before using Dash ATK (6 Max)"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_78.jpg",
+          "tier2Name": "Staff of Embers",
+          "tier2NameHtml": "Staff of Embers",
+          "tier2Stats": "-15% Direct ATK DMG Damage now scales off of Fire DMG",
+          "tier2StatsHtml": "-15% Direct ATK DMG<span style=\"font-weight: bold; color: #cc0000\"><br></span>Damage now scales off of Fire DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_79.jpg",
+              "name": "Fiaola's Judgement Staff",
+              "nameHtml": "Fiaola&#39;s Judgement Staff",
+              "description": "On Burn, create Ring of Fire : deals 40% Fire DMG every 0.5s to enemies within 5 tiles for 10s. Damage is affected by Burn DMG",
+              "descriptionHtml": "On Burn, create <span style=\"font-weight: bold\">Ring of Fire</span>: deals 40% Fire DMG every 0.5s to enemies within 5 tiles for 10s. <br>Damage is affected by Burn DMG"
+            },
+            {
+              "icon": "resources/cellImage_0_87.jpg",
+              "name": "Solis Braca",
+              "nameHtml": "Solis Braca",
+              "description": "Special ATK becomes Special ATK: Solar Spear Forging : consume 3 Solar Blades to throw a large flame spear at the cursor, dealing 450% Fire DMG (also affected by Solar Blade bonuses) Gain 1 Solar Blade when retrieving Solar Blades",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Special ATK</span> becomes <span style=\"font-weight: bold\">Special ATK: Solar Spear Forging</span>: consume 3 Solar Blades to throw a large flame spear at the cursor, dealing 450% Fire DMG (also affected by Solar Blade bonuses)<br>Gain 1 Solar Blade when retrieving Solar Blades"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_95.jpg",
+          "tier2Name": "Staff of Rime",
+          "tier2NameHtml": "Staff of Rime",
+          "tier2Stats": "-15% Direct ATK DMG Damage now scales off of Cold DMG",
+          "tier2StatsHtml": "-15% Direct ATK DMG<br>Damage now scales off of Cold DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_96.jpg",
+              "name": "Oracle's Staff",
+              "nameHtml": "Oracle&#39;s Staff",
+              "description": "On every 3 Direct ATK hits, activate Voluspa towards the attack direction",
+              "descriptionHtml": "On every 3 Direct ATK hits, activate <span style=\"font-weight: bold; text-decoration: underline; text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc\">Voluspa</span> towards the attack direction"
+            },
+            {
+              "icon": "resources/cellImage_0_106.jpg",
+              "name": "Malaspina",
+              "nameHtml": "Malaspina",
+              "description": "On Direct ATK, 30% chance to apply Frostbite +5 Cold DMG",
+              "descriptionHtml": "On Direct ATK, 30% chance to apply Frostbite<br>+5 Cold DMG"
+            }
+          ]
+        },
+        {
+          "tier2Icon": "resources/cellImage_0_114.jpg",
+          "tier2Name": "Staff of Storms",
+          "tier2NameHtml": "Staff of Storms",
+          "tier2Stats": "-15% Direct ATK DMG Damage now scales off of Lightning DMG",
+          "tier2StatsHtml": "-15% Direct ATK DMG<br>Damage now scales off of Lightning DMG",
+          "tier3": [
+            {
+              "icon": "resources/cellImage_0_115.jpg",
+              "name": "Viduka",
+              "nameHtml": "Viduka",
+              "description": "+20% Elect ro Chakram DMG Electro Chakram's orbit radius is now based on the cursor's distance from the player (cannot get closer than the default minimum radius)",
+              "descriptionHtml": "+20% <span style=\"font-weight: bold; text-decoration: underline; text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc\">Elect</span><span style=\"font-weight: bold; text-decoration: underline; text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc\">ro Chakram</span><span style=\"color: #000000\"> DMG</span><br>Electro Chakram&#39;s orbit radius is now based on the cursor&#39;s distance from the player (cannot get closer than the default minimum radius)"
+            },
+            {
+              "icon": "resources/cellImage_0_124.jpg",
+              "name": "Nephorhax",
+              "nameHtml": "Nephorhax",
+              "description": "Dash ATK becomes Throw Cloud Bottle : throw all Cloud Bottle s (0 Bottle is treated as 1 Bottle), dealing 40% Lightning DMG each On Dash ATK hit, immediately trigger Storm Cloud at 70% Storm Cloud DMG",
+              "descriptionHtml": "<span style=\"font-weight: bold\">Dash ATK</span> becomes <span style=\"font-weight: bold\">Throw Cloud Bottle</span>: <br>throw all <span style=\"font-weight: bold; text-decoration: underline; text-decoration-skip-ink: none; -webkit-text-decoration-skip: none; color: #1155cc\">Cloud Bottle</span>s (0 Bottle is treated as 1 Bottle), <br>dealing 40% Lightning DMG each<br>On Dash ATK hit, immediately trigger Storm Cloud at <br>70% Storm Cloud DMG"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
