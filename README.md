@@ -1,39 +1,36 @@
 # Sephiria Codex
 
-Static reference site for weapon upgrade trees and artifacts. Built for [GitHub Pages](https://pages.github.com/) (free hosting).
+A small **for-fun, private** reference site: weapon trees and artifacts from game data I exported from a spreadsheet. Nothing official—just something nice to click through when theorycrafting or checking upgrades.
 
-## View locally
+## Run it locally
 
-Serve the folder over HTTP (not `file://` open, or `fetch` will fail):
+Static site—needs a real HTTP server (browser `fetch` will not work from a raw file path):
 
 ```bash
 npx --yes serve .
 ```
 
-Then open the URL shown (e.g. `http://localhost:3000`).
+Open the URL it prints (often `http://localhost:3000`).
 
-## Regenerate data
+## Refresh the data
 
-Export the sheet as HTML (`Weapons.html`, `Artifacts.html`) and keep the `resources/` folder next to them (icons are stored as images there). Then:
+When the sheet changes: export **Weapons** and **Artifacts** as HTML, drop them in the project root with the **`resources/`** folder (those little cell icons), then:
 
 ```bash
 npm run extract
 ```
 
-This writes `data/weapons.json` and `data/artifacts.json`.
+That rebuilds `data/weapons.json` and `data/artifacts.json`. Optional: `npm run prune-images` trims unused images in `resources/` to match the JSON.
 
-## GitHub Pages
+## What’s where
 
-1. Push this repo to GitHub.
-2. **Settings → Pages → Build and deployment**: Source **Deploy from a branch**, branch **main** (or **master**), folder **`/ (root)`**.
-3. After the build, the site is at `https://<user>.github.io/<repo>/`.
+| Path | What |
+|------|------|
+| `index.html`, `styles.css`, `app.js` | The UI |
+| `data/*.json` | Parsed codex data (generated) |
+| `scripts/` | Extract + helper scripts |
+| `Weapons.html`, `Artifacts.html` | Raw exports (optional to keep in git) |
 
-If the site does not load JSON, ensure `data/*.json` and `index.html` are at the repo root.
+---
 
-## Layout
-
-- `index.html` — shell
-- `styles.css` — dark theme
-- `app.js` — loads JSON and renders UI
-- `data/` — generated JSON (run `npm run extract`)
-- `Weapons.html` / `Artifacts.html` — source exports (optional in repo)
+*Private toy project—use it however you like.*
