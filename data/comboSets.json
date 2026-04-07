@@ -68,8 +68,8 @@
       "tiers": [
         {
           "pieces": 2,
-          "effect": "+10% Debuff DMG +7% Move SPD",
-          "effectHtml": "+10% Debuff DMG<br>+7% Move SPD"
+          "effect": "+10% Debuff DMG, +7% Move SPD",
+          "effectHtml": "+10% Debuff DMG, +7% Move SPD"
         },
         {
           "pieces": 4,
@@ -105,8 +105,8 @@
       "tiers": [
         {
           "pieces": 2,
-          "effect": "Activate Flame Touch : Inflict Burn on Fire DMG dealt (exclude debuffs, 2s CD)",
-          "effectHtml": "Activate <span style=\"font-weight: bold\">Flame Touch</span>: Inflict <span style=\"font-weight: bold\">Burn </span>on Fire DMG dealt (exclude debuffs, 2s CD)"
+          "effect": "Activate Flame Touch: Inflict Burn on Fire DMG dealt (exclude debuffs, 2s CD)",
+          "effectHtml": "Activate Flame Touch: Inflict Burn on Fire DMG dealt (exclude debuffs, 2s CD)"
         },
         {
           "pieces": 4,
@@ -116,7 +116,7 @@
         {
           "pieces": 6,
           "effect": "+150% Flame Touch CD Haste",
-          "effectHtml": "+150% <span style=\"font-weight: bold\">Flame Touch</span> CD Haste"
+          "effectHtml": "+150% Flame Touch CD Haste"
         },
         {
           "pieces": 8,
@@ -126,7 +126,7 @@
         {
           "pieces": 10,
           "effect": "Burn now deals 28% Fire DMG instead of 18%",
-          "effectHtml": "Burn now deals 28% Fire DMG <br>instead of 18%"
+          "effectHtml": "Burn now deals 28% Fire DMG<br>instead of 18%"
         }
       ]
     },
@@ -167,8 +167,8 @@
       "tiers": [
         {
           "pieces": 2,
-          "effect": "Activate Frost Touch : Inflict Frostbite on Cold DMG dealt (exclude debuffs, 2s CD)",
-          "effectHtml": "Activate <span style=\"font-weight: bold\">Frost Touch</span>: Inflict <span style=\"font-weight: bold\">Frostbite </span>on Cold DMG dealt (exclude debuffs, 2s CD)"
+          "effect": "Activate Frost Touch: Inflict Frostbite on Cold DMG dealt (exclude debuffs, 2s CD)",
+          "effectHtml": "Activate Frost Touch: Inflict Frostbite on Cold DMG dealt (exclude debuffs, 2s CD)"
         },
         {
           "pieces": 4,
@@ -178,7 +178,7 @@
         {
           "pieces": 6,
           "effect": "+150% Frost Touch CD Haste",
-          "effectHtml": "+150% <span style=\"font-weight: bold\">Frost Touch</span> CD Haste"
+          "effectHtml": "+150% Frost Touch CD Haste"
         },
         {
           "pieces": 8,
@@ -188,7 +188,7 @@
         {
           "pieces": 10,
           "effect": "Freeze require 1 less Frostbite stacks",
-          "effectHtml": "<span style=\"font-weight: bold\">Freeze </span>require 1 less <span style=\"font-weight: bold\">Frostbite </span>stacks"
+          "effectHtml": "Freeze require 1 less Frostbite stacks"
         }
       ]
     },
@@ -210,6 +210,16 @@
           "pieces": 6,
           "effect": "+8 DEF",
           "effectHtml": "+8 DEF"
+        },
+        {
+          "pieces": 8,
+          "effect": "+10 DEF",
+          "effectHtml": "+10 DEF"
+        },
+        {
+          "pieces": 10,
+          "effect": "+12 DEF +5% Ignore DEF",
+          "effectHtml": "+12 DEF<br>+5% Ignore DEF"
         }
       ]
     },
@@ -240,13 +250,28 @@
       "tiers": [
         {
           "pieces": 2,
-          "effect": "Activate Shock Touch : Inflict Electrocute on Lightning DMG dealt (exclude debuffs, 2s CD)",
-          "effectHtml": "Activate <span style=\"font-weight: bold\">Shock Touch</span>: Inflict <span style=\"font-weight: bold\">Electrocute </span>on Lightning DMG dealt <br>(exclude debuffs, 2s CD)"
+          "effect": "Activate Shock Touch: Inflict Electrocute on Lightning DMG dealt (exclude debuffs, 2s CD)",
+          "effectHtml": "Activate Shock Touch: Inflict Electrocute on Lightning DMG dealt<br>(exclude debuffs, 2s CD)"
         },
         {
           "pieces": 4,
           "effect": "+6 Lightning DMG",
           "effectHtml": "+6 Lightning DMG"
+        },
+        {
+          "pieces": 6,
+          "effect": "+150% Shock Touch CD Haste",
+          "effectHtml": "+150% Shock Touch CD Haste"
+        },
+        {
+          "pieces": 8,
+          "effect": "+8 Lightning DMG",
+          "effectHtml": "+8 Lightning DMG"
+        },
+        {
+          "pieces": 10,
+          "effect": "-1s Electrocution Duration",
+          "effectHtml": "-1s Electrocution Duration"
         }
       ]
     },
@@ -256,13 +281,13 @@
       "tiers": [
         {
           "pieces": 2,
-          "effect": "Doubles ★ Level on one random inventory slot",
-          "effectHtml": "Doubles ★ Level on one random inventory slot"
+          "effect": "Doubles Star Level on one random inventory slot",
+          "effectHtml": "Doubles Star Level on one random inventory slot"
         },
         {
           "pieces": 4,
-          "effect": "Doubles ★ Level on another two random inventory slots",
-          "effectHtml": "Doubles ★ Level on another two random inventory slots"
+          "effect": "Doubles Star Level on another two random inventory slots",
+          "effectHtml": "Doubles Star Level on another two random inventory slots"
         }
       ]
     },
@@ -272,13 +297,13 @@
       "tiers": [
         {
           "pieces": 2,
-          "effect": "+10 Barter +15% Leaf Drop",
-          "effectHtml": "+10 Barter<br>+15% Leaf Drop"
+          "effect": "+10 Barter, +15% Leaf Drop",
+          "effectHtml": "+10 Barter, +15% Leaf Drop"
         },
         {
           "pieces": 4,
-          "effect": "+15 Barter Gain Golden Hand : +1% DMG per 200 Leaf (+20% Max)",
-          "effectHtml": "+15 Barter<br>Gain <span style=\"font-weight: bold\">Golden Hand</span>: <br>+1% DMG per 200 Leaf (+20% Max)"
+          "effect": "+15 Barter. Gain Golden Hand: +1% DMG per 200 Leaf (+20% Max)",
+          "effectHtml": "+15 Barter. Gain Golden Hand: +1% DMG per 200 Leaf (+20% Max)"
         }
       ]
     },
@@ -381,13 +406,28 @@
       "tiers": [
         {
           "pieces": 2,
-          "effect": "On Direct ATK or Grimoire hit, throw a Solar Blade : deals 115% Fire DMG (5 Max) [0.125s CD]",
-          "effectHtml": "On Direct ATK or Grimoire hit, <br>throw a <span style=\"font-weight: bold\">Solar Blade</span>: <br>deals 115% Fire DMG (5 Max) [0.125s CD]"
+          "effect": "On Direct ATK or Grimoire hit, throw a Solar Blade: deals 115% Fire DMG (5 Max) [0.125s CD]",
+          "effectHtml": "On Direct ATK or Grimoire hit,<br>throw a Solar Blade:<br>deals 115% Fire DMG (5 Max) [0.125s CD]"
         },
         {
           "pieces": 4,
           "effect": "+6% Solar Blade DMG",
-          "effectHtml": "+6% <span style=\"font-weight: bold\">Solar Blade</span> DMG"
+          "effectHtml": "+6% Solar Blade DMG"
+        },
+        {
+          "pieces": 6,
+          "effect": "+8% Solar Blade DMG +1 Max Solar Blade",
+          "effectHtml": "+8% Solar Blade DMG<br>+1 Max Solar Blade"
+        },
+        {
+          "pieces": 8,
+          "effect": "+10% Solar Blade DMG +2 Max Solar Blade",
+          "effectHtml": "+10% Solar Blade DMG<br>+2 Max Solar Blade"
+        },
+        {
+          "pieces": 10,
+          "effect": "+12% Solar Blade DMG +6 Max Solar Blade",
+          "effectHtml": "+12% Solar Blade DMG<br>+6 Max Solar Blade"
         }
       ]
     },
@@ -397,8 +437,8 @@
       "tiers": [
         {
           "pieces": 2,
-          "effect": "Activate Storm Cloud : Summon clouds that strike enemies, dealing 110% Lightning DMG each sec Recover 5% of Capacity every 5s in combat",
-          "effectHtml": "Activate <span style=\"font-weight: bold\">Storm Cloud</span>: Summon clouds that strike enemies, dealing 110% Lightning DMG each sec<br>Recover 5% of Capacity every 5s in combat"
+          "effect": "Activate Storm Cloud: Summon clouds that strike enemies, dealing 110% Lightning DMG each sec. Recover 5% of Capacity every 5s in combat",
+          "effectHtml": "Activate Storm Cloud: Summon clouds that strike enemies, dealing 110% Lightning DMG each sec.<br>Recover 5% of Capacity every 5s in combat"
         },
         {
           "pieces": 4,
@@ -417,8 +457,8 @@
         },
         {
           "pieces": 10,
-          "effect": "+20 Storm Cloud Capacity Storm Cloud now strikes twice on each activation",
-          "effectHtml": "+20 Storm Cloud Capacity<br><span style=\"font-size: 9pt; font-weight: bold\">Storm Cloud</span><span style=\"font-size: 9pt\"> now strikes twice on each activation</span>"
+          "effect": "+20 Storm Cloud Capacity. Storm Cloud now strikes twice on each activation",
+          "effectHtml": "+20 Storm Cloud Capacity.<br>Storm Cloud now strikes twice on each activation"
         }
       ]
     },

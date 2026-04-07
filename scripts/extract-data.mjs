@@ -21,6 +21,139 @@ function decodeEntities(s) {
     .replace(/&gt;/g, ">");
 }
 
+function escapeHtmlPlain(s) {
+  return String(s)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+function normalizeComboFieldNewlines(text) {
+  return String(text || "")
+    .replace(/\r\n/g, "\n")
+    .replace(/\r/g, "\n");
+}
+
+function comboEffectOneLine(text) {
+  return normalizeComboFieldNewlines(text)
+    .replace(/\n/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function comboEffectHtmlFromPlain(text) {
+  const t = normalizeComboFieldNewlines(text)
+    .replace(/[ \t]+\n/g, "\n")
+    .trim();
+  if (!t) return "";
+  return escapeHtmlPlain(t).replace(/\n/g, "<br>");
+}
+
+function findComboEffectsCsvPath(rootDir) {
+  const names = [
+    "Copy of Kean's Sephiria Compendium - Combo Effects.csv",
+    "Kean's Sephiria Compendium - Combo Effects.csv",
+  ];
+  for (const n of names) {
+    const p = path.join(rootDir, n);
+    if (fs.existsSync(p)) return p;
+  }
+  return null;
+}
+
+function isComboEffectsHeaderRowCsv(row) {
+  const c1 = String(row[1] || "").trim();
+  const c2 = String(row[2] || "").trim();
+  if (c1) return false;
+  if (!c2) return false;
+  if (/^\d+$/.test(c2)) return false;
+  if (/^\+/.test(c2) || /^-/.test(c2)) return false;
+  return true;
+}
+
+function extractComboHeaderNamesCsv(row) {
+  return [2, 8, 14, 20, 25].map((c) => String(row[c] || "").trim());
+}
+
+function comboCsvRowHasTierData(row) {
+  for (let gi = 0; gi < 5; gi++) {
+    const pieceCol = 1 + gi * 6;
+    if (/^\d+$/.test(String(row[pieceCol] || "").trim())) return true;
+  }
+  return false;
+}
+
+function parseComboEffectsCsv(rows) {
+  const byName = new Map();
+  let currentNames = null;
+
+  function pushTier(name, piecesRaw, effectRaw) {
+    const effect = comboEffectOneLine(effectRaw);
+    if (!name || !effect) return;
+    const effectHtml = comboEffectHtmlFromPlain(effectRaw);
+    const pieces = parseInt(String(piecesRaw).trim(), 10);
+    if (!byName.has(name)) {
+      byName.set(name, { name, icon: "", tiers: [] });
+    }
+    byName.get(name).tiers.push({
+      pieces: Number.isFinite(pieces) ? pieces : piecesRaw,
+      effect,
+      effectHtml: effectHtml || effect,
+    });
+  }
+
+  function extractRowTiers(row) {
+    if (!currentNames?.length) return;
+    for (let gi = 0; gi < 5; gi++) {
+      const name = currentNames[gi];
+      if (!name) continue;
+      const pieceCol = 1 + gi * 6;
+      const effectCol = pieceCol + 1;
+      const pRaw = String(row[pieceCol] || "").trim();
+      if (!/^\d+$/.test(pRaw)) continue;
+      const eff = String(row[effectCol] || "").trim();
+      if (!eff) continue;
+      pushTier(name, pRaw, eff);
+    }
+  }
+
+  for (let i = 0; i < rows.length; i++) {
+    const row = rows[i];
+    if (isComboEffectsHeaderRowCsv(row)) {
+      currentNames = extractComboHeaderNamesCsv(row);
+      continue;
+    }
+    if (comboCsvRowHasTierData(row)) {
+      extractRowTiers(row);
+    }
+  }
+
+  const comboSets = [...byName.values()].map((s) => {
+    const tierMap = new Map();
+    for (const t of s.tiers) {
+      const key =
+        typeof t.pieces === "number" ? t.pieces : String(t.pieces);
+      tierMap.set(key, t);
+    }
+    s.tiers = [...tierMap.values()].sort((a, b) => {
+      const pa = typeof a.pieces === "number" ? a.pieces : 0;
+      const pb = typeof b.pieces === "number" ? b.pieces : 0;
+      return pa - pb;
+    });
+    return s;
+  });
+  comboSets.sort((a, b) => a.name.localeCompare(b.name));
+  return comboSets;
+}
+
+function mergeComboSetIconsFromHtml(comboSets, htmlSets) {
+  const iconByName = new Map(htmlSets.map((s) => [s.name, s.icon]));
+  return comboSets.map((s) => ({
+    ...s,
+    icon: iconByName.get(s.name) || s.icon || "",
+  }));
+}
+
 function escapeHtmlAttr(s) {
   return String(s).replace(/"/g, "&quot;").replace(/</g, "&lt;");
 }
@@ -838,6 +971,9 @@ function main() {
     path.join(root, "Combo Effects.html"),
     "utf8"
   );
+  const comboEffectsHtmlParsed = parseComboEffects(
+    sliceAfterStyle(comboEffectsHtml)
+  );
 
   const wParsed = parseWeapons(sliceAfterStyle(weaponsHtml));
   const weapons = wParsed.bases.map((base, i) => ({
@@ -852,11 +988,19 @@ function main() {
     loadArtifactComboSetsFromCsv(root)
   );
   artifacts = applyArtifactOverrides(artifacts, loadArtifactOverrides(root));
-  let comboSets = parseComboEffects(sliceAfterStyle(comboEffectsHtml));
-  comboSets = applyComboSetOverrides(
-    comboSets,
-    loadComboSetOverrides(root)
-  );
+  const comboCsvPath = findComboEffectsCsvPath(root);
+  let comboSets = comboCsvPath
+    ? mergeComboSetIconsFromHtml(
+        parseComboEffectsCsv(
+          parseCsv(fs.readFileSync(comboCsvPath, "utf8"), {
+            relax_column_count: true,
+            skip_empty_lines: false,
+          })
+        ),
+        comboEffectsHtmlParsed
+      )
+    : comboEffectsHtmlParsed;
+  comboSets = applyComboSetOverrides(comboSets, loadComboSetOverrides(root));
 
   const dataDir = path.join(root, "data");
   fs.mkdirSync(dataDir, { recursive: true });
